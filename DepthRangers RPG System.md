@@ -1,3 +1,9 @@
+<style>
+h1, h2, h3, h4, h5, h6, b {
+    color: #14126b;
+}
+</style>
+
 DepthRangers RPG System Handbook
 ==============
 
@@ -17,7 +23,7 @@ Welcome to the **DepthRangers** guild, where we handle all sorts of underground 
 
 This short book describes the **DepthRangers** system. This is a rules-light combat heavy system that focuses on fast paced gameplay. On this book you'll find the necessary resources to create your character, and some of the dangers you'll find along the way. You may excuse the succinctness of this manuscript but our staff seem to have most of their attention on the hunt of a much lauded treasure, the details of which they've kept to themselves...
 
-**TABLE OF CONTENTS**
+<b>TABLE OF CONTENTS</b>
 
 - [DepthRangers RPG System Handbook](#depthrangers-rpg-system-handbook)
   - [Getting Started](#getting-started)
