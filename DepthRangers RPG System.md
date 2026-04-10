@@ -1,15 +1,81 @@
-<!-- <style>
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Metamorphous&family=New+Rocker&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+
+<style>
+
+body {
+	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo"; */
+	font-family: "Metamorphous", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.2em;
+	background-color: hsl(222, 33%, 94%);
+	margin-left: 5rem;
+	margin-right: 5rem;
+	line-height: 2rem;
+}
+
 h1, h2, h3, h4, h5, h6, b {
     color: #14126b;
+}
+
+/* table {
+  border: 2px solid rgb(5, 5, 114);
+  border-collapse: collapse;
+} */
+
+ul {
+	background: rgba(201, 202, 202, 0.164);
+}
+
+/* ul, li {
+  border-radius: 1.05rem;
+  margin:0.8em;
+} */
+
+img {
+	border-radius: .45rem;
+	box-shadow: .1em .1em 1em 0.05em rgb(23, 41, 80);
+	padding: 0.2em;
+	margin:0.8em;
+}
+
+h1 {
+	text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: hsl(204, 24%, 96%);
+}
+
+tr:nth-child(even){background-color: #acbfd8;}
+
+tr:hover {background-color: #b8ceee;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #b8d4ff;
+  color: rgb(4, 17, 71);
+}
+
+strong {
+	color: blue;
+}
+
+em, figcaption {
+	color:rgb(4, 17, 71);
 }
 </style> -->
 
 DepthRangers RPG System Handbook
 ==============
 
-<img src="./images/portrait.png" alt="A group of adventurers begin their journey into the depths.">
+<center><img src="./images/portrait.png" alt="A group of adventurers begin their journey into the depths."></center>
 
-***<center>A BIT-Mysteries Product</center>***
+***<center>[A BIT-Mysteries Product](https://bajainnotech.github.io/bit-mysteries/)</center>***
 
 **<center>Authors**</center>
 *<center>Eduardo del Corral, Ehira Lira & Hyunjin Oh</center>*
@@ -41,7 +107,10 @@ This short book describes the **DepthRangers** system. This is a rules-light com
         - [Human Classes](#human-classes)
         - [Human Gear](#human-gear)
         - [Human Special Feature - Re-roll dice](#human-special-feature---re-roll-dice)
+        - [Human Special Feature - Mind Over Body](#human-special-feature---mind-over-body)
         - [Human Special Feature - Human Perseverance](#human-special-feature---human-perseverance)
+        - [Human Special Feature - Human Intuition](#human-special-feature---human-intuition)
+        - [Human Special Feature - Inspiring Determination](#human-special-feature---inspiring-determination)
       - [Elf](#elf)
         - [Elf Saves](#elf-saves)
         - [Elf Classes](#elf-classes)
@@ -77,7 +146,7 @@ This short book describes the **DepthRangers** system. This is a rules-light com
         - [Mage Gear](#mage-gear)
         - [Mage Boon - Universal Scroll \& Wand Casting](#mage-boon---universal-scroll--wand-casting)
         - [Mage Boon - Magic Scholar](#mage-boon---magic-scholar)
-        - [Mage Boon - Magic Attunement](#mage-boon---magic-attunement)
+        - [Mage Boon - Magical Attunement](#mage-boon---magical-attunement)
         - [Mage Spell List](#mage-spell-list)
       - [Healer](#healer)
         - [Healer Gear](#healer-gear)
@@ -108,6 +177,7 @@ This short book describes the **DepthRangers** system. This is a rules-light com
       - [Ranged Weapons](#ranged-weapons)
       - [Attacking](#attacking)
         - [Critical Attack](#critical-attack)
+          - [Critical Attack Table](#critical-attack-table)
         - [Normal Attack](#normal-attack)
         - [Attack Accuracy](#attack-accuracy)
           - [Single Handed and Ranged Weapon Accuracy](#single-handed-and-ranged-weapon-accuracy)
@@ -225,6 +295,8 @@ There are 4 races of adventurers available:
 
 Each has its own strengths and weaknesses and all have something valuable to contribute.
 
+<div class="page"/>
+
 #### Human
 
 <figure>
@@ -257,9 +329,23 @@ Once a *re-roll* dice dice has been expended, you can recover them in two ways:
 - *resting*: recovers 1 spent *re-roll* dice.
 - *leaving the dungeon*: returning to the surface recovers all spent dice.
 
+##### Human Special Feature - Mind Over Body
+
+Humans can expend one of their dice to cure any status ailment.
+
 ##### Human Special Feature - Human Perseverance
 
 When a human character's HP goes down to 0, and they have unspent *re-roll* dice, they can expend one re-roll dice and recover *1d6* HP to keep going. They can choose to expend additional *re-roll* dice and recover additional *d6* HP.
+
+<div class="page"/>
+
+##### Human Special Feature - Human Intuition
+
+When a human makes a save roll of 6, they have a +1 to saves of that nature until the encounter or event is over.
+
+##### Human Special Feature - Inspiring Determination
+
+When a human crits, during that round other characters add a +1 to (character_level) die they roll.
 
 #### Elf
 
@@ -316,6 +402,8 @@ Dwarfs have +1 HP each level.
 ##### Dwarf Special Feature - See In The Dark
 
 Dwarfs don't need to use torches to see (technically a purely dwarven party would not need torches). This can have some advantages in certain unconventional situations.
+
+<div class="page"/>
 
 #### Brownie
 
@@ -384,6 +472,8 @@ When landing a successful hit, they re-roll any damage die on 1s.
 
 Upon defeating an enemy they can strike another target that same round (two attacks on that turn).
 
+<div class="page"/>
+
 ##### Fighter Boon - Battlefield Resilience
 
 Fighters gain an additional +3 HP on level 1, and an additional +1 HP every odd level (3, 5, etc).
@@ -417,7 +507,9 @@ Similarly, a Mage is able to use a wand if found.
 
 Mages can learn new spells from scrolls found in their adventures (unfortunately, the ones sold in the maket are only good enough for casting not studying). They learn new spells when they bring a scroll of an unknown spell to the surface.
 
-##### Mage Boon - Magic Attunement
+<div class="page"/>
+
+##### Mage Boon - Magical Attunement
 
 Due to their mastery of magic, mages can re-roll magic save die that land on one.
 
@@ -454,6 +546,8 @@ Healers are casters focused on defensive magic. Healers start with two spell slo
 
 Healers are able to use any armor they find, however they can't use 2 handed weapons.
 
+<div class="page"/>
+
 ##### Healer Boon - Innate Use Of Magic
 
 Healers know all Healer spells from the start and can cast them from any slot at any given time.
@@ -478,6 +572,8 @@ Healers can combine the positive attributes of two bottles into a single bottle,
 
 Healers are the only ones who can freely use curative items on others in the middle of battle.
 
+<div class="page"/>
+
 ##### Healer Spell List
 
 - **Heal party**: Heals all members *(character_level+1)d6/2* HP in a room (or a 20ft radius).
@@ -485,6 +581,8 @@ Healers are the only ones who can freely use curative items on others in the mid
 - **Purify**: Neutralizes poison, heals sickness and reverses expiration to a character's items.
 - **See hidden**: Adds a +2 to a detect secret entrance or trap rolls.
 - **Enhanced Alacrity**: Provides the party a +1 to dex rolls and reduces miss die roll by one for one encounter (can be used for traps or other similar events).
+
+<div class="page"/>
 
 #### Rogue
 
@@ -518,6 +616,8 @@ Starting at level 2, Rogues are able to use scrolls or wands with a proficiency 
 ## Game Mechanics
 
 The world of the **DepthRangers** is one fraught with peril, and opportunity. Some of the most important things to keep in mind are detailed below...
+
+<div class="page"/>
 
 ### Marketplace Wares
 
@@ -605,6 +705,8 @@ When making your purchases, keep in mind that once outside the safety of your gu
 
 These concepts will be used for many aspects of the game such as monster damage. We suggest that you always *ignore fractions in any calculations you do.*
 
+<div class="page"/>
+
 #### Dungeon Level
 
 Level you're currently at in a dungeon  or quest (starts at 0), found in calculations as: **dungeon_level**. Again if you're not in a dungeon, then your quest itself determines what this value is.
@@ -657,6 +759,10 @@ Attack outcome is determined when damage dice are rolled, in other words there's
 
 When you roll a combination of *(character_level)/2+1* five's and sixes, your character performs a devastating attack. Critical attacks perform serious damage, and in addition certain classes and monster types unleash a specific tactical maneuver.
 
+<div class="page"/>
+
+###### Critical Attack Table
+
 | **Character Level**  | **Number Of Fives/Sixes Rolled**                                                           |
 | -------------------- | ------------------------------------------------------------------------------------------ |
 | <center> 1 </center> | *1* - if the character rolls a single 5 or 6, it performs a critical attack.               |
@@ -673,6 +779,8 @@ Normal attacks simply tally the damage dice and add any bonuses (or minuses) to 
 ##### Attack Accuracy
 
 During combat, weapon accuracy is determined with the same dice throw used for damage.
+
+<div class="page"/>
 
 ###### Single Handed and Ranged Weapon Accuracy
 
@@ -714,9 +822,11 @@ What are you a humanoid or a rat person? No retreating, you succeed or die tryin
 
 Hazard dice depict the dangerous nature of your profession, thrown after 4 non combat events.
 
+<div class="page"/>
+
 #### Non Combat Event
 
-Represent a sizeable lapse of time spent out combat during your adventures. Non Combat events are:
+Non Combat Events represent a sizeable lapse of time spent out combat during your adventures. Non Combat events are:
 
 - Revisiting a location
 - Searching
@@ -778,6 +888,8 @@ A diseased character grows weakened. They will roll a *d6* every time a *hazard 
 Since a diseased character is weakened they will also walk slower; the party will expend 2 non combat events each time you travel to a visited location.
 
 To cure disease, you can drink medicine (which will remove the status effect but not recover any fatigued slots) or ask the healer to purify. While characters recover upon reaching the surface, resting does not cure this status ailment.
+
+<div class="page"/>
 
 #### Poisoned Status
 
@@ -894,6 +1006,8 @@ Goblins have *1d6* HP, but they attack in packs of *(monster_level+party_size)*.
 
 Roll a reaction dice when encountering goblins, when unceartain pay *(monster_level+1)\*100*g to bribe them.
 
+<div class="page"/>
+
 #### <center>Black Ooze</center>
 
 <figure>
@@ -902,6 +1016,8 @@ Roll a reaction dice when encountering goblins, when unceartain pay *(monster_le
 </figure>
 
 Black Oozes come in pairs and have *(monster_level+1)\*d6* HP and inflict the same amount of damage. They are immune to sneak attacks, sedation and all spells, and must be attacked by ranged weapons or they will split into *2* Black Oozes. They have an accuracy equivalent to a character using single weapon [see single handed weapon accuracy (remember to add +1 to the monster level)](#single-handed-and-ranged-weapon-accuracy).
+
+<div class="page"/>
 
 #### <center>Mimic</center>
 
@@ -984,6 +1100,8 @@ Monsters  may react in a non-hostile manner (or not); some monsters will only re
 
 You'll find many perilous traps underground:
 
+<div class="page"/>
+
 ### Pit Trap
 
 A pit opens below you, roll a dex save to avoid the trap or receive (dungeon_level)+d6 damage also your character is [slightly injured](#slightly-injured).
@@ -1004,6 +1122,8 @@ Nauxeous gas floods the room, roll a body save or take (dungeon_level+1) damage 
 
 You may find treasure on your travels, in which case, roll the contents table to find out what's inside:
 
+<div class="page"/>
+
 ### Treasure Contents Table
 
 Roll a d6 to discover the treasure's contents:
@@ -1016,6 +1136,8 @@ Roll a d6 to discover the treasure's contents:
 | <center> 4 </center> |  *Weapon*          | You found a weapon, [see weapons table](#weapons-table).                           |
 | <center> 5 </center> |  *Armor*           | You found a piece of armor, [see armor table](#armor-table).                       |
 | <center> 6 </center> |  *Spell scroll*    | You found a magic scroll, [see scroll table](#scrolls-table).                      |
+
+<div class="page"/>
 
 #### Weapons Table
 
@@ -1030,6 +1152,8 @@ Roll a d6 to see which weapon you found inside the treasure:
 | <center> 5 </center> |  *Two Handed Weapon*             | You find a +(dungeon_level)/2 Two Handed Weapon worth *150\*(dungeon_level+1)* g.                            |
 | <center> 6 </center> |  *Two Handed Weapon and Gold*    | You find a +(dungeon_level)/2 Two Handed Weapon worth *150\*(dungeon_level+1)*g and *250\*(dungeon_level+1)* g. |
 
+<div class="page"/>
+
 #### Armor Table
 
 Roll a d6 to see which piece or armor you found inside the treasure:
@@ -1042,6 +1166,8 @@ Roll a d6 to see which piece or armor you found inside the treasure:
 | <center> 4 </center> |  *Chainmail*   | You find a +*(dungeon_level)/2* Chainmail, worth *100\*(dungeon_level+1)* g.                              |
 | <center> 5 </center> |  *Platemail*   | You find a +*(dungeon_level)/2* Platemail, worth *200\*(dungeon_level+1)* g.                              |
 | <center> 6 </center> |  *Pendant*     | You find a +*(dungeon_level)/2* Pendant, worth *150\*(dungeon_level+1)* g and *250\*(dungeon_level+1)* g. |
+
+<div class="page"/>
 
 #### Scrolls Table
 
