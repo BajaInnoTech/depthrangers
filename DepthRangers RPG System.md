@@ -78,10 +78,10 @@ DepthRangers RPG System Handbook
 ***<center>[A BIT-Mysteries Product](https://bajainnotech.github.io/bit-mysteries/)</center>***
 
 **<center>Authors**</center>
-*<center>Eduardo del Corral, Ehira Lira & Hyunjin Oh</center>*
+*<center>Eduardo del Corral, Ehira A. Lira & Hyunjin Oh</center>*
 
 ***<center>Illustrations</center>***
-<center>Ehira Lira</center>
+<center>Ehira A. Lira</center>
 
 **<center>v 1.0</center>**
 

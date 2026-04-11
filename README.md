@@ -8,7 +8,7 @@
 
 This System is a [BIT Mysteries Product](https://bajainnotech.github.io/bit-mysteries/), created by Eduardo del Corral, Ehira Lira & Hyunjin Oh.
 
-Artwork was created by Ehira Lira with digital image editing done by Eduardo del Corral.
+Artwork was created by Ehira A. Lira with digital image editing done by Eduardo del Corral.
 
 ### Origin of the System
 
