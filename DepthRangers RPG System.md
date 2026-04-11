@@ -1,4 +1,4 @@
-<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Metamorphous&family=New+Rocker&family=Uncial+Antiqua&display=swap" rel="stylesheet">
 
@@ -17,7 +17,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, b {
-    color: #14126b;
+    color: #0e0d4b;
 }
 
 /* table {
@@ -68,7 +68,7 @@ strong {
 em, figcaption {
 	color:rgb(4, 17, 71);
 }
-</style> -->
+</style>
 
 DepthRangers RPG System Handbook
 ==============
@@ -106,7 +106,8 @@ This short book describes the **DepthRangers** system. This is a rules-light com
         - [Human Saves](#human-saves)
         - [Human Classes](#human-classes)
         - [Human Gear](#human-gear)
-        - [Human Special Feature - Re-roll dice](#human-special-feature---re-roll-dice)
+        - [Human Special Feature - Manifestation Of Will Power](#human-special-feature---manifestation-of-will-power)
+          - [Re-Roll Dice](#re-roll-dice)
         - [Human Special Feature - Mind Over Body](#human-special-feature---mind-over-body)
         - [Human Special Feature - Human Perseverance](#human-special-feature---human-perseverance)
         - [Human Special Feature - Human Intuition](#human-special-feature---human-intuition)
@@ -159,7 +160,7 @@ This short book describes the **DepthRangers** system. This is a rules-light com
         - [Healer Spell List](#healer-spell-list)
       - [Rogue](#rogue)
         - [Rogue Gear](#rogue-gear)
-        - [Rogue Boon - Expert Dungeoneer](#rogue-boon---expert-dungeoneer)
+        - [Rogue Boon - Expert Explorer](#rogue-boon---expert-explorer)
         - [Rogue Boon - Sneak Attack](#rogue-boon---sneak-attack)
         - [Rogue Boon - Deadly Sniper](#rogue-boon---deadly-sniper)
         - [Rogue Boon - Magical Item Use](#rogue-boon---magical-item-use)
@@ -187,13 +188,13 @@ This short book describes the **DepthRangers** system. This is a rules-light com
       - [Non Combat Event](#non-combat-event)
       - [Hazard Die Roll](#hazard-die-roll)
     - [Searching](#searching)
-    - [Lockpicking](#lockpicking)
+    - [Lock-picking](#lock-picking)
     - [Trap Deactivation](#trap-deactivation)
     - [Lingering Status Effects](#lingering-status-effects)
       - [Bleeding Status](#bleeding-status)
       - [Diseased Status](#diseased-status)
       - [Poisoned Status](#poisoned-status)
-      - [Slightly Injured](#slightly-injured)
+      - [Sprained](#sprained)
       - [Fatigue](#fatigue)
     - [Resting](#resting)
     - [Illumination](#illumination)
@@ -202,9 +203,9 @@ This short book describes the **DepthRangers** system. This is a rules-light com
     - [Calculating Monster Stats](#calculating-monster-stats)
     - [Monsters](#monsters)
       - [Bat](#bat)
+      - [Black Ooze](#black-ooze)
       - [Dragon](#dragon)
       - [Goblin](#goblin)
-      - [Black Ooze](#black-ooze)
       - [Mimic](#mimic)
       - [Orc](#orc)
       - [Skeleton](#skeleton)
@@ -214,7 +215,7 @@ This short book describes the **DepthRangers** system. This is a rules-light com
   - [Traps](#traps)
     - [Pit Trap](#pit-trap)
     - [Poison Darts](#poison-darts)
-    - [Toungues of Flame](#toungues-of-flame)
+    - [Tongues of Flame](#tongues-of-flame)
     - [Toxic Gas](#toxic-gas)
   - [Treasure](#treasure)
     - [Treasure Contents Table](#treasure-contents-table)
@@ -258,11 +259,18 @@ Equipping armor is vital to surviving your adventures. You subtract the damage y
 
 #### Saves
 
+<figure>
+  <center><img src="./images/brownie-dex-save.png" height="400" alt="A brownie is joyously avoiding a dangerous hazard."></center>
+  <i><center><figcaption>There are many dangers that require extraordinary maneuvers to overcome.</figcaption></center></i>
+</figure>
+
 A save is thrown when an extraordinary feat must be accomplished (such as avoiding a deadly trap).
+
+<div class="page"/>
 
 All characters have 3 types of saves:
 
-- **Body**: Used for resisting (fort), as well as raw physical prowress (strength).
+- **Body**: Used for resisting (fort), as well as raw physical prowess (strength).
 - **Dex**: Dexterity saves are used for acrobatics, fine motor skills, sneaking and other skills that require fine control over the body or quick reaction.
 - **Magic**: Magic saves are used for magical attunement when resisting or tapping into magic as well as transcendental experiences such as spiritual, will power, intellectual, etc.
 
@@ -279,6 +287,8 @@ The currency of this game is gold, and "g" is the unit. Your character starts ou
 #### Inventory
 
 Your cargo capacity. Each character has 10 available inventory slots, so long as they don't fatigue.
+
+<div class="page"/>
 
 #### Starting Gear
 
@@ -301,10 +311,10 @@ Each has its own strengths and weaknesses and all have something valuable to con
 
 <figure>
   <center><img src="./images/human_adventurer.png" height="400" alt="A human adventurer is considering its next steps."></center>
-  <i><center><figcaption>Humans are very adaptable and could fit any role.</figcaption></center></i>
+  <i><center><figcaption>Ingenious and determined, humans can turn the tide of events at the last minute.</figcaption></center></i>
 </figure>
 
-The most balanced race, as well as the most abundant.
+Humans are set apart by their sheer willpower.
 
 ##### Human Saves
 
@@ -318,9 +328,19 @@ They can be any class.
 
 They are limited only by their class.
 
-##### Human Special Feature - Re-roll dice
+<div class="page"/>
 
-Humans have extremely powerful "*re-roll*" dice. These "*re-roll*" dice allow them to change any dice at any moment in the game for any reason. However 1 *re-roll* dice only changes *1d6*. For example if a save requires two dice, you can expend 1 *re-roll* dice to re-roll either one of those dice while leaving the other intact. Changing both dice, would require using 2 *re-roll* dice.
+##### Human Special Feature - Manifestation Of Will Power
+
+Human determination and sheer force of will can have a direct impact on the outcome of an adventure. It can help overcome what seem to be insurmountable odds. Human will manifests itself in the form of "*re-roll*" dice.
+
+###### Re-Roll Dice
+
+"*re-roll*" dice allow changing the roll of any dice, at any moment in the game, for any reason. However its influence is limited:
+
+<center>Expending 1 <em>re-roll</em> dice only changes the outcome of a roll of <em>1d6</em>.</center>
+
+For example if a save requires two dice, you can expend 1 *re-roll* dice to attempt to change either one of those two dice, but you must leave the other intact. In order to change both dice, you must expend 2 *re-roll* dice.
 
 Humans start with a single *re-roll* dice, but gain an additional dice every two levels.
 
@@ -329,15 +349,15 @@ Once a *re-roll* dice dice has been expended, you can recover them in two ways:
 - *resting*: recovers 1 spent *re-roll* dice.
 - *leaving the dungeon*: returning to the surface recovers all spent dice.
 
+<div class="page"/>
+
 ##### Human Special Feature - Mind Over Body
 
-Humans can expend one of their dice to cure any status ailment.
+Humans can expend one of their *re-roll* dice to cure any status ailment.
 
 ##### Human Special Feature - Human Perseverance
 
-When a human character's HP goes down to 0, and they have unspent *re-roll* dice, they can expend one re-roll dice and recover *1d6* HP to keep going. They can choose to expend additional *re-roll* dice and recover additional *d6* HP.
-
-<div class="page"/>
+When a human character's HP goes down to 0, and they have remaining *re-roll* dice, they can expend one re-roll dice and recover *1d6* HP to keep going. They can choose to expend additional *re-roll* dice and recover additional *d6* HP during this process of recovery.
 
 ##### Human Special Feature - Human Intuition
 
@@ -345,11 +365,13 @@ When a human makes a save roll of 6, they have a +1 to saves of that nature unti
 
 ##### Human Special Feature - Inspiring Determination
 
-When a human crits, during that round other characters add a +1 to (character_level) die they roll.
+When a human lands a [critical attack](#critical-attack), for the rest of round other characters add a +1 to (character_level) die they roll.
+
+<div class="page"/>
 
 #### Elf
 
-Dextrous and magically inclined but not as resilient as humans.
+Dexterous and magically inclined but not as resilient as humans.
 
 ##### Elf Saves
 
@@ -377,7 +399,7 @@ Elven keen senses give them an edge when wielding a ranged weapon gaining [an ac
 
 #### Dwarf
 
-Dwarfs are hardier than their peers, but not as dextrous.
+Dwarfs are hardier than their peers, but not as dexterous.
 
 ##### Dwarf Saves
 
@@ -403,8 +425,6 @@ Dwarfs have +1 HP each level.
 
 Dwarfs don't need to use torches to see (technically a purely dwarven party would not need torches). This can have some advantages in certain unconventional situations.
 
-<div class="page"/>
-
 #### Brownie
 
 <figure>
@@ -413,6 +433,8 @@ Dwarfs don't need to use torches to see (technically a purely dwarven party woul
 </figure>
 
 Brownies are shorter than dwarfs and about as slender as elves.
+
+<div class="page"/>
 
 ##### Brownie Saves
 
@@ -460,6 +482,8 @@ Fierce and resilient damage dealing combatants.
 
 Fighters are able to equip any weapons and armors they find.
 
+<div class="page"/>
+
 ##### Fighter Boon - Enhanced Swordsmanship
 
 When engaged in melee combat, Fighters can ignore one roll of 1 for calculating accuracy, see [attack accuracy](#attack-accuracy).
@@ -472,8 +496,6 @@ When landing a successful hit, they re-roll any damage die on 1s.
 
 Upon defeating an enemy they can strike another target that same round (two attacks on that turn).
 
-<div class="page"/>
-
 ##### Fighter Boon - Battlefield Resilience
 
 Fighters gain an additional +3 HP on level 1, and an additional +1 HP every odd level (3, 5, etc).
@@ -481,6 +503,8 @@ Fighters gain an additional +3 HP on level 1, and an additional +1 HP every odd 
 ##### Fighter Boon - Overwhelming Tactics
 
 When engaged in melee combat, and landing a critical attack. If the target is a non-undead regular sized humanoid, Fighters will overwhelm their opponent knocking them violently to the ground. The target remains stunned and inactive for one round.
+
+<div class="page"/>
 
 #### Mage
 
@@ -492,6 +516,8 @@ When engaged in melee combat, and landing a critical attack. If the target is a 
 Mages are versatile casters capable of offensive and defensive magic. They start with two spell slots and gain an additional spell per level. As mages level up, not only do they gain more spell slots, some of the spells also become more powerful. When casting, the slot used does not matter, what matters is the Mage’s level.
 
 While extremely versatile and powerful, Mages require preparing ahead of time. They must first assign a known spell to a slot before it can be cast. Upon resting, Mages recover all their spells and can reassign known spells to their slots.
+
+<div class="page"/>
 
 ##### Mage Gear
 
@@ -505,9 +531,7 @@ Similarly, a Mage is able to use a wand if found.
 
 ##### Mage Boon - Magic Scholar
 
-Mages can learn new spells from scrolls found in their adventures (unfortunately, the ones sold in the maket are only good enough for casting not studying). They learn new spells when they bring a scroll of an unknown spell to the surface.
-
-<div class="page"/>
+Mages can learn new spells from scrolls found in their adventures (unfortunately, the ones sold in the market are only good enough for casting not studying). They learn new spells when they bring a scroll of an unknown spell to the surface.
 
 ##### Mage Boon - Magical Attunement
 
@@ -530,10 +554,10 @@ Due to their mastery of magic, mages can re-roll magic save die that land on one
   - Only Mages can read a scroll with this spell.
 - **Illuminate**: Can be used instead of torches to illuminate your surroundings.
   - Lasts for *2\*(character_level)* hours.
-  - Dispells upon resting.
+  - Dispels upon resting.
   - Only Mages can read a scroll with this spell.
 - **Invisibility**: Target is invisible for 3 rounds, meaning they get no damage from melee or ranged enemy attacks.
-  - Rogues automatically perform sneak attacks when their target is succeptible.
+  - Rogues automatically perform sneak attacks when their target is susceptible.
   - Only Mages can read a scroll with this spell.
 - **Stop**: Target remains immobilized for *(character_level-monster_level+1)* turns.
   - Only Mages can read a scroll with this spell.
@@ -545,8 +569,6 @@ Healers are casters focused on defensive magic. Healers start with two spell slo
 ##### Healer Gear
 
 Healers are able to use any armor they find, however they can't use 2 handed weapons.
-
-<div class="page"/>
 
 ##### Healer Boon - Innate Use Of Magic
 
@@ -572,12 +594,10 @@ Healers can combine the positive attributes of two bottles into a single bottle,
 
 Healers are the only ones who can freely use curative items on others in the middle of battle.
 
-<div class="page"/>
-
 ##### Healer Spell List
 
 - **Heal party**: Heals all members *(character_level+1)d6/2* HP in a room (or a 20ft radius).
-- **Aura of light**: Allows the party to see in the dark for *((character_level)/2+1)* hours (illuminates a 40ft raidus), additionally it grants the party +*(character_level/2+1)* AC vs undead.
+- **Aura of light**: Allows the party to see in the dark for *((character_level)/2+1)* hours (illuminates a 40ft radius), additionally it grants the party +*(character_level/2+1)* AC vs undead.
 - **Purify**: Neutralizes poison, heals sickness and reverses expiration to a character's items.
 - **See hidden**: Adds a +2 to a detect secret entrance or trap rolls.
 - **Enhanced Alacrity**: Provides the party a +1 to dex rolls and reduces miss die roll by one for one encounter (can be used for traps or other similar events).
@@ -591,19 +611,19 @@ Healers are the only ones who can freely use curative items on others in the mid
   <i><center><figcaption>Rogues can help circumvent some of the deadly perils of your journey.</figcaption></center></i>
 </figure>
 
-Rogues are equally dextrous and deadly. They bring an equally valuable set of skills to weapon combat and to exploration.
+Rogues are equally dexterous and deadly. They bring an equally valuable set of skills to weapon combat and to exploration.
 
 ##### Rogue Gear
 
 Rogues are able to use anything they find except for plate armor.
 
-##### Rogue Boon - Expert Dungeoneer
+##### Rogue Boon - Expert Explorer
 
 Rogues get a +1 roll when detecting secrets (searching), dealing with traps and picking locks.
 
 ##### Rogue Boon - Sneak Attack
 
-Rogues deliver devastating sneak attacks to succeptible enemies (enemies such as undead may be immune, receiving a normal attack instead). To inflict them they must first hide, by spending a turn inactive and succeeding a dex save, then they produce a *(6\*character_level)d6* damage. Basically they gain full damage die plus an additional *1d6* roll of damage.
+Rogues deliver devastating sneak attacks to susceptible enemies (enemies such as undead may be immune, receiving a normal attack instead). To inflict them they must first hide, by spending a turn inactive and succeeding a dex save, then they produce a *(6\*character_level)d6* damage. Basically they gain full damage die plus an additional *1d6* roll of damage.
 
 ##### Rogue Boon - Deadly Sniper
 
@@ -665,7 +685,7 @@ This is a list of all the items you can find across the market's many shops. Thi
   - The spell types in those scrolls must be defined upon acquisition (before entering the dungeon).
   - Mages can't learn from these scrolls, to learn a new spell the scroll must be obtained during your travels.
   - They're fragile so you can store 3 per slot.
-- **Thief’s Tools**: These are thin bits made for lockpicking and trap dismantling. They cost 3g
+- **Thief’s Tools**: These are thin bits made for lock-picking and trap dismantling. They cost 3g
   - Unfortunately thieves tools can only be used once.
   - Used for door, treasure and trap picking by anyone (though Rogues get a +1).
   - You can store 5 per slot.
@@ -675,9 +695,9 @@ This is a list of all the items you can find across the market's many shops. Thi
   - Set all monsters in the room ablaze, and anyone can use them.
   - They're volatile so you can only store 5 per slot.
 - **Sedative Gas Potion**: It seems empty but its sweet scent is a reminder of its potent effect. Each costs 100g
-  - All living enemies in a normal encounter within 20ft in a non ventilated area must must roll a save of 4 or become paralized for 1 turn. Sleeping enemies are automatically sneak attacked by Rogues.
+  - All living enemies in a normal encounter within 20ft in a non ventilated area must must roll a save of 4 or become paralyzed for 1 turn. Sleeping enemies are automatically sneak attacked by Rogues.
   - They're volatile so you can only store 5 per slot.
-- **Bandages**: A large pad of absorvent cloth, attached to the middle of a strip of thin fabric dowsed in anesthetic and antiseptic oils. Each set of bandages costs 3g.
+- **Bandages**: A large pad of absorbent cloth, attached to the middle of a strip of thin fabric dowsed in anesthetic and antiseptic oils. Each set of bandages costs 3g.
   - Recover 2 HP (healers recover more), can help with slight injuries.
   - Bandages can be used to stop bleeding.
   - You can store 15 per slot.
@@ -691,7 +711,7 @@ This is a list of all the items you can find across the market's many shops. Thi
   - You can store 5 per slot.
 - **Restore Expired Goods**: Treatment for each item costs 1g
 
-*Every trader you find, regardless of their specialty or location, will purifty expired goods for 1g (per piece) as a service to explorers.*
+*Every trader you find, regardless of their specialty or location, will purify expired goods for 1g (per piece) as a service to explorers.*
 
 ### Selling Gear & Items
 
@@ -709,6 +729,11 @@ These concepts will be used for many aspects of the game such as monster damage.
 
 #### Dungeon Level
 
+<figure>
+  <center><img src="./images/underground-waterfall.png" height="400" alt="An underground waterfall can be seen at a short distance."></center>
+  <i><center><figcaption>Underground adventures have varied landscapes.</figcaption></center></i>
+</figure>
+
 Level you're currently at in a dungeon  or quest (starts at 0), found in calculations as: **dungeon_level**. Again if you're not in a dungeon, then your quest itself determines what this value is.
 
 #### Monster Level
@@ -716,6 +741,8 @@ Level you're currently at in a dungeon  or quest (starts at 0), found in calcula
 The level of a monster (starts at 0), found in calculations as: **monster_level**
 
 This value should be the same as the **dungeon_level**, but it's decoupled to allow GMs a bit more control.
+
+<div class="page"/>
 
 #### Character Level
 
@@ -729,11 +756,13 @@ Amount of playable characters that make up your party. These monster encounters 
 
 A DepthRanger's life is not a cozy one - Life or death situations are commonplace in the depths. This section are the bits of knowledge that provide a lifeline to these brave explorers.
 
-First, players must take the initiative. That is, when players enter combat, they generally get the upperhand and strike first (any exception would be a particularly crafty opponent).
+First, players must take the initiative. That is, when players enter combat, they generally get the upper-hand and strike first (any exception would be a particularly crafty opponent).
 
 Second, players are warned to carry ranged weapons as well (the best weapon type is having both melee and ranged)!!!
 
-With that out of the way, the next sections will get into detail on the particulars of aimming, tactics, etc.
+With that out of the way, the next sections will get into detail on the particulars of aiming, tactics, etc.
+
+<div class="page"/>
 
 #### Melee Weapons
 
@@ -743,13 +772,17 @@ Single and Two-Handed weapons are used by front line combatants. They have the a
 
 A ranged weapon generates the same level of damage as a melee weapon. Since using a ranged weapon allows the user to attack at a distance, that user is granted +*(character_level+1)* AC. When a player is using a ranged weapon, they use both hands so technically ranged weapons are a special class of two handed weapon though they only take up one slot when stored. Meaning a character wielding a ranged weapon can't hold a torch.
 
-Unfortunately, each use consumes an arrow and you can only have 10 arrows per slot (unless you find a quiver). In addition, you may need a backup melee weapon to switch to if you run out of ammonition. Also, in order to use your ranged weapon you need to equip the ranged weapon ahead of time. Changing weapons mid battle requires spending a turn performing this task.
+Unfortunately, each use consumes an arrow and you can only have 10 arrows per slot (unless you find a quiver). In addition, you may need a backup melee weapon to switch to if you run out of ammunition. Also, in order to use your ranged weapon you need to equip the ranged weapon ahead of time. Changing weapons mid battle requires spending a turn performing this task.
 
 Finally, you can't use ranged weapons to detain someone who's trying to escape (you use your hands or the flat of the blade).
 
+<div class="page"/>
+
 #### Attacking 
 
-Attack outcome is determined when damage dice are rolled, in other words there's no need for an additional roll to determine outcome. Depending on what numbers were rolled, one of three things will happen:
+Attack outcome is determined when damage dice are rolled, in other words there's no need for an additional roll to determine outcome. 
+
+Depending on what numbers were rolled, one of three things will happen:
 
 - A devastating critical attack
 - A normal attack
@@ -757,20 +790,20 @@ Attack outcome is determined when damage dice are rolled, in other words there's
 
 ##### Critical Attack
 
-When you roll a combination of *(character_level)/2+1* five's and sixes, your character performs a devastating attack. Critical attacks perform serious damage, and in addition certain classes and monster types unleash a specific tactical maneuver.
+Your character performs a devastating attack. Critical attacks perform serious damage, and in addition certain classes and monster types unleash a specific tactical maneuver.
 
 <div class="page"/>
 
 ###### Critical Attack Table
 
-| **Character Level**  | **Number Of Fives/Sixes Rolled**                                                           |
-| -------------------- | ------------------------------------------------------------------------------------------ |
-| <center> 1 </center> | *1* - if the character rolls a single 5 or 6, it performs a critical attack.               |
-| <center> 2 </center> | *1* - if the character rolls a single 5 or 6, it performs a critical attack.               |
-| <center> 3 </center> | *2* - if the character rolls a combination of two 5 or 6, it performs a critical attack.   |
-| <center> 4 </center> | *2* - if the character rolls a combination of two 5 or 6, it performs a critical attack.   |
-| <center> 5 </center> | *3* - if the character rolls a combination of three 5 or 6, it performs a critical attack. |
-| <center> 6 </center> | *3* - if the character rolls a combination of three 5 or 6, it performs a critical attack. |
+| **Character Level**  | **Number Of Fives/Sixes Rolled**                                                                   |
+| -------------------- | -------------------------------------------------------------------------------------------------- |
+| <center> 1 </center> | If the character rolls a 6, it performs a critical attack.                            |
+| <center> 2 </center> | If the character rolls a single 6, it performs a critical attack.                            |
+| <center> 3 </center> | If the character rolls a combination of one 5 or 6, and one 6 it performs a critical attack. |
+| <center> 4 </center> | If the character rolls a combination of one 5 or 6, and one 6 it performs a critical attack. |
+| <center> 5 </center> | If the character rolls a combination of two 5 or 6, and one 6 it performs a critical attack. |
+| <center> 6 </center> | If the character rolls a combination of two 5 or 6, and one 6 it performs a critical attack. |
 
 ##### Normal Attack
 
@@ -779,8 +812,6 @@ Normal attacks simply tally the damage dice and add any bonuses (or minuses) to 
 ##### Attack Accuracy
 
 During combat, weapon accuracy is determined with the same dice throw used for damage.
-
-<div class="page"/>
 
 ###### Single Handed and Ranged Weapon Accuracy
 
@@ -796,6 +827,8 @@ When you roll *(character_level)/2+1* one's, that character misses. That is, it 
 | <center> 4 </center> | *2* - if the character rolls two ones, the attack misses.             |
 | <center> 5 </center> | *3* - if the character rolls three ones, the attack misses.           |
 | <center> 6 </center> | *3* - if the character rolls three ones, the attack misses.           |
+
+<div class="page"/>
 
 ###### Two Handed Weapons Accuracy
 
@@ -822,11 +855,9 @@ What are you a humanoid or a rat person? No retreating, you succeed or die tryin
 
 Hazard dice depict the dangerous nature of your profession, thrown after 4 non combat events.
 
-<div class="page"/>
-
 #### Non Combat Event
 
-Non Combat Events represent a sizeable lapse of time spent out combat during your adventures. Non Combat events are:
+Non Combat Events represent a sizable lapse of time spent out combat during your adventures. Non Combat events are:
 
 - Revisiting a location
 - Searching
@@ -840,19 +871,21 @@ The point is that spending idle time is a luxury and comes at a cost. Besides, t
 
 Hazard Die Rolls depict events that take you by surprise when things seemed otherwise peaceful during your adventures. The players get to roll hazard die, however the resulting outcome is up to the GM to determine.
 
+<div class="page"/>
+
 ### Searching
 
 *Searching:* Players can search for hidden mysteries such as secret doors by rolling a d6 that must be greater than:
 
 *<center>(5-character_level+dungeon_level)</center>*
 
-Elves get a reroll when detecting secrets, while Rogues have a +1 to their roll.
+Elves and Rogues get a (cumulative) +1 to their roll when searching for secrets.
 
 To detect a Secret Door you must perform a successful search.
 
 The process of searching is slow and counts as a non-combat event (for the purposes of hazard dice rolls).
 
-### Lockpicking
+### Lock-picking
 
 To pick a lock a player must throw a *1d6* and roll greater than 4. Rogues gain a +1, and Brownies also gain a +1 to lock-picking throws - these two bonuses are cumulative.
 
@@ -874,7 +907,7 @@ An attempt at trap deactivation will consume a set of thieves tools regardless o
 - [bleeding status](#bleeding-status)
 - [diseased status](#diseased-status)
 - [poisoned status](#poisoned-status)
-- [slightly injured](#slightly-injured)
+- [sprained](#sprained)
 - [fatigue](#fatigue)
 
 #### Bleeding Status
@@ -889,8 +922,6 @@ Since a diseased character is weakened they will also walk slower; the party wil
 
 To cure disease, you can drink medicine (which will remove the status effect but not recover any fatigued slots) or ask the healer to purify. While characters recover upon reaching the surface, resting does not cure this status ailment.
 
-<div class="page"/>
-
 #### Poisoned Status
 
 If your character is poisoned, it will become weakened and walk slower; forcing the party to expend 2 non combat events each time you travel to a visited location. A poisoned character will roll a *d6* every time a hazard die is thrown, on a roll of 1 they will receive -*(poisoned_level)* damage.
@@ -901,9 +932,9 @@ If your character is poisoned for a second time, it keeps the largest *poisoned_
 
 As an example, if you were poisoned by a *monster_level* 1 creature then poisoned again by a *monster_level* 3 creature, your *poisoned_level* will be 3; if you're poisoned by a *monster_level* 3 then again by a *monster_level* 1 creature, your *poisoned_level* will also be 3 (you are afflicted by the most potent poison).
 
-To remove the poison, you can use an atidote, or have your healer purify your wound. If you use an antidote, you must roll vs your *poisoned_level* to make sure that the antidote is effective. Note that non-healer characters become unable to cure poisons for higher level monsters.
+To remove the poison, you can use an antidote, or have your healer purify your wound. If you use an antidote, you must roll vs your *poisoned_level* to make sure that the antidote is effective. Note that non-healer characters become unable to cure poisons for higher level monsters.
 
-#### Slightly Injured
+#### Sprained
 
 A character with a minor injury will slow down the party, the party will expend 2 non combat events each time you travel to a visited location.
 
@@ -940,7 +971,7 @@ Additionally, you could consider finding a treasure equivalent to defeating a mo
 
 ## Bestiary
 
-These are the official **DepthRangers** guild monster records. This tome describes "most" of the beasts encountere during travels in the dungeons... There are rumors, of certain beasts that have not been charted, so keep that in mind, and consider submitting any such discoveries so they can be added to the official records.
+These are the official **DepthRangers** guild monster records. This tome describes "most" of the beasts encountered during travels in the dungeons... There are rumors, of certain beasts that have not been charted, so keep that in mind, and consider submitting any such discoveries so they can be added to the official records.
 
 ### Calculating Monster Stats
 
@@ -961,20 +992,33 @@ But, there are many exceptions, please read the monster's detailed descriptions 
 
 As mentioned before, there are many denizens in the depths however record keeping is not an easy task when you're in the heat of battle. Even afterwards, horror, fatigue or death seem to get in the way of proper recollection of the minutia of these dangerous beings. That said, here is a list of a few well known dwellers of the depths.
 
+<div class="page"/>
+
 #### <center>Bat</center>
 
 <figure>
   <center><img src="./images/bats.png" height="300" alt="A group of blood draining bats attacks your party."></center>
-  <i><center><figcaption>These vicous flying mammals are not to be underestimated.</figcaption></center></i>
+  <i><center><figcaption>These vicious flying mammals are not to be underestimated.</figcaption></center></i>
 </figure>
 
-You find *(party_size+monster_level)* large blood sucking bats, each has *(1+monster_level)* HP. Bats perform a *(monster_level)+d6* damage, on any roll of *1* they use screech instead of missing. On critical hits they cause a *hemorraging byte*. They have an accuracy equivalent to a character using single-handed weapon [see single-handed weapon accuracy (remember to add +1 to the monster level when calculating accuracy)](#single-handed-and-ranged-weapon-accuracy).
+You find *(party_size+monster_level)* large blood sucking bats, each has *(1+monster_level)* HP. Bats perform a *(monster_level)+d6* damage, on any roll of *1* they use screech instead of missing. On critical hits they cause a *hemorrhaging byte*. They have an accuracy equivalent to a character using single-handed weapon [see single-handed weapon accuracy (remember to add +1 to the monster level when calculating accuracy)](#single-handed-and-ranged-weapon-accuracy).
 
-**Hemorraging Byte:** The bat falls on top of the player and sinks its fangs, causing additional *monster_level* HP damage leaving an open wound behind. The character is afflicted by [bleeding](#bleeding-status).
+**Hemorrhaging Byte:** The bat falls on top of the player and sinks its fangs, causing additional *monster_level* HP damage leaving an open wound behind. The character is afflicted by [bleeding](#bleeding-status).
 
 **Screech:** Each party member must save vs body or receive *(monster_level+2)* HP damage.
 
 Brownies can talk to bats, when persuadable pay a single ration for all bats.
+
+#### <center>Black Ooze</center>
+
+<figure>
+  <center><img src="./images/ooze.png" height="300" alt="Two black oozes assault you, though two more seem to be near maturation."></center>
+  <i><center><figcaption>Black Oozes pose an unsurmountable challenge for ill-prepared explorers.</figcaption></center></i>
+</figure>
+
+Black Oozes come in pairs and have *(monster_level+1)\*d6* HP and inflict the same amount of damage. They are immune to sneak attacks, sedation and all spells, and must be attacked by ranged weapons or they will split into *2* Black Oozes. They have an accuracy equivalent to a character using single weapon [see single handed weapon accuracy (remember to add +1 to the monster level)](#single-handed-and-ranged-weapon-accuracy).
+
+<div class="page"/>
 
 #### <center>Dragon</center>
 
@@ -983,7 +1027,9 @@ Brownies can talk to bats, when persuadable pay a single ration for all bats.
   <i><center><figcaption>Dragons are undoubtedly one of the deadliest denizens of the depths, no bardic sonet can fully encapsulate the horror of encountering one.</figcaption></center></i>
 </figure>
 
-Dragons have *(party_size+monster_level)d6* HP and are immune to sedation. Dragons use teeth, claws and tail to attack causing *(monster_level+1)d6* HP damage, on a 6 they breath fire. They have an accuracy equivalent to a character using a two handed weapon [see two handed weapon accuracy (remember to add +1 to the monster level)](#two-handed-weapons-accuracy).
+Dragons have *(party_size+monster_level)d6* HP and are immune to sedation. Dragons use teeth, claws and tail to attack causing *(monster_level+1)d6* HP damage, on a 6 they breath fire. In addition, on any effective non-fire attack, the target must roll a body save or else become sprained [sprained](#sprained).
+
+They have an accuracy equivalent to a character using a two handed weapon [see two handed weapon accuracy (remember to add +1 to the monster level)](#two-handed-weapons-accuracy).
 
 **Breathe Fire:** Dragon breath causes *(monster_level+1)d6* HP damage to all players in the room. Each character must roll a dex save for half damage.
 
@@ -1000,24 +1046,11 @@ Goblins have *1d6* HP, but they attack in packs of *(monster_level+party_size)*.
 
 **Strength In Numbers:** Goblins inflict *1d6* damage when on their own. However when within the proximity of an another Goblin (there's more than one Goblin left) they instead inflict *(monster_level+number_of_goblins+1)+1d6* HP damage.
 
-**Underhanded Tactics:** When there's than more than one Goblin adversary, upon landing a critical hit, another Goblin in its party is incentivised to take advantage of the distraction and attack the character with the least HP. This attack can potentially trigger an indefinite number of additional *Underhanded Tactics* attacks on consecutive crits.
+**Underhanded Tactics:** When there's than more than one Goblin adversary, upon landing a critical hit, another Goblin in its party is incentivized to take advantage of the distraction and attack the character with the least HP. This attack can potentially trigger an indefinite number of additional *Underhanded Tactics* attacks on consecutive crits.
 
 **Rejection Of Fairness:** When the number of goblins left is lower than your party size, a Goblin will escape on a missed attack.
 
 Roll a reaction dice when encountering goblins, when unceartain pay *(monster_level+1)\*100*g to bribe them.
-
-<div class="page"/>
-
-#### <center>Black Ooze</center>
-
-<figure>
-  <center><img src="./images/ooze.png" height="300" alt="Two black oozes assault you, though two more seem to be near maturation."></center>
-  <i><center><figcaption>Black Oozes pose an unsormauntable challenge for ill-prepared explorers.</figcaption></center></i>
-</figure>
-
-Black Oozes come in pairs and have *(monster_level+1)\*d6* HP and inflict the same amount of damage. They are immune to sneak attacks, sedation and all spells, and must be attacked by ranged weapons or they will split into *2* Black Oozes. They have an accuracy equivalent to a character using single weapon [see single handed weapon accuracy (remember to add +1 to the monster level)](#single-handed-and-ranged-weapon-accuracy).
-
-<div class="page"/>
 
 #### <center>Mimic</center>
 
@@ -1030,9 +1063,11 @@ Mimics hide waiting to catch unwary prey and posing as a treasure makes for a co
 
 When a mimic has already latched, the player must now roll a body save (raw strength) to escape. Mimics can only latch on to one player at a time, should the discoverer escape, then their main target is whomever is weakest. They have *2\*(monster_level+party_size/3)d6* HP.
 
-**Oportune Getaway**: Should they kill an adventurer, they will escape with the body making it impossible to revive the fallen character.
+**Opportune Getaway**: Should they kill an adventurer, they will escape with the body making it impossible to revive the fallen character.
 
-**Self Preseravation**: When a mimic's life is reduced to (monster_level) HP it will immediately escape.
+**Self Preservation**: When a mimic's life is reduced to (monster_level) HP it will immediately escape.
+
+<div class="page"/>
 
 #### <center>Orc</center>
 
@@ -1080,9 +1115,15 @@ Brownies can talk to spiders, when persuadable pay a single ration for all spide
   <i><center><figcaption>The mesmerizing patterns on the contour of the massive snake before you challenge your hold on reality.</figcaption></center></i>
 </figure>
 
-You are attacked by a large snake. It has *(party_size+monster_level+1)\*d6* HP, and inflicts *(monster_level+1)d6* damage. These slithering reptiles are not venomous, but they can hypnotize their target on a roll of *5* or *6*, for *(monster_level+1)* rounds. A magic save prevents this condition.  They have an accuracy equivalent to a character using single weapon [see single handed weapon accuracy (remember to add +1 to the monster level)](#single-handed-and-ranged-weapon-accuracy).
+You are attacked by a large snake. It has *(party_size+monster_level+1)d6* HP, and inflicts *(monster_level+1)d6* damage. These slithering reptiles are not venomous, yet they are still quite lethal.
 
-**Hypnotized:** When a target is hypnotized by a snake it will be motionless - unable to attack, defend or assist in any way. A successful Magic save ends this condition early.
+When a snake performs a [critical attack](#critical-attack), the target must make a successful magic save or it will become *hypnotized* for *(monster_level+1)* rounds. If the attack is not critical but is any combination of *5s* and *6s* it will perform a *whiplash attack* instead.
+
+Snakes have an accuracy equivalent to a character using single-handed weapon [see single handed weapon accuracy (remember to add +1 to the monster level)](#single-handed-and-ranged-weapon-accuracy).
+
+**Hypnotized:** When a target is hypnotized by a snake, the target will become motionless (unable to attack, defend or assist in any way). A successful Magic save ends this condition early. If the target successfully saves vs hypnotism the angered snake still delivers [critical attack](#critical-attack) damage. Otherwise, the target is unharmed that round.
+
+**Whiplash Attack:** The snake coils itself then unleashes a punishing blow, the target must perform a successful body save or will be [sprained](#sprained).
 
 Brownies can talk to snakes, when persuadable pay *(monster_level+1)\*2* rations.
 
@@ -1096,29 +1137,36 @@ Monsters  may react in a non-hostile manner (or not); some monsters will only re
 |   3-4    | *Persuadable* | Pay *(monster_level+1)d6* gold and be left alone, pay twice that amount and gain clues if that is a quest event for you. If  you don't have the money to be left alone they will engage and attack first. |
 |   5-6    |   *Friendly*  | Monsters can offer clues if that is a quest event for you. |
 
+<div class="page"/>
+
 ## Traps
 
 You'll find many perilous traps underground:
 
-<div class="page"/>
-
 ### Pit Trap
 
-A pit opens below you, roll a dex save to avoid the trap or receive (dungeon_level)+d6 damage also your character is [slightly injured](#slightly-injured).
+A pit opens below you, roll a dex save to avoid the trap or receive (dungeon_level)+d6 damage also your character is [sprained](#sprained).
 
 ### Poison Darts
 
 Poison darts shoot out of the walls, roll a dex save or be [poisoned](#poisoned-status).
 
-### Toungues of Flame
+### Tongues of Flame
 
 You hear a click and tongues of flames shoot out in your direction, roll a dex save or receive (dungeon_level+1)d6 damage and loose one of your torches.
 
 ### Toxic Gas
 
-Nauxeous gas floods the room, roll a body save or take (dungeon_level+1) damage and become [diseased](#diseased-status).
+Noxious gas floods the room, roll a body save or take (dungeon_level+1) damage and become [diseased](#diseased-status).
+
+<div class="page"/>
 
 ## Treasure
+
+<figure>
+  <center><img src="./images/treasure.png" height="400" alt="A treasure lies before you, its golden coins glimmering to the light of your torch."></center>
+  <i><center><figcaption>There are riches beyond dreams below the surface.</figcaption></center></i>
+</figure>
 
 You may find treasure on your travels, in which case, roll the contents table to find out what's inside:
 
@@ -1184,6 +1232,8 @@ Roll a d6 to see which magic scroll you found inside the treasure:
 
 *Each of these scrolls can be consumed or learned upon reaching the surface.*
 
+<div class="page"/>
+
 ## Hazard Die Roll Outcome
 
 The outcome of the Hazard roll is entirely up to the GM, what is provided here is a helpful reference.
@@ -1192,22 +1242,28 @@ The outcome of the Hazard roll is entirely up to the GM, what is provided here i
 
 This is a tentative set of potential outcomes of rolling a hazard dice. Players may perform the roll, but it's up to the GM to determine what happens...
 
-1. Special Encounter (up to the GM)
-2. Encounter (normal monster encounters)
-3. [Trap](#traps)
-4. [Fatigue](#fatigue)
-5. [Expiration](#expiration-table)
-6. No event
+|       **Roll**       |                **Hazard**                |
+| -------------------- | ---------------------------------------- |
+| <center> 1 </center> | Special Encounter (up to the GM)         |
+| <center> 2 </center> | Encounter (normal monster encounters)    |
+| <center> 3 </center> | [Trap](#traps)                           |
+| <center> 4 </center> | [Fatigue](#fatigue)                      |
+| <center> 5 </center> | [Expiration](#expiration-table)          |
+| <center> 6 </center> | No event                                 |
+
+<div class="page"/>
 
 #### Expiration Table
 
-An item in the character's possession exprired, roll expiration table below to find out which:
+An item in the character's possession expired, roll expiration table below to find out which:
 
-1. Rations
-2. Torch
-3. Cure Potion
-4. Antidote Potion
-5. Medicinal Potion
-6. Bandage set
+|       **Roll**       |  **Item Expired**   |
+| -------------------- | ------------------- |
+| <center> 1 </center> | Rations             |
+| <center> 2 </center> | Torch               |
+| <center> 3 </center> | Cure Potion         |
+| <center> 4 </center> | Antidote Potion     |
+| <center> 5 </center> | Medicinal Potion    |
+| <center> 6 </center> | Bandage set         |
 
 If the character doesn't own that item, then ignore the expiration. Otherwise, request that this item is moved to another slot to attempt to purify it later. Refusing causes other items in that slot to expire, though the player can choose to discard it instead. Torches are an exception, an expired torch is discarded automatically.

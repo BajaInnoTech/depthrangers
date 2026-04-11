@@ -6,7 +6,7 @@
 
 ## Who created this?
 
-This System is a [BIT Mysteries Product](https://bajainnotech.github.io/bit-mysteries/#app-bar-with-responsive-menu), created by Eduardo del Corral, Ehira Lira & Hyunjin Oh.
+This System is a [BIT Mysteries Product](https://bajainnotech.github.io/bit-mysteries/), created by Eduardo del Corral, Ehira Lira & Hyunjin Oh.
 
 Artwork was created by Ehira Lira with digital image editing done by Eduardo del Corral.
 
