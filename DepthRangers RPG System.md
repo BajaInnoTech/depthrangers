@@ -1,4 +1,4 @@
-<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Metamorphous&family=New+Rocker&family=Uncial+Antiqua&display=swap" rel="stylesheet">
 
@@ -68,7 +68,7 @@ strong {
 em, figcaption {
 	color:rgb(4, 17, 71);
 }
-</style> -->
+</style>
 
 DepthRangers RPG System Handbook
 ==============
@@ -83,7 +83,7 @@ DepthRangers RPG System Handbook
 ***<center>Illustrations</center>***
 <center>Ehira A. Lira</center>
 
-**<center>v 1.0</center>**
+**<center>v 1.1</center>**
 
 Welcome to the **DepthRangers** guild, where we handle all sorts of underground exploration requests. From a lost pet, to making contact with an unknown plane of existence. This job is its own reward, though the riches found along the way provide an extra motivation.
 
@@ -157,7 +157,7 @@ This short book describes the **DepthRangers** system. This is a rules-light com
         - [Healer Boon - Enhanced Antibodies](#healer-boon---enhanced-antibodies)
         - [Healer Boon - Potion Mixer](#healer-boon---potion-mixer)
         - [Healer Boon - Expert Field Medic](#healer-boon---expert-field-medic)
-        - [Healer Spell List](#healer-spell-list)
+      - [Healer Spell List](#healer-spell-list)
       - [Rogue](#rogue)
         - [Rogue Gear](#rogue-gear)
         - [Rogue Boon - Expert Explorer](#rogue-boon---expert-explorer)
@@ -249,13 +249,17 @@ As you can imagine, all of them provide a lot of value and have many chances to 
 
 These generic stats are what you use when creating different characters, some [races](#races) & [classes](#classes) will require adjusting these values.
 
+<div class="page"/>
+
 #### HP
 
-How resilient to damage your character is. The base HP for characters is *(1d6+3)* HP on their first level plus an additional *1d6* HP each level.
+How resilient to damage your character is. The base HP for characters is *(2d6+3)* HP on their first level plus an additional *1d6* HP each level.
 
 #### Armor Class
 
 Equipping armor is vital to surviving your adventures. You subtract the damage you receive by the total amount of armor class or "*AC*" you have. Your maximum armor is determined by the armor you can equip yourself with. Though there are some restrictions on who can use certain gear (see [races](#races) & [classes](#classes)).
+
+<div class="page"/>
 
 #### Saves
 
@@ -265,9 +269,6 @@ Equipping armor is vital to surviving your adventures. You subtract the damage y
 </figure>
 
 A save is thrown when an extraordinary feat must be accomplished (such as avoiding a deadly trap).
-
-<div class="page"/>
-
 All characters have 3 types of saves:
 
 - **Body**: Used for resisting (fort), as well as raw physical prowess (strength).
@@ -276,7 +277,7 @@ All characters have 3 types of saves:
 
 *The baseline for all saves is 4.*
 
-When asked to roll for a save a *d6* is thrown, if the value is equal to or greater than the character's save the save is successful otherwise it fails. 
+When asked to roll for a save a *d6* is thrown, if the value is equal to or greater than the character's save the save is successful otherwise it fails.
 
 While saves generally require a roll of 4 or greater, some races have bonuses and penalties that will change this amount. So be sure to account for these bonuses and penalties in your character sheet.
 
@@ -365,7 +366,7 @@ When a human makes a save roll of 6, they have a +1 to saves of that nature unti
 
 ##### Human Special Feature - Inspiring Determination
 
-When a human lands a [critical attack](#critical-attack), for the rest of round other characters add a +1 to (character_level) die they roll.
+When a human lands a [critical attack](#critical-attack), for the rest of round other characters add a +1 to *(character_level)* die they roll.
 
 <div class="page"/>
 
@@ -375,7 +376,7 @@ Dexterous and magically inclined but not as resilient as humans.
 
 ##### Elf Saves
 
-Elves have a fragile body, hence they start with +2HP instead of +3HP and gain a +1 penalty to their body saves (meaning you must roll 5 or higher to succeed on a body save). However they have unusual dexterity and magical attunement, and gain a -1 boon on body saves and  also another -1 boon on magic saves (meaning rolling a 3 or higher is a successful dex or magic save).
+Elves have a fragile body, hence they start with *+2HP* instead of *+3HP* and gain a *+1* penalty to their *body saves* (meaning you must roll 5 or higher to succeed on a body save). However they have unusual dexterity and magical attunement, and gain a *-1* boon on *dex saves* and  also another *-1* boon on *magic saves* (meaning rolling a 3 or higher is a successful dex or magic save).
 
 ##### Elf Classes
 
@@ -391,7 +392,7 @@ This magical affinity also makes them immune to magical compulsion and mental ma
 
 ##### Elf Special Feature - Keen Senses
 
-Elven keen senses give them an edge when detecting secrets, gaining a +1 to searching (particularly useful when detecting secret doors).
+Elven keen senses give them an edge when detecting secrets, gaining a *+1* to searching (particularly useful when detecting secret doors).
 
 ##### Elf Special Feature - Keen Marksmanship
 
@@ -403,7 +404,7 @@ Dwarfs are hardier than their peers, but not as dexterous.
 
 ##### Dwarf Saves
 
-Their resilient body grants them a -2 boon to body saves (meaning they rolling a 2 or greater is a successful body save), but their stubby limbs impose on them a +1 penalty to dex (meaning you must roll 5 or higher to succeed on a dex save).
+Their resilient body grants them a *-2* boon to body saves (meaning they rolling a 2 or greater is a successful body save), but their stubby limbs impose on them a *+1* penalty to dex (meaning you must roll 5 or higher to succeed on a *dex save*).
 
 ##### Dwarf Classes
 
@@ -419,7 +420,7 @@ They are almost entirely immune to poison, there are rumors of certain beings ab
 
 ##### Dwarf Special Feature - Dwarven Resilience
 
-Dwarfs have +1 HP each level.
+Dwarfs have *+1 HP* each level.
 
 ##### Dwarf Special Feature - See In The Dark
 
@@ -438,11 +439,11 @@ Brownies are shorter than dwarfs and about as slender as elves.
 
 ##### Brownie Saves
 
-Brownies are more fragile than the other races, they take +1 penalty on body saves (meaning you must roll 5 or higher to succeed on a body save), but get a -1 boon on dex (meaning rolling a 3 or higher is a successful dex save).
+Brownies are more fragile than the other races, they take *+1* penalty on *body saves* (meaning you must roll 5 or higher to succeed on a body save), but get a *-1* boon on *dex saves* (meaning rolling a 3 or higher is a successful dex save).
 
 ##### Brownie Classes
 
-Brownies can't be healers, however they can be Fighters, Magicians or Rogues.
+Brownies can't be healers, however they can be any other class.
 
 ##### Brownie Gear
 
@@ -452,23 +453,23 @@ For armor, Fighters can use Chainmail, while other classes can only use a Brigan
 
 ##### Brownie Special Feature - Lock Picking
 
-Brownies are very nimble with their fingers and have a knack for locks, gaining a +1 on unlock throws.
+Brownies are very nimble with their fingers and have a knack for locks, gaining a *+1* on [lock-picking](#lock-picking) throws.
 
 ##### Brownie Special Feature - Talk To Animals
 
-Additionally they’re able to engage in conversation with animals. Whenever you meet an animal, they may react in a non-hostile manner. Note that any animal that is "Persuadable" will accept rations as a bribe instead of money (though some might ask for both).
+Additionally they’re able to engage in conversation with animals. If you have a brownie on your party, whenever you meet an animal, it may react in a non-hostile manner. Note that any animal that is "[Persuadable](#enemy-reactions)" will accept rations as a bribe instead of money (though some might ask for both).
 
 ##### Brownie Special Feature - Frail Body
 
-Their bodies are somewhat fragile starting with +1 HP instead of +3HP, and deduct a -1 HP from each level up.
+Their bodies are somewhat fragile starting with *+1 HP* instead of *+3HP*, and deduct a *-1 HP* from each level up.
 
 ##### Brownie Special Feature - Hard To Hit
 
-Given their smaller stature they are very hard to hit by an opponent, starting with a +1 AC and gaining an additional +1 AC per level.
+Given their smaller stature they are very hard to actually hit by an opponent, starting with a *+1 AC* and gaining an additional *+1 AC* per level.
 
 ##### Brownie Special Feature - Attack At A Distance
 
-Using a bow grants them an additional 1 AC on top of ranged weapon bonuses. 
+Using a bow grants them an additional *1 AC* on top of ranged weapon bonuses.
 
 ### Classes
 
@@ -486,11 +487,11 @@ Fighters are able to equip any weapons and armors they find.
 
 ##### Fighter Boon - Enhanced Swordsmanship
 
-When engaged in melee combat, Fighters can ignore one roll of 1 for calculating accuracy, see [attack accuracy](#attack-accuracy).
+When engaged in melee combat, Fighters can ignore one *d6* roll of *1* for calculating accuracy, see [attack accuracy](#attack-accuracy).
 
 ##### Fighter Boon - Deadlier Combat
 
-When landing a successful hit, they re-roll any damage die on 1s.
+When landing a successful hit, they re-roll any damage die on *1*s.
 
 ##### Fighter Boon - Attack Frenzy
 
@@ -498,11 +499,11 @@ Upon defeating an enemy they can strike another target that same round (two atta
 
 ##### Fighter Boon - Battlefield Resilience
 
-Fighters gain an additional +3 HP on level 1, and an additional +1 HP every odd level (3, 5, etc).
+Fighters gain an additional *+3 HP* on level 1, and an additional *+1 HP* every odd level (3, 5, etc).
 
 ##### Fighter Boon - Overwhelming Tactics
 
-When engaged in melee combat, and landing a critical attack. If the target is a non-undead regular sized humanoid, Fighters will overwhelm their opponent knocking them violently to the ground. The target remains stunned and inactive for one round.
+When engaged in melee combat, and landing a critical attack. If the target is a "regular sized" & "non-undead" humanoid, Fighters will overwhelm their opponent knocking them violently to the ground. The target remains stunned and inactive for one round.
 
 <div class="page"/>
 
@@ -513,7 +514,7 @@ When engaged in melee combat, and landing a critical attack. If the target is a 
   <i><center><figcaption>Mages can help turn the tide of a battle.</figcaption></center></i>
 </figure>
 
-Mages are versatile casters capable of offensive and defensive magic. They start with two spell slots and gain an additional spell per level. As mages level up, not only do they gain more spell slots, some of the spells also become more powerful. When casting, the slot used does not matter, what matters is the Mage’s level.
+Mages are versatile casters capable of offensive and defensive magic. They start with two spell slots and gain an additional spell per level. As mages level up, not only do they gain more spell slots, some of the spells in their possession also become more powerful. When casting, the slot used does not matter, what matters is the Mage’s level.
 
 While extremely versatile and powerful, Mages require preparing ahead of time. They must first assign a known spell to a slot before it can be cast. Upon resting, Mages recover all their spells and can reassign known spells to their slots.
 
@@ -539,7 +540,7 @@ Due to their mastery of magic, mages can re-roll magic save die that land on one
 
 ##### Mage Spell List
 
-- **Invigorate**: Increases party's melee & ranged combat output by +*character_level* for the rest of the battle.
+- **Invigorate**: Increases the party's melee & ranged combat output by +*character_level* for the rest of the battle.
   - Both Mages & Healers can read a scroll with this spell.
 - **Protection**: Increases the party's Armor Class by +*character_level* for the rest of the battle.
   - Both Mages & Healers can read a scroll with this spell.
@@ -576,11 +577,13 @@ Healers know all Healer spells from the start and can cast them from any slot at
 
 ##### Healer Boon - Party Focused Scroll & Wand Casting
 
-Healers can use wizard scrolls, however they can only use scrolls that target other party members.
+Healers can use mage scrolls, however they can only use scrolls that target other party members.
 
 ##### Healer Boon - Improved Mending
 
 Healers heal *(1+character_level)* HP each time they use a bandage, and gain a +*(character_level)/2* bonus when using an antidote to neutralize poison.
+
+Additionally,from level 2 onwards healers heal an additional *+(character_level/2)d6* HP when using a Healing Potion.
 
 ##### Healer Boon - Enhanced Antibodies
 
@@ -594,15 +597,13 @@ Healers can combine the positive attributes of two bottles into a single bottle,
 
 Healers are the only ones who can freely use curative items on others in the middle of battle.
 
-##### Healer Spell List
+#### Healer Spell List
 
-- **Heal party**: Heals all members *(character_level+1)d6/2* HP in a room (or a 20ft radius).
-- **Aura of light**: Allows the party to see in the dark for *((character_level)/2+1)* hours (illuminates a 40ft radius), additionally it grants the party +*(character_level/2+1)* AC vs undead.
+- **Heal party**: Heals all party members in a room *(character_level+1)d6/2* HP.
+- **Aura of light**: Allows the party to see in the dark for *((character_level)/2+1)* floors, providing illumination, additionally it grants the party +*(character_level/2+1)* AC vs undead.
 - **Purify**: Neutralizes poison, heals sickness and reverses expiration to a character's items.
-- **See hidden**: Adds a +2 to a detect secret entrance or trap rolls.
-- **Enhanced Alacrity**: Provides the party a +1 to dex rolls and reduces miss die roll by one for one encounter (can be used for traps or other similar events).
-
-<div class="page"/>
+- **See hidden**: Adds a *+2* to a search and trap disablement rolls.
+- **Enhanced Alacrity**: Provides the party a *+1* to dex rolls and reduces miss die roll by one for one encounter (can be used for trap saves or other similar events).
 
 #### Rogue
 
@@ -619,7 +620,7 @@ Rogues are able to use anything they find except for plate armor.
 
 ##### Rogue Boon - Expert Explorer
 
-Rogues get a +1 roll when detecting secrets (searching), dealing with traps and picking locks.
+Rogues get a *+1* to rolls when searching, dealing with traps and picking locks.
 
 ##### Rogue Boon - Sneak Attack
 
@@ -627,11 +628,13 @@ Rogues deliver devastating sneak attacks to susceptible enemies (enemies such as
 
 ##### Rogue Boon - Deadly Sniper
 
-When equipped with a ranged weapon, Rogues get a +1 to their dex save when rolling for sneak attacking.
+When equipped with a ranged weapon, Rogues get a *+1* to their dex save when rolling for sneak attacking.
 
 ##### Rogue Boon - Magical Item Use
 
-Starting at level 2, Rogues are able to use scrolls or wands with a proficiency of 1/2 their *character_level*. Though to use one, they must cast a successful magic save.
+Starting at level 2, Rogues are able to use scrolls or wands with a proficiency of 1/2 their *character_level*. Though to use one, they must cast a successful *magic save*.
+
+Revive scrolls require 2 consecutive successful *magic saves* to succeed.
 
 ## Game Mechanics
 
