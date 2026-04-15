@@ -547,9 +547,9 @@ em, figcaption {
 <li><a href="#healer-boon---enhanced-antibodies">Healer Boon - Enhanced Antibodies</a></li>
 <li><a href="#healer-boon---potion-mixer">Healer Boon - Potion Mixer</a></li>
 <li><a href="#healer-boon---expert-field-medic">Healer Boon - Expert Field Medic</a></li>
-<li><a href="#healer-spell-list">Healer Spell List</a></li>
 </ul>
 </li>
+<li><a href="#healer-spell-list">Healer Spell List</a></li>
 <li><a href="#rogue">Rogue</a>
 <ul>
 <li><a href="#rogue-gear">Rogue Gear</a></li>
@@ -580,6 +580,7 @@ em, figcaption {
 <ul>
 <li><a href="#melee-weapons">Melee Weapons</a></li>
 <li><a href="#ranged-weapons">Ranged Weapons</a></li>
+<li><a href="#empty-handed-fighting">Empty Handed Fighting</a></li>
 <li><a href="#attacking">Attacking</a>
 <ul>
 <li><a href="#critical-attack">Critical Attack</a>
@@ -694,8 +695,8 @@ em, figcaption {
   <center><img src="./images/brownie-dex-save.png" height="400" alt="A brownie is joyously avoiding a dangerous hazard."></center>
   <i><center><figcaption>There are many dangers that require extraordinary maneuvers to overcome.</figcaption></center></i>
 </figure>
-<p>A save is thrown when an extraordinary feat must be accomplished (such as avoiding a deadly trap).</p>
-<p>All characters have 3 types of saves:</p>
+<p>A save is thrown when an extraordinary feat must be accomplished (such as avoiding a deadly trap).<br>
+All characters have 3 types of saves:</p>
 <ul>
 <li><strong>Body</strong>: Used for resisting (fort), as well as raw physical prowess (strength).</li>
 <li><strong>Dex</strong>: Dexterity saves are used for acrobatics, fine motor skills, sneaking and other skills that require fine control over the body or quick reaction.</li>
@@ -1088,6 +1089,8 @@ em, figcaption {
 <p>A ranged weapon generates the same level of damage as a melee weapon. Since using a ranged weapon allows the user to attack at a distance, that user is granted +<em>(character_level+1)</em> AC. When a player is using a ranged weapon, they use both hands so technically ranged weapons are a special class of two handed weapon though they only take up one slot when stored. Meaning a character wielding a ranged weapon can't hold a torch.</p>
 <p>Unfortunately, each use consumes an arrow and you can only have 10 arrows per slot (unless you find a quiver). In addition, you may need a backup melee weapon to switch to if you run out of ammunition. Also, in order to use your ranged weapon you need to equip the ranged weapon ahead of time. Changing weapons mid battle requires spending a turn performing this task.</p>
 <p>Finally, you can't use ranged weapons to detain someone who's trying to escape (you use your hands or the flat of the blade).</p>
+<h4 id="empty-handed-fighting">Empty Handed Fighting</h4>
+<p>When a character lacks a weapon, they have single handed weapon accuracy and inflict <em>character_level</em> damage.</p>
 <h4 id="attacking">Attacking</h4>
 <p>Attack outcome is determined when damage dice are rolled, in other words there's no need for an additional roll to determine outcome.</p>
 <p>Depending on what numbers were rolled, one of three things will happen:</p>
@@ -1276,7 +1279,7 @@ em, figcaption {
 <p>Each character consumes a ration, but it doesn't matter who's carrying the rations. Just keep in mind that when you have a brownie in your party sharing a meal may help you make friends out of the less aggressive monsters.</p>
 <p>Therefore, as far as normal HP and status recovery is concerned, it's primarily your healer's job and resting is a luxury that's welcome but can't be taken for granted.</p>
 <h3 id="illumination">Illumination</h3>
-<p>Dwarfs don't need a source of light, however Brownies, Elves and Humans do. Torches last for approximately 2 hours. You can use torches, Aura of Light or Illuminate to make out your bearings and spot the many dangers in your travels. That said, spells are a finite and expensive resource. Any character that is not a dwarf, will die automatically if your party runs out of light.</p>
+<p>Dwarfs don't need a source of light, however Brownies, Elves and Humans do. Torches last for approximately 2 hours. You can use torches, Aura of Light or Illuminate to make out your bearings and spot the many dangers in your travels. That said, spells are a finite and expensive resource. Any character that is not a Dwarf, will die automatically if your party runs out of light.</p>
 <h3 id="leveling-up">Leveling Up</h3>
 <p>Characters level up after successfully completing a quest. This way, there's no XP tracking all that matters is that the quests have enough substance to merit the level increase reward.</p>
 <p>That said, as an alternative for those who enjoy the complex process of tracking XP, you can level up after defeating 10*(character_level-1) monsters, that is monsters that are one level level lower than your (character_level). Key being, that you dismiss monsters weaker than you. Then it's up to the GM to decide how hard it is to find appropriately leveled monsters for you to defeat.</p>
@@ -1292,7 +1295,7 @@ em, figcaption {
 <p>But, there are many exceptions, please read the monster's detailed descriptions to see if the principle laid out applies.</p>
 <h3 id="monsters">Monsters</h3>
 <p>As mentioned before, there are many denizens in the depths however record keeping is not an easy task when you're in the heat of battle. Even afterwards, horror, fatigue or death seem to get in the way of proper recollection of the minutia of these dangerous beings. That said, here is a list of a few well known dwellers of the depths.</p>
-<h4 id="bat"><center>Bat</center></h4>
+<h4 id="centerbatcenter"><center>Bat</center></h4>
 <figure>
   <center><img src="./images/bats.png" height="300" alt="A group of blood draining bats attacks your party."></center>
   <i><center><figcaption>These vicious flying mammals are not to be underestimated.</figcaption></center></i>
@@ -1301,13 +1304,13 @@ em, figcaption {
 <p><strong>Hemorrhaging Byte:</strong> The bat falls on top of the player and sinks its fangs, causing additional <em>monster_level</em> HP damage leaving an open wound behind. The character is afflicted by <a href="#bleeding-status">bleeding</a>.</p>
 <p><strong>Screech:</strong> Each party member must save vs body or receive <em>(monster_level+2)</em> HP damage.</p>
 <p>Brownies can talk to bats, when persuadable pay a single ration for all bats.</p>
-<h4 id="black-ooze"><center>Black Ooze</center></h4>
+<h4 id="centerblack-oozecenter"><center>Black Ooze</center></h4>
 <figure>
   <center><img src="./images/ooze.png" height="300" alt="Two black oozes assault you, though two more seem to be near maturation."></center>
   <i><center><figcaption>Black Oozes pose an unsurmountable challenge for ill-prepared explorers.</figcaption></center></i>
 </figure>
-<p>Black Oozes come in pairs and have <em>(monster_level+1)*d6</em> HP and inflict the same amount of damage. They are immune to sneak attacks, sedation and all spells, and must be attacked by ranged weapons or they will split into <em>2</em> Black Oozes. They have an accuracy equivalent to a character using single weapon <a href="#single-handed-and-ranged-weapon-accuracy">see single handed weapon accuracy (remember to add +1 to the monster level)</a>.</p>
-<h4 id="dragon"><center>Dragon</center></h4>
+<p>Black Oozes come in pairs and have <em>(monster_level+1)d6</em> HP and inflict the same amount of damage. They are immune to sneak attacks, sedation and all spells, and must be attacked by ranged weapons or they will split into <em>2</em> Black Oozes. They have an accuracy equivalent to a character using single weapon <a href="#single-handed-and-ranged-weapon-accuracy">see single handed weapon accuracy (remember to add +1 to the monster level)</a>.</p>
+<h4 id="centerdragoncenter"><center>Dragon</center></h4>
 <figure>
   <center><img src="./images/dragon.png" height="300" alt="A terrifying dragon stands before you."></center>
   <i><center><figcaption>Dragons are undoubtedly one of the deadliest denizens of the depths, no bardic sonet can fully encapsulate the horror of encountering one.</figcaption></center></i>
@@ -1316,50 +1319,50 @@ em, figcaption {
 <p>They have an accuracy equivalent to a character using a two handed weapon <a href="#two-handed-weapons-accuracy">see two handed weapon accuracy (remember to add +1 to the monster level)</a>.</p>
 <p><strong>Breathe Fire:</strong> Dragon breath causes <em>(monster_level+1)d6</em> HP damage to all players in the room. Each character must roll a dex save for half damage.</p>
 <p>Brownies can talk to dragons, when persuadable pay <em>(monster_level+1)*2</em> rations and <em>(monster_level+1)*1000</em>g.</p>
-<h4 id="goblin"><center>Goblin</center></h4>
+<h4 id="centergoblincenter"><center>Goblin</center></h4>
 <figure>
   <center><img src="./images/goblins.png" height="300" alt="A group of goblins, every action they take seems to be bathed in cruel intentions."></center>
   <i><center><figcaption>You encounter a party of goblins, their malice is something you can never get used to.</figcaption></center></i>
 </figure>
 <p>Goblins have <em>1d6</em> HP, but they attack in packs of <em>(monster_level+party_size)</em>. They have an accuracy equivalent to a character using single weapon <a href="#single-handed-and-ranged-weapon-accuracy">see single handed weapon accuracy (remember to add +1 to the monster level)</a>.</p>
 <p><strong>Strength In Numbers:</strong> Goblins inflict <em>1d6</em> damage when on their own. However when within the proximity of an another Goblin (there's more than one Goblin left) they instead inflict <em>(monster_level+number_of_goblins+1)+1d6</em> HP damage.</p>
-<p><strong>Underhanded Tactics:</strong> When there's than more than one Goblin adversary, upon landing a critical hit, another Goblin in its party is incentivized to take advantage of the distraction and attack the character with the least HP. This attack can potentially trigger an indefinite number of additional <em>Underhanded Tactics</em> attacks on consecutive crits.</p>
+<p><strong>Underhanded Tactics:</strong> When there's than more than one Goblin adversary, upon landing a critical hit, another Goblin in its party is incentivized to take advantage of the distraction and attack the character with the least HP. This attack can potentially trigger an indefinite number of additional <em>Underhanded Tactics</em> attacks on consecutive critical attacks.</p>
 <p><strong>Rejection Of Fairness:</strong> When the number of goblins left is lower than your party size, a Goblin will escape on a missed attack.</p>
-<p>Roll a reaction dice when encountering goblins, when unceartain pay <em>(monster_level+1)*100</em>g to bribe them.</p>
-<h4 id="mimic"><center>Mimic</center></h4>
+<p>Roll a reaction dice when encountering goblins, when uncertain pay <em>(monster_level+1)*100</em>g to bribe them.</p>
+<h4 id="centermimiccenter"><center>Mimic</center></h4>
 <figure>
   <center><img src="./images/mimic.png" height="300" alt="A mimic disguised as a chest ready to pounce on an unsuspecting explorer."></center>
   <i><center><figcaption>Mimics are the dungeons prime opportunists, laying in wait for their next meal.</figcaption></center></i>
 </figure>
-<p>Mimics hide waiting to catch unwary prey and posing as a treasure makes for a compelling lure. When confronted by a mimic the character that discovered it must roll a dex save, if failed the mimic latches onto the player and performs a barrage of successful attacks <em>(maximum damage)</em>. They have an accuracy equivalent to a character using single weapon <a href="#single-handed-and-ranged-weapon-accuracy">see single handed weapon accuracy (remember to add +1 to the monster level)</a>.</p>
+<p>Mimics hide waiting to catch unwary prey and posing as a treasure makes for a compelling lure. When confronted by a mimic the character that discovered it must roll a dex save, if failed the mimic latches onto the player and performs a barrage of successful attacks inflicting <em>(maximum damage)</em> each turn. They have an accuracy equivalent to a character using single weapon <a href="#single-handed-and-ranged-weapon-accuracy">see single handed weapon accuracy (remember to add +1 to the monster level)</a>.</p>
 <p>When a mimic has already latched, the player must now roll a body save (raw strength) to escape. Mimics can only latch on to one player at a time, should the discoverer escape, then their main target is whomever is weakest. They have <em>2*(monster_level+party_size/3)d6</em> HP.</p>
 <p><strong>Opportune Getaway</strong>: Should they kill an adventurer, they will escape with the body making it impossible to revive the fallen character.</p>
-<p><strong>Self Preservation</strong>: When a mimic's life is reduced to (monster_level) HP it will immediately escape.</p>
-<h4 id="orc"><center>Orc</center></h4>
+<p><strong>Self Preservation</strong>: When a mimic's life is reduced to <em>(dungeon_level+1)</em> HP it will immediately escape.</p>
+<h4 id="centerorccenter"><center>Orc</center></h4>
 <figure>
   <center><img src="./images/orcs.png" height="300" alt="You have stumbled upon a group of Orc Hunters."></center>
   <i><center><figcaption>Orc Hunters appear before you. Their ferocity is unquestionable.</figcaption></center></i>
 </figure>
-<p>Orcs attack in small hunting parties of size <em>(party_size)/2+1</em>, and have <em>(monster_level+1)*d6</em> HP inflicting the same amount of damage. They have an accuracy equivalent to a character using a two handed weapon <a href="#two-handed-weapons-accuracy">see two handed weapon accuracy (remember to add +1 to the monster level)</a>.</p>
+<p>Orcs attack in small hunting parties of size <em>(party_size)/2+1</em>, and have <em>(monster_level+1)d6</em> HP inflicting the same amount of damage. They have an accuracy equivalent to a character using a two handed weapon <a href="#two-handed-weapons-accuracy">see two handed weapon accuracy (remember to add +1 to the monster level)</a>.</p>
 <p><strong>Bloodlust:</strong> Upon performing a critical attack, the target must perform a body save or suffer from <a href="#bleeding-status">bleeding</a>. Additionally, the thrill will propel an Orc to perform a second attack against the same or another target. Each attack has a chance at activating an indefinitely long chain of bloodlust attacks.</p>
-<p><strong>Payback:</strong> Upon receiving a critical attack, the enraged Orc will strike the opponent back, potentially triggering bloodlust when criting.</p>
+<p><strong>Payback:</strong> Upon receiving a critical attack, the enraged Orc will strike the opponent back, potentially triggering bloodlust when landing a critical attack to the attacker.</p>
 <p><strong>Last Stand:</strong> When an Orc only has <em>(monster_level+1)</em> HP left or is the last Orc left alive, it can crit on attacks that use 4s as well as 5s and 6s.</p>
 <p>Roll a reaction dice when encountering orcs, when persuadable pay <em>(monster_level+1)</em> rations plus <em>(monster_level+1)*100g</em>.</p>
-<h4 id="skeleton"><center>Skeleton</center></h4>
+<h4 id="centerskeletoncenter"><center>Skeleton</center></h4>
 <figure>
   <center><img src="./images/skeletons.png" height="300" alt="Skeletons walk mechanically towards your party."></center>
   <i><center><figcaption>The clicking of bones seems to have an unnerving regularity as the skeletons march in your direction.</figcaption></center></i>
 </figure>
 <p>Skeletons are undead monsters that come in <em>(party_size)</em> quantities, and have <em>(monster_level+1)d6</em> HP and inflict the same damage. Skeletons are immune to ranged weapons (though they sound musical when struck), sedation and sneak attacks. They have an accuracy equivalent to a character using single weapon <a href="#single-handed-and-ranged-weapon-accuracy">see single handed weapon accuracy (remember to add +1 to the monster level)</a>.</p>
 <p><strong>Reanimate:</strong> When a skeleton is defeated, it must be attacked again the next round or it will recover half its HP total. If not completely destroyed, they can reanimate an indefinite amount of times.</p>
-<h4 id="spider"><center>Spider</center></h4>
+<h4 id="centerspidercenter"><center>Spider</center></h4>
 <figure>
   <center><img src="./images/spider.png" height="300" alt="A large and poisonous spider makes its appearance."></center>
   <i><center><figcaption>A venomous spider dangles from the ceiling landing right in front of you, then another to the side, then more. These spiders have you surrounded!</figcaption></center></i>
 </figure>
 <p>You are attacked by <em>(party_size+monster_level+2)</em> spiders, they have <em>(monster_level+1)</em> HP and inflict the same damage. Spiders are venomous, when attacked make a successful Body save or you will be poisoned, <a href="#poisoned-status">see poisoned status</a>. They have an accuracy equivalent to a character using single weapon <a href="#single-handed-and-ranged-weapon-accuracy">see single handed weapon accuracy (remember to add +1 to the monster level)</a>.</p>
 <p>Brownies can talk to spiders, when persuadable pay a single ration for all spiders.</p>
-<h4 id="snake"><center>Snake</center></h4>
+<h4 id="centersnakecenter"><center>Snake</center></h4>
 <figure>
   <center><img src="./images/snake.png" height="300" alt="You're attacked by a massive snake, you feel dizzy as you keep track of its puzzling movements."></center>
   <i><center><figcaption>The mesmerizing patterns on the contour of the massive snake before you challenge your hold on reality.</figcaption></center></i>
@@ -1428,7 +1431,7 @@ em, figcaption {
 <tr>
 <td><center> 1 </center></td>
 <td><em>Rations</em></td>
-<td>There are <em>3*(1+dungeon_level)</em> of them; however you must roll a d6 equal to or greater to the dungeon_level where they were found or these are spoilt and must be purified before consuming.</td>
+<td>There are <em>3*(1+dungeon_level)</em> of them; however you must roll a d6 equal to or greater to the dungeon_level where they were found or these are spoiled and must be purified before consuming.</td>
 </tr>
 <tr>
 <td><center> 2 </center></td>
@@ -1514,32 +1517,32 @@ em, figcaption {
 <tr>
 <td><center> 1 </center></td>
 <td><em>Shield</em></td>
-<td>You find a +<em>(dungeon_level)/2</em> Shield, worth <em>30*(dungeon_level)</em> g.</td>
+<td>You find a +<em>(dungeon_level+1)/2</em> Shield, worth <em>30*(dungeon_level+1)</em> g.</td>
 </tr>
 <tr>
 <td><center> 2 </center></td>
 <td><em>Helmet</em></td>
-<td>You find a +<em>(dungeon_level)/2</em> Helmet, worth <em>60*(dungeon_level+1)</em> g.</td>
+<td>You find a +<em>(dungeon_level+1)/2</em> Helmet, worth <em>60*(dungeon_level+1)</em> g.</td>
 </tr>
 <tr>
 <td><center> 3 </center></td>
 <td><em>Bringandine</em></td>
-<td>You find a +<em>(dungeon_level)/2</em> Brigandine, worth <em>50*(dungeon_level)</em> g.</td>
+<td>You find a +<em>(dungeon_level+1)/2</em> Brigandine, worth <em>50*(dungeon_level)</em> g.</td>
 </tr>
 <tr>
 <td><center> 4 </center></td>
 <td><em>Chainmail</em></td>
-<td>You find a +<em>(dungeon_level)/2</em> Chainmail, worth <em>100*(dungeon_level+1)</em> g.</td>
+<td>You find a +<em>(dungeon_level+1)/2</em> Chainmail, worth <em>100*(dungeon_level+1)</em> g.</td>
 </tr>
 <tr>
 <td><center> 5 </center></td>
 <td><em>Platemail</em></td>
-<td>You find a +<em>(dungeon_level)/2</em> Platemail, worth <em>200*(dungeon_level+1)</em> g.</td>
+<td>You find a +<em>(dungeon_level+1)/2</em> Platemail, worth <em>200*(dungeon_level+1)</em> g.</td>
 </tr>
 <tr>
 <td><center> 6 </center></td>
 <td><em>Pendant</em></td>
-<td>You find a +<em>(dungeon_level)/2</em> Pendant, worth <em>150*(dungeon_level+1)</em> g and <em>250*(dungeon_level+1)</em> g.</td>
+<td>You find a +<em>(dungeon_level+1)/2</em> Pendant, worth <em>150*(dungeon_level+1)</em> g and <em>250*(dungeon_level+1)</em> g.</td>
 </tr>
 </tbody>
 </table>

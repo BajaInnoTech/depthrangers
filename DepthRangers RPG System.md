@@ -1,4 +1,4 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Metamorphous&family=New+Rocker&family=Uncial+Antiqua&display=swap" rel="stylesheet">
 
@@ -68,7 +68,7 @@ strong {
 em, figcaption {
 	color:rgb(4, 17, 71);
 }
-</style>
+</style> -->
 
 DepthRangers RPG System Handbook
 ==============
@@ -176,6 +176,7 @@ This short book describes the **DepthRangers** system. This is a rules-light com
     - [Combat](#combat)
       - [Melee Weapons](#melee-weapons)
       - [Ranged Weapons](#ranged-weapons)
+      - [Empty Handed Fighting](#empty-handed-fighting)
       - [Attacking](#attacking)
         - [Critical Attack](#critical-attack)
           - [Critical Attack Table](#critical-attack-table)
@@ -781,9 +782,13 @@ Finally, you can't use ranged weapons to detain someone who's trying to escape (
 
 <div class="page"/>
 
+#### Empty Handed Fighting
+
+When a character lacks a weapon, they have single handed weapon accuracy and inflict *character_level* damage.
+
 #### Attacking 
 
-Attack outcome is determined when damage dice are rolled, in other words there's no need for an additional roll to determine outcome. 
+Attack outcome is determined when damage dice are rolled, in other words there's no need for an additional roll to determine outcome.
 
 Depending on what numbers were rolled, one of three things will happen:
 
@@ -962,7 +967,7 @@ Therefore, as far as normal HP and status recovery is concerned, it's primarily 
 
 ### Illumination
 
-Dwarfs don't need a source of light, however Brownies, Elves and Humans do. Torches last for approximately 2 hours. You can use torches, Aura of Light or Illuminate to make out your bearings and spot the many dangers in your travels. That said, spells are a finite and expensive resource. Any character that is not a dwarf, will die automatically if your party runs out of light.
+Dwarfs don't need a source of light, however Brownies, Elves and Humans do. Torches last for approximately 2 hours. You can use torches, Aura of Light or Illuminate to make out your bearings and spot the many dangers in your travels. That said, spells are a finite and expensive resource. Any character that is not a Dwarf, will die automatically if your party runs out of light.
 
 ### Leveling Up
 
@@ -1019,7 +1024,7 @@ Brownies can talk to bats, when persuadable pay a single ration for all bats.
   <i><center><figcaption>Black Oozes pose an unsurmountable challenge for ill-prepared explorers.</figcaption></center></i>
 </figure>
 
-Black Oozes come in pairs and have *(monster_level+1)\*d6* HP and inflict the same amount of damage. They are immune to sneak attacks, sedation and all spells, and must be attacked by ranged weapons or they will split into *2* Black Oozes. They have an accuracy equivalent to a character using single weapon [see single handed weapon accuracy (remember to add +1 to the monster level)](#single-handed-and-ranged-weapon-accuracy).
+Black Oozes come in pairs and have *(monster_level+1)d6* HP and inflict the same amount of damage. They are immune to sneak attacks, sedation and all spells, and must be attacked by ranged weapons or they will split into *2* Black Oozes. They have an accuracy equivalent to a character using single weapon [see single handed weapon accuracy (remember to add +1 to the monster level)](#single-handed-and-ranged-weapon-accuracy).
 
 <div class="page"/>
 
@@ -1049,11 +1054,11 @@ Goblins have *1d6* HP, but they attack in packs of *(monster_level+party_size)*.
 
 **Strength In Numbers:** Goblins inflict *1d6* damage when on their own. However when within the proximity of an another Goblin (there's more than one Goblin left) they instead inflict *(monster_level+number_of_goblins+1)+1d6* HP damage.
 
-**Underhanded Tactics:** When there's than more than one Goblin adversary, upon landing a critical hit, another Goblin in its party is incentivized to take advantage of the distraction and attack the character with the least HP. This attack can potentially trigger an indefinite number of additional *Underhanded Tactics* attacks on consecutive crits.
+**Underhanded Tactics:** When there's than more than one Goblin adversary, upon landing a critical hit, another Goblin in its party is incentivized to take advantage of the distraction and attack the character with the least HP. This attack can potentially trigger an indefinite number of additional *Underhanded Tactics* attacks on consecutive critical attacks.
 
 **Rejection Of Fairness:** When the number of goblins left is lower than your party size, a Goblin will escape on a missed attack.
 
-Roll a reaction dice when encountering goblins, when unceartain pay *(monster_level+1)\*100*g to bribe them.
+Roll a reaction dice when encountering goblins, when uncertain pay *(monster_level+1)\*100*g to bribe them.
 
 #### <center>Mimic</center>
 
@@ -1062,13 +1067,13 @@ Roll a reaction dice when encountering goblins, when unceartain pay *(monster_le
   <i><center><figcaption>Mimics are the dungeons prime opportunists, laying in wait for their next meal.</figcaption></center></i>
 </figure>
 
-Mimics hide waiting to catch unwary prey and posing as a treasure makes for a compelling lure. When confronted by a mimic the character that discovered it must roll a dex save, if failed the mimic latches onto the player and performs a barrage of successful attacks *(maximum damage)*. They have an accuracy equivalent to a character using single weapon [see single handed weapon accuracy (remember to add +1 to the monster level)](#single-handed-and-ranged-weapon-accuracy).
+Mimics hide waiting to catch unwary prey and posing as a treasure makes for a compelling lure. When confronted by a mimic the character that discovered it must roll a dex save, if failed the mimic latches onto the player and performs a barrage of successful attacks inflicting *(maximum damage)* each turn. They have an accuracy equivalent to a character using single weapon [see single handed weapon accuracy (remember to add +1 to the monster level)](#single-handed-and-ranged-weapon-accuracy).
 
 When a mimic has already latched, the player must now roll a body save (raw strength) to escape. Mimics can only latch on to one player at a time, should the discoverer escape, then their main target is whomever is weakest. They have *2\*(monster_level+party_size/3)d6* HP.
 
 **Opportune Getaway**: Should they kill an adventurer, they will escape with the body making it impossible to revive the fallen character.
 
-**Self Preservation**: When a mimic's life is reduced to (monster_level) HP it will immediately escape.
+**Self Preservation**: When a mimic's life is reduced to *(dungeon_level+1)* HP it will immediately escape.
 
 <div class="page"/>
 
@@ -1079,11 +1084,11 @@ When a mimic has already latched, the player must now roll a body save (raw stre
   <i><center><figcaption>Orc Hunters appear before you. Their ferocity is unquestionable.</figcaption></center></i>
 </figure>
 
-Orcs attack in small hunting parties of size *(party_size)/2+1*, and have *(monster_level+1)\*d6* HP inflicting the same amount of damage. They have an accuracy equivalent to a character using a two handed weapon [see two handed weapon accuracy (remember to add +1 to the monster level)](#two-handed-weapons-accuracy).
+Orcs attack in small hunting parties of size *(party_size)/2+1*, and have *(monster_level+1)d6* HP inflicting the same amount of damage. They have an accuracy equivalent to a character using a two handed weapon [see two handed weapon accuracy (remember to add +1 to the monster level)](#two-handed-weapons-accuracy).
 
 **Bloodlust:** Upon performing a critical attack, the target must perform a body save or suffer from [bleeding](#bleeding-status). Additionally, the thrill will propel an Orc to perform a second attack against the same or another target. Each attack has a chance at activating an indefinitely long chain of bloodlust attacks.
 
-**Payback:** Upon receiving a critical attack, the enraged Orc will strike the opponent back, potentially triggering bloodlust when criting.
+**Payback:** Upon receiving a critical attack, the enraged Orc will strike the opponent back, potentially triggering bloodlust when landing a critical attack to the attacker.
 
 **Last Stand:** When an Orc only has *(monster_level+1)* HP left or is the last Orc left alive, it can crit on attacks that use 4s as well as 5s and 6s.
 
@@ -1181,7 +1186,7 @@ Roll a d6 to discover the treasure's contents:
 
 |       **Roll**       | **Contents**       | **Description**                                                                    |
 | -------------------- | ------------------ | ---------------------------------------------------------------------------------- |
-| <center> 1 </center> |  *Rations*         | There are *3\*(1+dungeon_level)* of them; however you must roll a d6 equal to or greater to the dungeon_level where they were found or these are spoilt and must be purified before consuming. |
+| <center> 1 </center> |  *Rations*         | There are *3\*(1+dungeon_level)* of them; however you must roll a d6 equal to or greater to the dungeon_level where they were found or these are spoiled and must be purified before consuming. |
 | <center> 2 </center> |  *Adventure gear*  | 2x torches, one set of thieves tools and 2x fire oil and *(1+dungeon_level)\*d6* g.|
 | <center> 3 </center> |  *Gold*            | You discover *10\*((1+dungeon_level)d6)* g.                                          |
 | <center> 4 </center> |  *Weapon*          | You found a weapon, [see weapons table](#weapons-table).                           |
@@ -1211,12 +1216,12 @@ Roll a d6 to see which piece or armor you found inside the treasure:
 
 |       **Roll**       | **Contents**   |                                           **Description**                                                 |
 | -------------------- | -------------- | --------------------------------------------------------------------------------------------------------- |
-| <center> 1 </center> |  *Shield*      | You find a +*(dungeon_level)/2* Shield, worth *30\*(dungeon_level)* g.                                    |
-| <center> 2 </center> |  *Helmet*      | You find a +*(dungeon_level)/2* Helmet, worth *60\*(dungeon_level+1)* g.                                  |
-| <center> 3 </center> |  *Bringandine* | You find a +*(dungeon_level)/2* Brigandine, worth *50\*(dungeon_level)* g.                                |
-| <center> 4 </center> |  *Chainmail*   | You find a +*(dungeon_level)/2* Chainmail, worth *100\*(dungeon_level+1)* g.                              |
-| <center> 5 </center> |  *Platemail*   | You find a +*(dungeon_level)/2* Platemail, worth *200\*(dungeon_level+1)* g.                              |
-| <center> 6 </center> |  *Pendant*     | You find a +*(dungeon_level)/2* Pendant, worth *150\*(dungeon_level+1)* g and *250\*(dungeon_level+1)* g. |
+| <center> 1 </center> |  *Shield*      | You find a +*(dungeon_level+1)/2* Shield, worth *30\*(dungeon_level+1)* g.                                    |
+| <center> 2 </center> |  *Helmet*      | You find a +*(dungeon_level+1)/2* Helmet, worth *60\*(dungeon_level+1)* g.                                  |
+| <center> 3 </center> |  *Bringandine* | You find a +*(dungeon_level+1)/2* Brigandine, worth *50\*(dungeon_level)* g.                                |
+| <center> 4 </center> |  *Chainmail*   | You find a +*(dungeon_level+1)/2* Chainmail, worth *100\*(dungeon_level+1)* g.                              |
+| <center> 5 </center> |  *Platemail*   | You find a +*(dungeon_level+1)/2* Platemail, worth *200\*(dungeon_level+1)* g.                              |
+| <center> 6 </center> |  *Pendant*     | You find a +*(dungeon_level+1)/2* Pendant, worth *150\*(dungeon_level+1)* g and *250\*(dungeon_level+1)* g. |
 
 <div class="page"/>
 
