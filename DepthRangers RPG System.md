@@ -98,7 +98,7 @@ This short book describes the **DepthRangers** system. This is a rules-light com
       - [HP](#hp)
       - [Armor Class](#armor-class)
       - [Saves](#saves)
-      - [Money](#money)
+    - [Money](#money)
       - [Inventory](#inventory)
       - [Starting Gear](#starting-gear)
     - [Races](#races)
@@ -110,7 +110,7 @@ This short book describes the **DepthRangers** system. This is a rules-light com
           - [Re-Roll Dice](#re-roll-dice)
         - [Human Special Feature - Mind Over Body](#human-special-feature---mind-over-body)
         - [Human Special Feature - Human Perseverance](#human-special-feature---human-perseverance)
-        - [Human Special Feature - Human Intuition](#human-special-feature---human-intuition)
+      - [Human Special Feature - Human Intuition](#human-special-feature---human-intuition)
         - [Human Special Feature - Inspiring Determination](#human-special-feature---inspiring-determination)
       - [Elf](#elf)
         - [Elf Saves](#elf-saves)
@@ -280,11 +280,11 @@ All characters have 3 types of saves:
 
 When asked to roll for a save a *d6* is thrown, if the value is equal to or greater than the character's save the save is successful otherwise it fails.
 
-While saves generally require a roll of 4 or greater, some races have bonuses and penalties that will change this amount. So be sure to account for these bonuses and penalties in your character sheet.
+While saves generally require a roll of *4* or greater, some races have bonuses and penalties that will change this amount. So be sure to account for these bonuses and penalties in your character sheet.
 
-#### Money
+### Money
 
-The currency of this game is gold, and "g" is the unit. Your character starts out with *1d6\*20*g and will gain more gold from completing quests and selling items. You'll use this to purchase items, use services and even bribe receptive monsters into giving you information.
+The currency of this game is gold, and "*g*" is the unit. Your character starts out with *1d6\*20*g and will gain more gold from completing quests and selling items. You'll use this to purchase items, use services and even bribe receptive monsters into giving you information.
 
 #### Inventory
 
@@ -359,11 +359,11 @@ Humans can expend one of their *re-roll* dice to cure any status ailment.
 
 ##### Human Special Feature - Human Perseverance
 
-When a human character's HP goes down to 0, and they have remaining *re-roll* dice, they can expend one re-roll dice and recover *1d6* HP to keep going. They can choose to expend additional *re-roll* dice and recover additional *d6* HP during this process of recovery.
+When a human character's HP goes down to *0*, and they have remaining *re-roll* dice, they can expend one re-roll dice and recover *1d6* HP to keep going. They can choose to expend additional *re-roll* dice and recover additional *d6* HP during this process of recovery.
 
-##### Human Special Feature - Human Intuition
+#### Human Special Feature - Human Intuition
 
-When a human makes a save roll of 6, they have a +1 to saves of that nature until the encounter or event is over.
+When a human makes a save roll of *6*, they have a *+1* to saves of that nature until the encounter or event is over.
 
 ##### Human Special Feature - Inspiring Determination
 
@@ -405,7 +405,7 @@ Dwarfs are hardier than their peers, but not as dexterous.
 
 ##### Dwarf Saves
 
-Their resilient body grants them a *-2* boon to body saves (meaning they rolling a 2 or greater is a successful body save), but their stubby limbs impose on them a *+1* penalty to dex (meaning you must roll 5 or higher to succeed on a *dex save*).
+Their resilient body grants them a *-2* boon to body saves (meaning that rolling a *2* or greater is considered a successful body save), but their stubby limbs impose on them a *+1* penalty to dex (meaning you must roll *5* or higher to succeed on a *dex save*).
 
 ##### Dwarf Classes
 
