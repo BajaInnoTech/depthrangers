@@ -666,6 +666,7 @@ This is a list of all the items you can find across the market's many shops. Thi
   - Each character must consume one set of rations per rest to gain its benefits.
   - Brownies can use rations to persuade animals.
   - You can store 5 rations per slot.
+  - Rations can also be used during short breaks, if the characters can find 10 minutes of peace they can optionally eat 1 provision of rations. Eating a portion of rations will recover *(character_level)* HP and remove *1* round of fatigue (recover 1 fatigued slot). Note that you can't eat two consecutive sets of rations and must venture out exploring before eating again (after all you don't want to battle heartburn while fighting monsters).
 - **Torches**: They are used to see at a distance (30 ft radius), though monsters can see you as well. Torches are sold in sets of 3 and cost 5g
   - One character in your party must carry a torch instead of a shield or two handed weapon.
   - You can store 5 torches per slot.
