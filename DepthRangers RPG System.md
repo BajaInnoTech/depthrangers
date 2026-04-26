@@ -157,6 +157,7 @@ This short book describes the **DepthRangers** system. This is a rules-light com
         - [Healer Boon - Enhanced Antibodies](#healer-boon---enhanced-antibodies)
         - [Healer Boon - Potion Mixer](#healer-boon---potion-mixer)
         - [Healer Boon - Expert Field Medic](#healer-boon---expert-field-medic)
+      - [Healer Boon - Knowledge Of Anesthetics](#healer-boon---knowledge-of-anesthetics)
       - [Healer Spell List](#healer-spell-list)
       - [Rogue](#rogue)
         - [Rogue Gear](#rogue-gear)
@@ -597,6 +598,10 @@ Healers can combine the positive attributes of two bottles into a single bottle,
 ##### Healer Boon - Expert Field Medic
 
 Healers are the only ones who can freely use curative items on others in the middle of battle.
+
+#### Healer Boon - Knowledge Of Anesthetics
+
+Upon reaching level 3, a Healer has mastered sleeping potions and can use them as a localized anesthetic, relieving some of the burden of fatigue. A healer can use a sleeping potion to restore a fatigued slot *(character_level)* times.
 
 #### Healer Spell List
 
