@@ -954,7 +954,7 @@ This, injury is thankfully not serious: You can either...
 
 #### Fatigue
 
-A round of fatigue forces you to lose one inventory slot. Fatigue is cumulative, and can only be fully restored upon rest, and partially restored (a single slot) by consuming a tonic. Players are free to choose which slot is afflicted by fatigue (so I suggest starting with the free slots).
+A round of fatigue forces you to lose one inventory slot. Fatigue is cumulative, meaning each round of fatigue makes you lose an additional slot, and can only be fully restored upon rest, and partially restored (a single slot) by consuming a tonic. Players are free to choose which slot is afflicted by fatigue (so I suggest starting with the free slots).
 
 ### Resting
 
