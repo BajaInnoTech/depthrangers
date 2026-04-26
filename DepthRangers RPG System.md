@@ -932,7 +932,7 @@ To cure disease, you can drink medicine (which will remove the status effect but
 
 #### Poisoned Status
 
-If your character is poisoned, it will become weakened and walk slower; forcing the party to expend 2 non combat events each time you travel to a visited location. A poisoned character will roll a *d6* every time a hazard die is thrown, on a roll of 1 they will receive -*(poisoned_level)* damage.
+If your character is poisoned, it will become weakened and walk slower; forcing the party to expend 2 non combat events each time you travel to a visited location. A poisoned character will roll a *d6* every time a hazard die is thrown, on a roll of 1 they will receive *(poisoned_level)* damage.
 
 **poisoned_level**: When you're poisoned, note the *monster_level* of the creature that poisoned you. This will be your: "*poisoned_level*".
 
