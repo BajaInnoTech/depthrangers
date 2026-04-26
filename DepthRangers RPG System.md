@@ -906,12 +906,11 @@ Also Picking a lock consumes a lock-pickers kit.
 
 Unless told otherwise, traps can usually be deactivated by all characters. However, in order to deactivate a trap, they must expend one set of thieves tools currently in their possession.
 
-To successfully disable a trap, you must throw a *1d6* and roll greater than *4*. If you succeed you deactivated the trap otherwise the trap is sprung.
+To successfully disable a trap, you must throw a *1d6* and roll greater than *4*. If you succeed you deactivated the trap otherwise the trap is sprung. Failure to deactivate the trap means all characters must save against the trap to avoid its effects.
 
-An attempt at trap deactivation will consume a set of thieves tools regardless of outcome. The character must have the tools in its possession (can't afford the time to borrow it from another player). Rogues get a *+1* to trap deactivation rolls.
+An attempt at trap deactivation will consume a set of thieves tools regardless of outcome. The character must already have the set of thief's tools in its possession, there is just not enough time to borrow the tools from another player. Rogues get a *+1* to trap deactivation rolls.
 
 ### Lingering Status Effects
-
 
 - [bleeding status](#bleeding-status)
 - [diseased status](#diseased-status)
