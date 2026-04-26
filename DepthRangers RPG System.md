@@ -830,12 +830,12 @@ When you roll *(character_level)/2+1* one's, that character misses. That is, it 
 
 | **Character Level**  | **Number Of Ones Rolled That Cause The Character To Miss An Attack**  |
 | -------------------- | --------------------------------------------------------------------- |
-| <center> 1 </center> | *1* - if the character rolls a single one, the attack misses.         |
-| <center> 2 </center> | *1* - if the character rolls a single one, the attack misses.         |
-| <center> 3 </center> | *2* - if the character rolls two ones, the attack misses.             |
-| <center> 4 </center> | *2* - if the character rolls two ones, the attack misses.             |
-| <center> 5 </center> | *3* - if the character rolls three ones, the attack misses.           |
-| <center> 6 </center> | *3* - if the character rolls three ones, the attack misses.           |
+| <center> 1 </center> | *1*, if the character rolls a single one, the attack misses.         |
+| <center> 2 </center> | *1*, if the character rolls a single one, the attack misses.         |
+| <center> 3 </center> | *2*, if the character rolls two ones, the attack misses.             |
+| <center> 4 </center> | *2*, if the character rolls two ones, the attack misses.             |
+| <center> 5 </center> | *3*, if the character rolls three ones, the attack misses.           |
+| <center> 6 </center> | *3*, if the character rolls three ones, the attack misses.           |
 
 <div class="page"/>
 
@@ -847,12 +847,12 @@ A two handed sword allows you to ignore one of these rolls, when you roll *(char
 
 | **Character Level**  | **Number Of Ones Rolled That Cause The Character To Miss An Attack**  |
 | -------------------- | --------------------------------------------------------------------- |
-| <center> 1 </center> | *n/a* - the attack always succeeds.                                     |
-| <center> 2 </center> | *2* - if the character rolls a two ones,  the attack misses.          |
-| <center> 3 </center> | *3* - if the character rolls three ones, it misses.                   |
-| <center> 4 </center> | *3* - if the character rolls three ones, it misses.                   |
-| <center> 5 </center> | *4* - if the character rolls four ones, it misses.                    |
-| <center> 6 </center> | *4* - if the character rolls four ones, it misses.                    |
+| <center> 1 </center> | *n/a*, the attack always succeeds.                                     |
+| <center> 2 </center> | *2*, if the character rolls a two ones,  the attack misses.          |
+| <center> 3 </center> | *3*, if the character rolls three ones, it misses.                   |
+| <center> 4 </center> | *3*, if the character rolls three ones, it misses.                   |
+| <center> 5 </center> | *4*, if the character rolls four ones, it misses.                    |
+| <center> 6 </center> | *4*, if the character rolls four ones, it misses.                    |
 
 #### Retreating From An Encounter
 
