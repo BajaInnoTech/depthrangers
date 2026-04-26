@@ -393,7 +393,7 @@ This magical affinity also makes them immune to magical compulsion and mental ma
 
 ##### Elf Special Feature - Keen Senses
 
-Elven keen senses give them an edge when detecting secrets, gaining a *+1* to searching (particularly useful when detecting secret doors).
+Elven keen senses give them an edge when detecting secrets. Elves get a *+1* to search rolls.
 
 ##### Elf Special Feature - Keen Marksmanship
 
@@ -621,7 +621,7 @@ Rogues are able to use anything they find except for plate armor.
 
 ##### Rogue Boon - Expert Explorer
 
-Rogues get a *+1* to rolls when searching, dealing with traps and picking locks.
+Rogues get a *+1* to search, trap and lock picking rolls.
 
 ##### Rogue Boon - Sneak Attack
 
