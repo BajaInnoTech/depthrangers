@@ -951,7 +951,7 @@ To remove the poison, you can use an antidote, or have your healer purify your w
 
 A character with a minor injury will slow down the party, the party will expend 2 non combat events each time you travel to a visited location.
 
-This, injury is thankfully not serious: You can either...
+Thankfully, this injury is not serious: You can either...
 
 - use bandages for support and recover instantly, or
 - you can "walk it off" and heal it after having traveled a leg of your journey (decided by GM fiat).
