@@ -189,8 +189,8 @@ This short book describes the **DepthRangers** system. This is a rules-light com
       - [Non Combat Event](#non-combat-event)
       - [Hazard Die Roll](#hazard-die-roll)
     - [Searching](#searching)
-    - [Lock-picking](#lock-picking)
-    - [Trap Deactivation](#trap-deactivation)
+  - [Lock-picking](#lock-picking)
+  - [Trap Deactivation](#trap-deactivation)
     - [Lingering Status Effects](#lingering-status-effects)
       - [Bleeding Status](#bleeding-status)
       - [Diseased Status](#diseased-status)
@@ -888,27 +888,27 @@ Hazard Die Rolls depict events that take you by surprise when things seemed othe
 
 *<center>(5-character_level+dungeon_level)</center>*
 
-Elves and Rogues get a (cumulative) +1 to their roll when searching for secrets.
+Both Elves and Rogues get a *+1* to search rolls; an Elven Rogue will get a *+2* to search rolls.
 
 To detect a Secret Door you must perform a successful search.
 
 The process of searching is slow and counts as a non-combat event (for the purposes of hazard dice rolls).
 
-### Lock-picking
+## Lock-picking
 
-To pick a lock a player must throw a *1d6* and roll greater than 4. Rogues gain a +1, and Brownies also gain a +1 to lock-picking throws - these two bonuses are cumulative.
+To pick a lock a player must throw a *1d6* and roll greater than *4*. Rogues gain a *+1*, and Brownies also gain a *+1* to lock-picking throws. A Brownie Rogue gets a *+2* to lock picking rolls.
 
 The process of picking a lock takes time and counts as a non-combat event (for the purposes of hazard dice rolls).
 
 Also Picking a lock consumes a lock-pickers kit.
 
-### Trap Deactivation
+## Trap Deactivation
 
 Unless told otherwise, traps can usually be deactivated by all characters. However, in order to deactivate a trap, they must expend one set of thieves tools currently in their possession.
 
-To successfully disable a trap, you must throw a 1d6 and roll greater than 4. If you succeed you deactivated the trap otherwise the trap is sprung.
+To successfully disable a trap, you must throw a *1d6* and roll greater than *4*. If you succeed you deactivated the trap otherwise the trap is sprung.
 
-An attempt at trap deactivation will consume a set of thieves tools regardless of outcome. The character must have the tools in its possession (can't afford the time to borrow it from another player). Rogues get a +1 to trap deactivation.
+An attempt at trap deactivation will consume a set of thieves tools regardless of outcome. The character must have the tools in its possession (can't afford the time to borrow it from another player). Rogues get a *+1* to trap deactivation rolls.
 
 ### Lingering Status Effects
 
