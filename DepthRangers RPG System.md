@@ -157,6 +157,7 @@ This short book describes the **DepthRangers** system. This is a rules-light com
         - [Healer Boon - Enhanced Antibodies](#healer-boon---enhanced-antibodies)
         - [Healer Boon - Potion Mixer](#healer-boon---potion-mixer)
         - [Healer Boon - Expert Field Medic](#healer-boon---expert-field-medic)
+      - [Healer Boon - Knowledge Of Anesthetics](#healer-boon---knowledge-of-anesthetics)
       - [Healer Spell List](#healer-spell-list)
       - [Rogue](#rogue)
         - [Rogue Gear](#rogue-gear)
@@ -280,11 +281,11 @@ All characters have 3 types of saves:
 
 When asked to roll for a save a *d6* is thrown, if the value is equal to or greater than the character's save the save is successful otherwise it fails.
 
-While saves generally require a roll of 4 or greater, some races have bonuses and penalties that will change this amount. So be sure to account for these bonuses and penalties in your character sheet.
+While saves generally require a roll of *4* or greater, some races have bonuses and penalties that will change this amount. So be sure to account for these bonuses and penalties in your character sheet.
 
 #### Money
 
-The currency of this game is gold, and "g" is the unit. Your character starts out with *1d6\*20*g and will gain more gold from completing quests and selling items. You'll use this to purchase items, use services and even bribe receptive monsters into giving you information.
+The currency of this game is gold, and "*g*" is the unit. Your character starts out with *1d6\*20*g and will gain more gold from completing quests and selling items. You'll use this to purchase items, use services and even bribe receptive monsters into giving you information.
 
 #### Inventory
 
@@ -359,11 +360,11 @@ Humans can expend one of their *re-roll* dice to cure any status ailment.
 
 ##### Human Special Feature - Human Perseverance
 
-When a human character's HP goes down to 0, and they have remaining *re-roll* dice, they can expend one re-roll dice and recover *1d6* HP to keep going. They can choose to expend additional *re-roll* dice and recover additional *d6* HP during this process of recovery.
+When a human character's HP goes down to *0*, and they have remaining *re-roll* dice, they can expend one re-roll dice and recover *1d6* HP to keep going. They can choose to expend additional *re-roll* dice and recover additional *d6* HP during this process of recovery.
 
 ##### Human Special Feature - Human Intuition
 
-When a human makes a save roll of 6, they have a +1 to saves of that nature until the encounter or event is over.
+When a human makes a save roll of *6*, they have a *+1* to saves of that nature until the encounter or event is over.
 
 ##### Human Special Feature - Inspiring Determination
 
@@ -393,7 +394,7 @@ This magical affinity also makes them immune to magical compulsion and mental ma
 
 ##### Elf Special Feature - Keen Senses
 
-Elven keen senses give them an edge when detecting secrets, gaining a *+1* to searching (particularly useful when detecting secret doors).
+Elven keen senses give them an edge when detecting secrets. Elves get a *+1* to search rolls.
 
 ##### Elf Special Feature - Keen Marksmanship
 
@@ -405,7 +406,7 @@ Dwarfs are hardier than their peers, but not as dexterous.
 
 ##### Dwarf Saves
 
-Their resilient body grants them a *-2* boon to body saves (meaning they rolling a 2 or greater is a successful body save), but their stubby limbs impose on them a *+1* penalty to dex (meaning you must roll 5 or higher to succeed on a *dex save*).
+Their resilient body grants them a *-2* boon to body saves (meaning that rolling a *2* or greater is considered a successful body save), but their stubby limbs impose on them a *+1* penalty to dex (meaning you must roll *5* or higher to succeed on a *dex save*).
 
 ##### Dwarf Classes
 
@@ -598,6 +599,10 @@ Healers can combine the positive attributes of two bottles into a single bottle,
 
 Healers are the only ones who can freely use curative items on others in the middle of battle.
 
+#### Healer Boon - Knowledge Of Anesthetics
+
+Upon reaching level 3, a Healer has mastered sleeping potions and can use them as a localized anesthetic, relieving some of the burden of fatigue. A healer can use a sleeping potion to restore a fatigued slot *(character_level)* times.
+
 #### Healer Spell List
 
 - **Heal party**: Heals all party members in a room *(character_level+1)d6/2* HP.
@@ -621,7 +626,7 @@ Rogues are able to use anything they find except for plate armor.
 
 ##### Rogue Boon - Expert Explorer
 
-Rogues get a *+1* to rolls when searching, dealing with traps and picking locks.
+Rogues get a *+1* to search, trap and lock picking rolls.
 
 ##### Rogue Boon - Sneak Attack
 
@@ -666,6 +671,7 @@ This is a list of all the items you can find across the market's many shops. Thi
   - Each character must consume one set of rations per rest to gain its benefits.
   - Brownies can use rations to persuade animals.
   - You can store 5 rations per slot.
+  - Rations can also be used during short breaks, if the characters can find 10 minutes of peace they can optionally eat 1 provision of rations. Eating a portion of rations will recover *(character_level)* HP and remove *1* round of fatigue (recover 1 fatigued slot). Note that you can't eat two consecutive sets of rations and must venture out exploring before eating again (after all you don't want to battle heartburn while fighting monsters).
 - **Torches**: They are used to see at a distance (30 ft radius), though monsters can see you as well. Torches are sold in sets of 3 and cost 5g
   - One character in your party must carry a torch instead of a shield or two handed weapon.
   - You can store 5 torches per slot.
@@ -829,12 +835,12 @@ When you roll *(character_level)/2+1* one's, that character misses. That is, it 
 
 | **Character Level**  | **Number Of Ones Rolled That Cause The Character To Miss An Attack**  |
 | -------------------- | --------------------------------------------------------------------- |
-| <center> 1 </center> | *1* - if the character rolls a single one, the attack misses.         |
-| <center> 2 </center> | *1* - if the character rolls a single one, the attack misses.         |
-| <center> 3 </center> | *2* - if the character rolls two ones, the attack misses.             |
-| <center> 4 </center> | *2* - if the character rolls two ones, the attack misses.             |
-| <center> 5 </center> | *3* - if the character rolls three ones, the attack misses.           |
-| <center> 6 </center> | *3* - if the character rolls three ones, the attack misses.           |
+| <center> 1 </center> | *1*, if the character rolls a single one, the attack misses.         |
+| <center> 2 </center> | *1*, if the character rolls a single one, the attack misses.         |
+| <center> 3 </center> | *2*, if the character rolls two ones, the attack misses.             |
+| <center> 4 </center> | *2*, if the character rolls two ones, the attack misses.             |
+| <center> 5 </center> | *3*, if the character rolls three ones, the attack misses.           |
+| <center> 6 </center> | *3*, if the character rolls three ones, the attack misses.           |
 
 <div class="page"/>
 
@@ -846,12 +852,12 @@ A two handed sword allows you to ignore one of these rolls, when you roll *(char
 
 | **Character Level**  | **Number Of Ones Rolled That Cause The Character To Miss An Attack**  |
 | -------------------- | --------------------------------------------------------------------- |
-| <center> 1 </center> | *n/a* - the attack always succeeds.                                     |
-| <center> 2 </center> | *2* - if the character rolls a two ones,  the attack misses.          |
-| <center> 3 </center> | *3* - if the character rolls three ones, it misses.                   |
-| <center> 4 </center> | *3* - if the character rolls three ones, it misses.                   |
-| <center> 5 </center> | *4* - if the character rolls four ones, it misses.                    |
-| <center> 6 </center> | *4* - if the character rolls four ones, it misses.                    |
+| <center> 1 </center> | *n/a*, the attack always succeeds.                                     |
+| <center> 2 </center> | *2*, if the character rolls a two ones,  the attack misses.          |
+| <center> 3 </center> | *3*, if the character rolls three ones, it misses.                   |
+| <center> 4 </center> | *3*, if the character rolls three ones, it misses.                   |
+| <center> 5 </center> | *4*, if the character rolls four ones, it misses.                    |
+| <center> 6 </center> | *4*, if the character rolls four ones, it misses.                    |
 
 #### Retreating From An Encounter
 
@@ -887,7 +893,7 @@ Hazard Die Rolls depict events that take you by surprise when things seemed othe
 
 *<center>(5-character_level+dungeon_level)</center>*
 
-Elves and Rogues get a (cumulative) +1 to their roll when searching for secrets.
+Both Elves and Rogues get a *+1* to search rolls; an Elven Rogue will get a *+2* to search rolls.
 
 To detect a Secret Door you must perform a successful search.
 
@@ -895,7 +901,7 @@ The process of searching is slow and counts as a non-combat event (for the purpo
 
 ### Lock-picking
 
-To pick a lock a player must throw a *1d6* and roll greater than 4. Rogues gain a +1, and Brownies also gain a +1 to lock-picking throws - these two bonuses are cumulative.
+To pick a lock a player must throw a *1d6* and roll greater than *4*. Rogues gain a *+1*, and Brownies also gain a *+1* to lock-picking throws. A Brownie Rogue gets a *+2* to lock picking rolls.
 
 The process of picking a lock takes time and counts as a non-combat event (for the purposes of hazard dice rolls).
 
@@ -905,12 +911,11 @@ Also Picking a lock consumes a lock-pickers kit.
 
 Unless told otherwise, traps can usually be deactivated by all characters. However, in order to deactivate a trap, they must expend one set of thieves tools currently in their possession.
 
-To successfully disable a trap, you must throw a 1d6 and roll greater than 4. If you succeed you deactivated the trap otherwise the trap is sprung.
+To successfully disable a trap, you must throw a *1d6* and roll greater than *4*. If you succeed you deactivated the trap otherwise the trap is sprung. Failure to deactivate the trap means all characters must save against the trap to avoid its effects.
 
-An attempt at trap deactivation will consume a set of thieves tools regardless of outcome. The character must have the tools in its possession (can't afford the time to borrow it from another player). Rogues get a +1 to trap deactivation.
+An attempt at trap deactivation will consume a set of thieves tools regardless of outcome. The character must already have the set of thief's tools in its possession, there is just not enough time to borrow the tools from another player. Rogues get a *+1* to trap deactivation rolls.
 
 ### Lingering Status Effects
-
 
 - [bleeding status](#bleeding-status)
 - [diseased status](#diseased-status)
@@ -932,7 +937,7 @@ To cure disease, you can drink medicine (which will remove the status effect but
 
 #### Poisoned Status
 
-If your character is poisoned, it will become weakened and walk slower; forcing the party to expend 2 non combat events each time you travel to a visited location. A poisoned character will roll a *d6* every time a hazard die is thrown, on a roll of 1 they will receive -*(poisoned_level)* damage.
+If your character is poisoned, it will become weakened and walk slower; forcing the party to expend 2 non combat events each time you travel to a visited location. A poisoned character will roll a *d6* every time a hazard die is thrown, on a roll of 1 they will receive *(poisoned_level)* damage.
 
 **poisoned_level**: When you're poisoned, note the *monster_level* of the creature that poisoned you. This will be your: "*poisoned_level*".
 
@@ -946,14 +951,14 @@ To remove the poison, you can use an antidote, or have your healer purify your w
 
 A character with a minor injury will slow down the party, the party will expend 2 non combat events each time you travel to a visited location.
 
-This, injury is thankfully not serious: You can either...
+Thankfully, this injury is not serious: You can either...
 
 - use bandages for support and recover instantly, or
 - you can "walk it off" and heal it after having traveled a leg of your journey (decided by GM fiat).
 
 #### Fatigue
 
-A round of fatigue forces you to lose one inventory slot. Fatigue is cumulative, and can only be fully restored upon rest, and partially restored (a single slot) by consuming a tonic. Players are free to choose which slot is afflicted by fatigue (so I suggest starting with the free slots).
+A round of fatigue forces you to lose one inventory slot. Fatigue is cumulative, meaning each round of fatigue makes you lose an additional slot, and can only be fully restored upon rest, and partially restored (a single slot) by consuming a tonic. Players are free to choose which slot is afflicted by fatigue (so I suggest starting with the free slots).
 
 ### Resting
 
