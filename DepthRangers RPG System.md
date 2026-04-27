@@ -110,7 +110,7 @@ This short book describes the **DepthRangers** system. This is a rules-light com
           - [Re-Roll Dice](#re-roll-dice)
         - [Human Special Feature - Mind Over Body](#human-special-feature---mind-over-body)
         - [Human Special Feature - Human Perseverance](#human-special-feature---human-perseverance)
-      - [Human Special Feature - Human Intuition](#human-special-feature---human-intuition)
+        - [Human Special Feature - Human Intuition](#human-special-feature---human-intuition)
         - [Human Special Feature - Inspiring Determination](#human-special-feature---inspiring-determination)
       - [Elf](#elf)
         - [Elf Saves](#elf-saves)
@@ -190,8 +190,8 @@ This short book describes the **DepthRangers** system. This is a rules-light com
       - [Non Combat Event](#non-combat-event)
       - [Hazard Die Roll](#hazard-die-roll)
     - [Searching](#searching)
-  - [Lock-picking](#lock-picking)
-  - [Trap Deactivation](#trap-deactivation)
+    - [Lock-picking](#lock-picking)
+    - [Trap Deactivation](#trap-deactivation)
     - [Lingering Status Effects](#lingering-status-effects)
       - [Bleeding Status](#bleeding-status)
       - [Diseased Status](#diseased-status)
@@ -362,7 +362,7 @@ Humans can expend one of their *re-roll* dice to cure any status ailment.
 
 When a human character's HP goes down to *0*, and they have remaining *re-roll* dice, they can expend one re-roll dice and recover *1d6* HP to keep going. They can choose to expend additional *re-roll* dice and recover additional *d6* HP during this process of recovery.
 
-#### Human Special Feature - Human Intuition
+##### Human Special Feature - Human Intuition
 
 When a human makes a save roll of *6*, they have a *+1* to saves of that nature until the encounter or event is over.
 
@@ -899,7 +899,7 @@ To detect a Secret Door you must perform a successful search.
 
 The process of searching is slow and counts as a non-combat event (for the purposes of hazard dice rolls).
 
-## Lock-picking
+### Lock-picking
 
 To pick a lock a player must throw a *1d6* and roll greater than *4*. Rogues gain a *+1*, and Brownies also gain a *+1* to lock-picking throws. A Brownie Rogue gets a *+2* to lock picking rolls.
 
@@ -907,7 +907,7 @@ The process of picking a lock takes time and counts as a non-combat event (for t
 
 Also Picking a lock consumes a lock-pickers kit.
 
-## Trap Deactivation
+### Trap Deactivation
 
 Unless told otherwise, traps can usually be deactivated by all characters. However, in order to deactivate a trap, they must expend one set of thieves tools currently in their possession.
 
