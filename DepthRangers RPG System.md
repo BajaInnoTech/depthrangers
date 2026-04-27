@@ -98,7 +98,7 @@ This short book describes the **DepthRangers** system. This is a rules-light com
       - [HP](#hp)
       - [Armor Class](#armor-class)
       - [Saves](#saves)
-    - [Money](#money)
+      - [Money](#money)
       - [Inventory](#inventory)
       - [Starting Gear](#starting-gear)
     - [Races](#races)
@@ -283,7 +283,7 @@ When asked to roll for a save a *d6* is thrown, if the value is equal to or grea
 
 While saves generally require a roll of *4* or greater, some races have bonuses and penalties that will change this amount. So be sure to account for these bonuses and penalties in your character sheet.
 
-### Money
+#### Money
 
 The currency of this game is gold, and "*g*" is the unit. Your character starts out with *1d6\*20*g and will gain more gold from completing quests and selling items. You'll use this to purchase items, use services and even bribe receptive monsters into giving you information.
 
