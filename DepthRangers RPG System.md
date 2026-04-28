@@ -1,4 +1,4 @@
-<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Metamorphous&family=New+Rocker&family=Uncial+Antiqua&display=swap" rel="stylesheet">
 
@@ -68,7 +68,7 @@ strong {
 em, figcaption {
 	color:rgb(4, 17, 71);
 }
-</style> -->
+</style>
 
 DepthRangers RPG System Handbook
 ==============
@@ -83,7 +83,7 @@ DepthRangers RPG System Handbook
 ***<center>Illustrations</center>***
 <center>Ehira A. Lira</center>
 
-**<center>v 1.1</center>**
+**<center>v 1.11</center>**
 
 Welcome to the **DepthRangers** guild, where we handle all sorts of underground exploration requests. From a lost pet, to making contact with an unknown plane of existence. This job is its own reward, though the riches found along the way provide an extra motivation.
 
