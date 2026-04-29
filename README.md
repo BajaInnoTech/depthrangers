@@ -4,6 +4,23 @@
 
 **DepthRangers**'s focus is on fast combat-heavy gameplay; yet is flexible enough to provide varied experiences, as well as light RPG flavoring.
 
+## Playing DepthRangers
+
+**DepthRangers** is an RPG System with which you can build your own campaigns, however we have a campaign available here at GitHub that includes all the information on this Handbook and everything required to play linked below:
+
+**[The Hunt For The Treasure Of Aural Hall](https://github.com/BajaInnoTech/hunt_for_the_treasure_of_aural_hall)**
+
+If you instead wish to see the handbook itself, you can:
+
+* [To view this Handbook in your Browser as HTML click here](https://bajainnotech.github.io/depthrangers/index.html), or...
+* [To view (and optionally download) this as a PDF here](https://bajainnotech.github.io/depthrangers/DepthRangers%20RPG%20System.pdf).
+
+You can also choose to [visit (and play) DepthRangers on Itch.io](https://bitmysteries.itch.io/depthrangers).
+
+Finally, [we have a Discord server available to roll dice](https://discord.gg/wwRY2vEBK).
+
+* For security purposes, we do have a strict policy of not asking users to install software please report anyone who does - ourselves included, Thanks!
+
 ## Who created this?
 
 This System is a [BIT Mysteries Product](https://bajainnotech.github.io/bit-mysteries/), created by Eduardo del Corral, Ehira Lira & Hyunjin Oh.
@@ -20,7 +37,7 @@ We're glad to have completed this system, and wish to share it with as many as p
 
 ## Release Version of This System
 
-**DepthRangers** current version is **v1.0**.
+**DepthRangers** current version is **v1.1.1**.
 
 ## License and legal
 

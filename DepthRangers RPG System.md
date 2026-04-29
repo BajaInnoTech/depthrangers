@@ -83,7 +83,7 @@ DepthRangers RPG System Handbook
 ***<center>Illustrations</center>***
 <center>Ehira A. Lira</center>
 
-**<center>v 1.1</center>**
+**<center>v 1.1.1</center>**
 
 Welcome to the **DepthRangers** guild, where we handle all sorts of underground exploration requests. From a lost pet, to making contact with an unknown plane of existence. This job is its own reward, though the riches found along the way provide an extra motivation.
 
@@ -642,11 +642,11 @@ Starting at level 2, Rogues are able to use scrolls or wands with a proficiency 
 
 Revive scrolls require 2 consecutive successful *magic saves* to succeed.
 
+<div class="page"/>
+
 ## Game Mechanics
 
 The world of the **DepthRangers** is one fraught with peril, and opportunity. Some of the most important things to keep in mind are detailed below...
-
-<div class="page"/>
 
 ### Marketplace Wares
 
