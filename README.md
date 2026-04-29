@@ -4,7 +4,7 @@
 
 **DepthRangers**'s focus is on fast combat-heavy gameplay; yet is flexible enough to provide varied experiences, as well as light RPG flavoring.
 
-## Playing DepthRangers
+## How To Play DepthRangers?
 
 **DepthRangers** is an RPG System with which you can build your own campaigns, however we have a campaign available here at GitHub that includes all the information on this Handbook and everything required to play linked below:
 
