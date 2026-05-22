@@ -420,6 +420,8 @@ They are limited only by their class.
 
 They are almost entirely immune to poison, there are rumors of certain beings able to poison dwarfs but those rumors are generally dismissed.
 
+<div class="page"/>
+
 ##### Dwarf Special Feature - Dwarven Resilience
 
 Dwarfs have *+1 HP* each level.
@@ -509,62 +511,6 @@ When engaged in melee combat, and landing a critical attack. If the target is a 
 
 <div class="page"/>
 
-#### Mage
-
-<figure>
-  <center><img src="./images/mage.png" height="400" alt="An experienced mage lost in thought."></center>
-  <i><center><figcaption>Mages can help turn the tide of a battle.</figcaption></center></i>
-</figure>
-
-Mages are versatile casters capable of offensive and defensive magic. They start with two spell slots and gain an additional spell per level. As mages level up, not only do they gain more spell slots, some of the spells in their possession also become more powerful. When casting, the slot used does not matter, what matters is the Mage’s level.
-
-While extremely versatile and powerful, Mages require preparing ahead of time. They must first assign a known spell to a slot before it can be cast. Upon resting, Mages recover all their spells and can reassign known spells to their slots.
-
-<div class="page"/>
-
-##### Mage Gear
-
-Mages are unable to use 2 handed weapons, and they can only equip Bringadines as armor.
-
-##### Mage Boon - Universal Scroll & Wand Casting
-
-Mages can use any scroll to cast a spell. However using a scroll consumes it.
-
-Similarly, a Mage is able to use a wand if found.
-
-##### Mage Boon - Magic Scholar
-
-Mages can learn new spells from scrolls found in their adventures (unfortunately, the ones sold in the market are only good enough for casting not studying). They learn new spells when they bring a scroll of an unknown spell to the surface.
-
-##### Mage Boon - Magical Attunement
-
-Due to their mastery of magic, mages can re-roll magic save die that land on one.
-
-##### Mage Spell List
-
-- **Invigorate**: Increases the party's melee & ranged combat output by +*character_level* for the rest of the battle.
-  - Both Mages & Healers can read a scroll with this spell.
-- **Protection**: Increases the party's Armor Class by +*character_level* for the rest of the battle.
-  - Both Mages & Healers can read a scroll with this spell.
-- **Restore Vitality**: Target recovers *(character_level)d6* HP.
-  - Both Mages & Healers can read a scroll with this spell.
-- **Revive**: Resurrects a fallen character to *(1d6+character_level+1)* HP.
-  - Unless the party is at a rest spot, it requires a magic save to succeed.
-  - Scrolls of this spell are rare, and can only be found in special chests and sold by magical/special item vendors.
-  - Both Mages & Healers can read a scroll with this spell.
-- **Fireball**: Launches an exploding ball of fire damaging all monsters in the room by *((1+character_level)d6)/2+character_level*.
-  - Half damage on monster save, which is a roll of *(2+character_level-monster_level)*.
-  - Only Mages can read a scroll with this spell.
-- **Illuminate**: Can be used instead of torches to illuminate your surroundings.
-  - Lasts for *2\*(character_level)* hours.
-  - Dispels upon resting.
-  - Only Mages can read a scroll with this spell.
-- **Invisibility**: Target is invisible for 3 rounds, meaning they get no damage from melee or ranged enemy attacks.
-  - Rogues automatically perform sneak attacks when their target is susceptible.
-  - Only Mages can read a scroll with this spell.
-- **Stop**: Target remains immobilized for *(character_level-monster_level+1)* turns.
-  - Only Mages can read a scroll with this spell.
-
 #### Healer
 
 Healers are casters focused on defensive magic. Healers start with two spell slots and gain an additional spell per level. As they level up, not only do they gain more spell slots, some spells also become more powerful (what matters is the Healer’s level not the specific slot used). Upon resting, Healers recover all their spell slots.
@@ -599,17 +545,187 @@ Healers can combine the positive attributes of two bottles into a single bottle,
 
 Healers are the only ones who can freely use curative items on others in the middle of battle.
 
-#### Healer Boon - Knowledge Of Anesthetics
+##### Healer Boon - Knowledge Of Anesthetics
 
 Upon reaching level 3, a Healer has mastered sleeping potions and can use them as a localized anesthetic, relieving some of the burden of fatigue. A healer can use a sleeping potion to restore a fatigued slot *(character_level)* times.
 
-#### Healer Spell List
+<div class="page"/>
+
+##### Healer Spell List
 
 - **Heal party**: Heals all party members in a room *(character_level+1)d6/2* HP.
 - **Aura of light**: Allows the party to see in the dark for *((character_level)/2+1)* floors, providing illumination, additionally it grants the party +*(character_level/2+1)* AC vs undead.
 - **Purify**: Neutralizes poison, heals sickness and reverses expiration to a character's items.
 - **See hidden**: Adds a *+2* to a search and trap disablement rolls.
 - **Enhanced Alacrity**: Provides the party a *+1* to dex rolls and reduces miss die roll by one for one encounter (can be used for trap saves or other similar events).
+
+<div class="page"/>
+
+#### Mage
+
+<figure>
+  <center><img src="./images/mage.png" height="400" alt="An experienced mage lost in thought."></center>
+  <i><center><figcaption>Mages can help turn the tide of a battle.</figcaption></center></i>
+</figure>
+
+Mages are versatile casters capable of offensive and defensive magic. They start with two spell slots and gain an additional spell per level. As mages level up, not only do they gain more spell slots, some of the spells in their possession also become more powerful. When casting, the slot used does not matter, what matters is the Mage’s level.
+
+While extremely versatile and powerful, Mages require preparing ahead of time. They must first assign a known spell to a slot before it can be cast. Upon resting, Mages recover all their spells and can reassign known spells to their slots.
+
+<div class="page"/>
+
+##### Mage Gear
+
+Mages are unable to use 2 handed weapons, and they can only equip Bringadines as armor.
+
+##### Mage Boon - Universal Scroll & Wand Casting
+
+Mages can use any scroll to cast a spell. However using a scroll consumes it.
+
+Similarly, a Mage is able to use a wand if found.
+
+##### Mage Boon - Magic Scholar
+
+Mages can learn new spells from scrolls found in their adventures (unfortunately, the ones sold in the market are only good enough for casting not studying). They learn new spells when they bring a scroll of an unknown spell to the surface.
+
+##### Mage Boon - Magical Attunement
+
+Due to their mastery of magic, mages can re-roll magic save die that land on one.
+
+<div class="page"/>
+
+##### Mage Spell List
+
+- **Invigorate**: Increases the party's melee & ranged combat output by +*character_level* for the rest of the battle.
+  - Both Mages & Healers can read a scroll with this spell.
+- **Protection**: Increases the party's Armor Class by +*character_level* for the rest of the battle.
+  - Both Mages & Healers can read a scroll with this spell.
+- **Restore Vitality**: Target recovers *(character_level)d6* HP.
+  - Both Mages & Healers can read a scroll with this spell.
+- **Revive**: Resurrects a fallen character to *(1d6+character_level+1)* HP.
+  - Unless the party is at a rest spot, it requires a magic save to succeed.
+  - Scrolls of this spell are rare, and can only be found in special chests and sold by magical/special item vendors.
+  - Both Mages & Healers can read a scroll with this spell.
+- **Fireball**: Launches an exploding ball of fire damaging all monsters in the room by *((1+character_level)d6)/2+character_level*.
+  - Half damage on monster save, which is a roll of *(2+character_level-monster_level)*.
+  - Only Mages can read a scroll with this spell.
+
+<div class="page"/>
+
+- **Illuminate**: Can be used instead of torches to illuminate your surroundings.
+  - Lasts for *2\*(character_level)* hours.
+  - Dispels upon resting.
+  - Only Mages can read a scroll with this spell.
+- **Invisibility**: Target is invisible for 3 rounds, meaning they get no damage from melee or ranged enemy attacks.
+  - Rogues automatically perform sneak attacks when their target is susceptible.
+  - Only Mages can read a scroll with this spell.
+- **Stop**: Target remains immobilized for *(character_level-monster_level+1)* turns.
+  - Only Mages can read a scroll with this spell.
+
+<div class="page"/>
+
+#### Paladin
+
+<figure>
+  <center><img src="./images/paladin.png" height="300" alt="A fully armored paladin stands alert."></center>
+  <i><center><figcaption>Paladins bring the might of their faith to the service of the party.</figcaption></center></i>
+</figure>
+
+Paladins are warriors whose might is directly related to their faith and piety. They are at their best when properly equipped and engaged in hand to hand combat. While they lack the tactical expertise of other combatants such as *Fighters*, they make up for this with strength gained through the might of their faith.
+
+##### Paladin Gear
+
+Paladins are capable combatants trained to use all sorts of armor and weapons they find. However, not all abilities will be available to them unless they are equipped with a helmet, plate armor and wield either a single or two handed weapon.
+
+<div class="page"/>
+
+Because of this, *Brownies* are discouraged from taking this Class given their limitations that make permanently unable from benefiting from some of this class's boons.
+
+##### Paladin Boon - Resistant to Evil
+
+Paladins are shielded from undead and any purely evil compulsion. Any attempt to manipulate a Paladin's mind by them will be piously yet severely punished.
+
+##### Paladin Boon - Holy Aura
+
+Paladins boost morale and defenses due to the influence of their holy aura, gaining and providing everyone in the party with a *+1* on any rolls against mental compulsion and resisting disease regardless of the type of adversary.
+
+##### Paladin Boon - Armor of Purity
+
+Paladins who are properly equipped with a melee weapon, full plate and helmet get and provide additional defensive bonuses.
+
+Paladins gain:
+
+- A +*character_level* AC bonus, regardless of the nature of the opponent.
+- +*(1+character_level/2)* bonus to save rolls when fighting *undead* or inherently *evil* monsters.
+
+<div class="page"/>
+
+Additionally, they provide the party:
+
+- A +*(1+character_level/3)* AC bonus against purely evil and undead opponents.
+
+To clarify, all their equipment requirements must be met for this boon to apply. If the *Paladin* lacks a weapon, or is using a ranged weapon, or **any** part of their armor is lacking then they loose all benefits in this boon.
+
+##### Paladin Boon - Channel Divine Favor
+
+A *Paladin* equipped with a single or two handed weapon can channel divine favor by means of prayer. Palainds can make use of this boon *character_level* times, recovering one per rest and all upon leaving the Dungeon.
+
+These boons are:
+
+- *Blessing*: Provides a *+1* to a fellow party member's saving throw. This boon can be applied during someone else's turn, but it MUST be applied before rolling dice, otherwise it's too late and it has no effect.
+- *Center Mind*: This boon can free a teammate from the effects of compulsion leaving no secondary/after effects, effectively neutralizing that compulsion attack.
+- *Purify*: A Paladin rolls one *d6*, on a roll of *(4+dungeon_level-character_level)* a character is cleared of poison or disease (just one). *poisoned_level* has no effect on these calculations.
+- *Sacred Healing*: A Paladin can pray for recovery, restoring +*(character_level)* HP to a party member. However if this party member consumes a healing potion instead it recovers *(character_level/2+1)d6* HP as the contents of the bottle are now blessed. To do this, the boon must be applied during that character's turn and the character must choose to drink a potion as its action.
+- *Armor Of Faith*: One of your party members is afforded sacred protection for *character_level* rounds of +*(1+character_level/2)* AC and +*(1+character_level/2)* to saves. This can only be used during battle, and only on the Paladin's turn, causing the Paladins to lose that round, and spend the next one in prayer.
+- *Cleansing Light*: The Paladin unleashes a purifying wave of light that inflicts *(character_level)d6* Damage to any evil or hostile undead nearby (no save). However, this attack comes at a steep cost as the Paladin endures a tremendous sacrifice to purify its surroundings causing *(1+character_level/2)* damage.
+
+If a Paladin activates one of these boons during battle then it must spend its next turn in prayer - the Paladin will not be able to perform any action. The benefits remain even if the Paladin is slain.
+
+To Perform A Paladin MUST be equipped with a single or two handed weapon, as they use their weapon as a means to channel divine energy.
+
+<div class="page"/>
+
+##### Paladin Boon - Purity Of Body
+
+Paladins are immune to disease.
+
+##### Paladin Boon - Radiant Health
+
+*Healers* gain *(character_level+1)/2* healing with any item or spell they use. This benefit does not extend to any other class.
+
+##### Paladin Boon - Call For Battle
+
+Melee combatants gain *(character_level+1)/2* to damage.
+
+##### Paladin Boon - Preserve Good
+
+They are extremely vulnerable to attack by anything holy or divine as they are close to forbidden to raise arms against them. All their collective boons against undead and evil gain a negative value. And roll against *2* instead of *1* for miss die calculation purposes.
+
+If their boons make their total AC negative, they will incur AC damage each round.
+
+##### Paladin Boon - Rigid Resilience
+
+Paladins training grants them extraordinary resilience, however this comes at the cost of a modicum of dexterity. They have a *+1* penalty to *dex saves*.
+
+<div class="page"/>
+
+##### Paladin Boon - Inflexible Diplomacy
+
+Paladins are very strict when it comes to social interactions. They are unwilling to have any kind of diplomatic relations with certain classes of monsters:
+
+- *Undead*: Paladins are irritated by their aura and will attack undead on the spot. Any friendly undead will steer clear of your party.
+- *Fiends*: A Paladin will never talk to or capture a fiend, but attempt to slay them instead. Even when a fiend is helpless, to a Paladin they are abominations and their existence is a menace in itself.
+
+Additionally, Paladins shun bribery choosing to intimidate instead. This uncharitable righteousness makes it hard for them to relate with certain monsters:
+
+- *Orcs*: Orcs will only be willing to ignore a party on a roll of *6* regardless of who does the talking. However Orcs being fearless means that as long as a Paladin does the talking, they will neither provide clues nor assistance.
+- *Goblins*: Goblins are easily frightened and will only be friendly on a roll of *6* regardless of who does the talking. However they are cowardly enough to be subdued into revealing clues.
+
+<div class="page"/>
+
+##### Paladin Boon - Self Sacrifice
+
+A Paladin can absorb half of the damage inflicted to a party member from a trap or event, and once per battle from an enemy.
 
 #### Rogue
 
@@ -1059,11 +1175,15 @@ Goblins have *1d6* HP, but they attack in packs of *(monster_level+party_size)*.
 
 **Strength In Numbers:** Goblins inflict *1d6* damage when on their own. However when within the proximity of an another Goblin (there's more than one Goblin left) they instead inflict *(monster_level+number_of_goblins+1)+1d6* HP damage.
 
+<div class="page"/>
+
 **Underhanded Tactics:** When there's than more than one Goblin adversary, upon landing a critical hit, another Goblin in its party is incentivized to take advantage of the distraction and attack the character with the least HP. This attack can potentially trigger an indefinite number of additional *Underhanded Tactics* attacks on consecutive critical attacks.
 
 **Rejection Of Fairness:** When the number of goblins left is lower than your party size, a Goblin will escape on a missed attack.
 
 Roll a reaction dice when encountering goblins, when uncertain pay *(monster_level+1)\*100*g to bribe them.
+
+<div class="page"/>
 
 #### <center>Mimic</center>
 
@@ -1080,8 +1200,6 @@ When a mimic has already latched, the player must now roll a body save (raw stre
 
 **Self Preservation**: When a mimic's life is reduced to *(dungeon_level+1)* HP it will immediately escape.
 
-<div class="page"/>
-
 #### <center>Orc</center>
 
 <figure>
@@ -1091,6 +1209,8 @@ When a mimic has already latched, the player must now roll a body save (raw stre
 
 Orcs attack in small hunting parties of size *(party_size)/2+1*, and have *(monster_level+1)d6* HP inflicting the same amount of damage. They have an accuracy equivalent to a character using a two handed weapon [see two handed weapon accuracy (remember to add +1 to the monster level)](#two-handed-weapons-accuracy).
 
+<div class="page"/>
+
 **Bloodlust:** Upon performing a critical attack, the target must perform a body save or suffer from [bleeding](#bleeding-status). Additionally, the thrill will propel an Orc to perform a second attack against the same or another target. Each attack has a chance at activating an indefinitely long chain of bloodlust attacks.
 
 **Payback:** Upon receiving a critical attack, the enraged Orc will strike the opponent back, potentially triggering bloodlust when landing a critical attack to the attacker.
@@ -1098,6 +1218,8 @@ Orcs attack in small hunting parties of size *(party_size)/2+1*, and have *(mons
 **Last Stand:** When an Orc only has *(monster_level+1)* HP left or is the last Orc left alive, it can crit on attacks that use 4s as well as 5s and 6s.
 
 Roll a reaction dice when encountering orcs, when persuadable pay *(monster_level+1)* rations plus *(monster_level+1)\*100g*.
+
+<div class="page"/>
 
 #### <center>Skeleton</center>
 
@@ -1155,6 +1277,11 @@ Monsters  may react in a non-hostile manner (or not); some monsters will only re
 ## Traps
 
 You'll find many perilous traps underground:
+
+<figure>
+  <center><img src="./images/traps.png" height="300" alt="Various traps super impossed, from poison spikes to deadly gas to a pit opening."></center>
+  <i><center><figcaption>Traps can be sprung at any time for every reason. One can't lower their guard within the dungeon.</figcaption></center></i>
+</figure>
 
 ### Pit Trap
 

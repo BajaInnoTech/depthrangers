@@ -629,15 +629,15 @@ em, figcaption {
 <li><a href="#calculating-monster-stats">Calculating Monster Stats</a></li>
 <li><a href="#monsters">Monsters</a>
 <ul>
-<li><a href="#bat">Bat</a></li>
-<li><a href="#black-ooze">Black Ooze</a></li>
-<li><a href="#dragon">Dragon</a></li>
-<li><a href="#goblin">Goblin</a></li>
-<li><a href="#mimic">Mimic</a></li>
-<li><a href="#orc">Orc</a></li>
-<li><a href="#skeleton">Skeleton</a></li>
-<li><a href="#spider">Spider</a></li>
-<li><a href="#snake">Snake</a></li>
+<li><a href="#centerbatcenter">Bat</a></li>
+<li><a href="#centerblack-oozecenter">Black Ooze</a></li>
+<li><a href="#centerdragoncenter">Dragon</a></li>
+<li><a href="#centergoblincenter">Goblin</a></li>
+<li><a href="#centermimiccenter">Mimic</a></li>
+<li><a href="#centerorccenter">Orc</a></li>
+<li><a href="#centerskeletoncenter">Skeleton</a></li>
+<li><a href="#centerspidercenter">Spider</a></li>
+<li><a href="#centersnakecenter">Snake</a></li>
 </ul>
 </li>
 <li><a href="#enemy-reactions">Enemy Reactions</a></li>
@@ -820,6 +820,33 @@ All characters have 3 types of saves:</p>
 <p>Fighters gain an additional <em>+3 HP</em> on level 1, and an additional <em>+1 HP</em> every odd level (3, 5, etc).</p>
 <h5 id="fighter-boon---overwhelming-tactics">Fighter Boon - Overwhelming Tactics</h5>
 <p>When engaged in melee combat, and landing a critical attack. If the target is a &quot;regular sized&quot; &amp; &quot;non-undead&quot; humanoid, Fighters will overwhelm their opponent knocking them violently to the ground. The target remains stunned and inactive for one round.</p>
+<h4 id="healer">Healer</h4>
+<p>Healers are casters focused on defensive magic. Healers start with two spell slots and gain an additional spell per level. As they level up, not only do they gain more spell slots, some spells also become more powerful (what matters is the Healer’s level not the specific slot used). Upon resting, Healers recover all their spell slots.</p>
+<h5 id="healer-gear">Healer Gear</h5>
+<p>Healers are able to use any armor they find, however they can't use 2 handed weapons.</p>
+<h5 id="healer-boon---innate-use-of-magic">Healer Boon - Innate Use Of Magic</h5>
+<p>Healers know all Healer spells from the start and can cast them from any slot at any given time.</p>
+<h5 id="healer-boon---party-focused-scroll--wand-casting">Healer Boon - Party Focused Scroll &amp; Wand Casting</h5>
+<p>Healers can use mage scrolls, however they can only use scrolls that target other party members.</p>
+<h5 id="healer-boon---improved-mending">Healer Boon - Improved Mending</h5>
+<p>Healers heal <em>(1+character_level)</em> HP each time they use a bandage, and gain a +<em>(character_level)/2</em> bonus when using an antidote to neutralize poison.</p>
+<p>Additionally,from level 2 onwards healers heal an additional <em>+(character_level/2)d6</em> HP when using a Healing Potion.</p>
+<h5 id="healer-boon---enhanced-antibodies">Healer Boon - Enhanced Antibodies</h5>
+<p>Healers are immune to sickness and can't be afflicted by a diseased status.</p>
+<h5 id="healer-boon---potion-mixer">Healer Boon - Potion Mixer</h5>
+<p>Healers can combine the positive attributes of two bottles into a single bottle, though they must roll a successful magic save each time.</p>
+<h5 id="healer-boon---expert-field-medic">Healer Boon - Expert Field Medic</h5>
+<p>Healers are the only ones who can freely use curative items on others in the middle of battle.</p>
+<h5 id="healer-boon---knowledge-of-anesthetics">Healer Boon - Knowledge Of Anesthetics</h5>
+<p>Upon reaching level 3, a Healer has mastered sleeping potions and can use them as a localized anesthetic, relieving some of the burden of fatigue. A healer can use a sleeping potion to restore a fatigued slot <em>(character_level)</em> times.</p>
+<h5 id="healer-spell-list">Healer Spell List</h5>
+<ul>
+<li><strong>Heal party</strong>: Heals all party members in a room <em>(character_level+1)d6/2</em> HP.</li>
+<li><strong>Aura of light</strong>: Allows the party to see in the dark for <em>((character_level)/2+1)</em> floors, providing illumination, additionally it grants the party +<em>(character_level/2+1)</em> AC vs undead.</li>
+<li><strong>Purify</strong>: Neutralizes poison, heals sickness and reverses expiration to a character's items.</li>
+<li><strong>See hidden</strong>: Adds a <em>+2</em> to a search and trap disablement rolls.</li>
+<li><strong>Enhanced Alacrity</strong>: Provides the party a <em>+1</em> to dex rolls and reduces miss die roll by one for one encounter (can be used for trap saves or other similar events).</li>
+</ul>
 <h4 id="mage">Mage</h4>
 <figure>
   <center><img src="./images/mage.png" height="400" alt="An experienced mage lost in thought."></center>
@@ -885,33 +912,68 @@ All characters have 3 types of saves:</p>
 </ul>
 </li>
 </ul>
-<h4 id="healer">Healer</h4>
-<p>Healers are casters focused on defensive magic. Healers start with two spell slots and gain an additional spell per level. As they level up, not only do they gain more spell slots, some spells also become more powerful (what matters is the Healer’s level not the specific slot used). Upon resting, Healers recover all their spell slots.</p>
-<h5 id="healer-gear">Healer Gear</h5>
-<p>Healers are able to use any armor they find, however they can't use 2 handed weapons.</p>
-<h5 id="healer-boon---innate-use-of-magic">Healer Boon - Innate Use Of Magic</h5>
-<p>Healers know all Healer spells from the start and can cast them from any slot at any given time.</p>
-<h5 id="healer-boon---party-focused-scroll--wand-casting">Healer Boon - Party Focused Scroll &amp; Wand Casting</h5>
-<p>Healers can use mage scrolls, however they can only use scrolls that target other party members.</p>
-<h5 id="healer-boon---improved-mending">Healer Boon - Improved Mending</h5>
-<p>Healers heal <em>(1+character_level)</em> HP each time they use a bandage, and gain a +<em>(character_level)/2</em> bonus when using an antidote to neutralize poison.</p>
-<p>Additionally,from level 2 onwards healers heal an additional <em>+(character_level/2)d6</em> HP when using a Healing Potion.</p>
-<h5 id="healer-boon---enhanced-antibodies">Healer Boon - Enhanced Antibodies</h5>
-<p>Healers are immune to sickness and can't be afflicted by a diseased status.</p>
-<h5 id="healer-boon---potion-mixer">Healer Boon - Potion Mixer</h5>
-<p>Healers can combine the positive attributes of two bottles into a single bottle, though they must roll a successful magic save each time.</p>
-<h5 id="healer-boon---expert-field-medic">Healer Boon - Expert Field Medic</h5>
-<p>Healers are the only ones who can freely use curative items on others in the middle of battle.</p>
-<h4 id="healer-boon---knowledge-of-anesthetics">Healer Boon - Knowledge Of Anesthetics</h4>
-<p>Upon reaching level 3, a Healer has mastered sleeping potions and can use them as a localized anesthetic, relieving some of the burden of fatigue. A healer can use a sleeping potion to restore a fatigued slot <em>(character_level)</em> times.</p>
-<h4 id="healer-spell-list">Healer Spell List</h4>
+<h4 id="paladin">Paladin</h4>
+<figure>
+  <center><img src="./images/paladin.png" height="300" alt="A fully armored paladin stands alert."></center>
+  <i><center><figcaption>Paladins bring the might of their faith to the service of the party.</figcaption></center></i>
+</figure>
+<p>Paladins are warriors whose might is directly related to their faith and piety. They are at their best when properly equipped and engaged in hand to hand combat. While they lack the tactical expertise of other combatants such as <em>Fighters</em>, they make up for this with strength gained through the might of their faith.</p>
+<h5 id="paladin-gear">Paladin Gear</h5>
+<p>Paladins are capable combatants trained to use all sorts of armor and weapons they find. However, not all abilities will be available to them unless they are equipped with a helmet, plate armor and wield either a single or two handed weapon.</p>
+<p>Because of this, <em>Brownies</em> are discouraged from taking this Class given their limitations that make permanently unable from benefiting from some of this class's boons.</p>
+<h5 id="paladin-boon---resistant-to-evil">Paladin Boon - Resistant to Evil</h5>
+<p>Paladins are shielded from undead and any purely evil compulsion. Any attempt to manipulate a Paladin's mind by them will be piously yet severely punished.</p>
+<h5 id="paladin-boon---holy-aura">Paladin Boon - Holy Aura</h5>
+<p>Paladins boost morale and defenses due to the influence of their holy aura, gaining and providing everyone in the party with a <em>+1</em> on any rolls against mental compulsion and resisting disease regardless of the type of adversary.</p>
+<h5 id="paladin-boon---armor-of-purity">Paladin Boon - Armor of Purity</h5>
+<p>Paladins who are properly equipped with a melee weapon, full plate and helmet get and provide additional defensive bonuses.</p>
+<p>Paladins gain:</p>
 <ul>
-<li><strong>Heal party</strong>: Heals all party members in a room <em>(character_level+1)d6/2</em> HP.</li>
-<li><strong>Aura of light</strong>: Allows the party to see in the dark for <em>((character_level)/2+1)</em> floors, providing illumination, additionally it grants the party +<em>(character_level/2+1)</em> AC vs undead.</li>
-<li><strong>Purify</strong>: Neutralizes poison, heals sickness and reverses expiration to a character's items.</li>
-<li><strong>See hidden</strong>: Adds a <em>+2</em> to a search and trap disablement rolls.</li>
-<li><strong>Enhanced Alacrity</strong>: Provides the party a <em>+1</em> to dex rolls and reduces miss die roll by one for one encounter (can be used for trap saves or other similar events).</li>
+<li>A +<em>character_level</em> AC bonus, regardless of the nature of the opponent.</li>
+<li>+<em>(1+character_level/2)</em> bonus to save rolls when fighting <em>undead</em> or inherently <em>evil</em> monsters.</li>
 </ul>
+<p>Additionally, they provide the party:</p>
+<ul>
+<li>A +<em>(1+character_level/3)</em> AC bonus against purely evil and undead opponents.</li>
+</ul>
+<p>To clarify, all their equipment requirements must be met for this boon to apply. If the <em>Paladin</em> lacks a weapon, or is using a ranged weapon, or <strong>any</strong> part of their armor is lacking then they loose all benefits in this boon.</p>
+<h5 id="paladin-boon---channel-divine-favor">Paladin Boon - Channel Divine Favor</h5>
+<p>A <em>Paladin</em> equipped with a single or two handed weapon can channel divine favor by means of prayer. Palainds can make use of this boon <em>character_level</em> times, recovering one per rest and all upon leaving the Dungeon.</p>
+<p>These boons are:</p>
+<ul>
+<li><em>Blessing</em>: Provides a <em>+1</em> to a fellow party member's saving throw. This boon can be applied during someone else's turn, but it MUST be applied before rolling dice, otherwise it's too late and it has no effect.</li>
+<li><em>Center Mind</em>: This boon can free a teammate from the effects of compulsion leaving no secondary/after effects, effectively neutralizing that compulsion attack.</li>
+<li><em>Purify</em>: A Paladin rolls one <em>d6</em>, on a roll of <em>(4+dungeon_level-character_level)</em> a character is cleared of poison or disease (just one). <em>poisoned_level</em> has no effect on these calculations.</li>
+<li><em>Sacred Healing</em>: A Paladin can pray for recovery, restoring +<em>(character_level)</em> HP to a party member. However if this party member consumes a healing potion instead it recovers <em>(character_level/2+1)d6</em> HP as the contents of the bottle are now blessed. To do this, the boon must be applied during that character's turn and the character must choose to drink a potion as its action.</li>
+<li><em>Armor Of Faith</em>: One of your party members is afforded sacred protection for <em>character_level</em> rounds of +<em>(1+character_level/2)</em> AC and +<em>(1+character_level/2)</em> to saves. This can only be used during battle, and only on the Paladin's turn, causing the Paladins to lose that round, and spend the next one in prayer.</li>
+<li><em>Cleansing Light</em>: The Paladin unleashes a purifying wave of light that inflicts <em>(character_level)d6</em> Damage to any evil or hostile undead nearby (no save). However, this attack comes at a steep cost as the Paladin endures a tremendous sacrifice to purify its surroundings causing <em>(1+character_level/2)</em> damage.</li>
+</ul>
+<p>If a Paladin activates one of these boons during battle then it must spend its next turn in prayer - the Paladin will not be able to perform any action. The benefits remain even if the Paladin is slain.</p>
+<p>To Perform A Paladin MUST be equipped with a single or two handed weapon, as they use their weapon as a means to channel divine energy.</p>
+<h5 id="paladin-boon---purity-of-body">Paladin Boon - Purity Of Body</h5>
+<p>Paladins are immune to disease.</p>
+<h5 id="paladin-boon---radiant-health">Paladin Boon - Radiant Health</h5>
+<p><em>Healers</em> gain <em>(character_level+1)/2</em> healing with any item or spell they use. This benefit does not extend to any other class.</p>
+<h5 id="paladin-boon---call-for-battle">Paladin Boon - Call For Battle</h5>
+<p>Melee combatants gain <em>(character_level+1)/2</em> to damage.</p>
+<h5 id="paladin-boon---preserve-good">Paladin Boon - Preserve Good</h5>
+<p>They are extremely vulnerable to attack by anything holy or divine as they are close to forbidden to raise arms against them. All their collective boons against undead and evil gain a negative value. And roll against <em>2</em> instead of <em>1</em> for miss die calculation purposes.</p>
+<p>If their boons make their total AC negative, they will incur AC damage each round.</p>
+<h5 id="paladin-boon---rigid-resilience">Paladin Boon - Rigid Resilience</h5>
+<p>Paladins training grants them extraordinary resilience, however this comes at the cost of a modicum of dexterity. They have a <em>+1</em> penalty to <em>dex saves</em>.</p>
+<h5 id="paladin-boon---inflexible-diplomacy">Paladin Boon - Inflexible Diplomacy</h5>
+<p>Paladins are very strict when it comes to social interactions. They are unwilling to have any kind of diplomatic relations with certain classes of monsters:</p>
+<ul>
+<li><em>Undead</em>: Paladins are irritated by their aura and will attack undead on the spot. Any friendly undead will steer clear of your party.</li>
+<li><em>Fiends</em>: A Paladin will never talk to or capture a fiend, but attempt to slay them instead. Even when a fiend is helpless, to a Paladin they are abominations and their existence is a menace in itself.</li>
+</ul>
+<p>Additionally, Paladins shun bribery choosing to intimidate instead. This uncharitable righteousness makes it hard for them to relate with certain monsters:</p>
+<ul>
+<li><em>Orcs</em>: Orcs will only be willing to ignore a party on a roll of <em>6</em> regardless of who does the talking. However Orcs being fearless means that as long as a Paladin does the talking, they will neither provide clues nor assistance.</li>
+<li><em>Goblins</em>: Goblins are easily frightened and will only be friendly on a roll of <em>6</em> regardless of who does the talking. However they are cowardly enough to be subdued into revealing clues.</li>
+</ul>
+<h5 id="paladin-boon---self-sacrifice">Paladin Boon - Self Sacrifice</h5>
+<p>A Paladin can absorb half of the damage inflicted to a party member from a trap or event, and once per battle from an enemy.</p>
 <h4 id="rogue">Rogue</h4>
 <figure>
   <center><img src="./images/brownie_rogue.png" height="400" alt="A crafty looking brownie rogue."></center>
@@ -1407,6 +1469,10 @@ All characters have 3 types of saves:</p>
 </table>
 <h2 id="traps">Traps</h2>
 <p>You'll find many perilous traps underground:</p>
+<figure>
+  <center><img src="./images/traps.png" height="300" alt="Various traps super impossed, from poison spikes to deadly gas to a pit opening."></center>
+  <i><center><figcaption>Traps can be sprung at any time for every reason. One can't lower their guard within the dungeon.</figcaption></center></i>
+</figure>
 <h3 id="pit-trap">Pit Trap</h3>
 <p>A pit opens below you, roll a dex save to avoid the trap or receive (dungeon_level)+d6 damage also your character is <a href="#sprained">sprained</a>.</p>
 <h3 id="poison-darts">Poison Darts</h3>
