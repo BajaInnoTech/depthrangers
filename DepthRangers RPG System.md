@@ -1,4 +1,4 @@
-<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Metamorphous&family=New+Rocker&family=Uncial+Antiqua&display=swap" rel="stylesheet">
 
@@ -68,7 +68,7 @@ strong {
 em, figcaption {
 	color:rgb(4, 17, 71);
 }
-</style> -->
+</style>
 
 DepthRangers RPG System Handbook
 ==============
@@ -204,15 +204,15 @@ This short book describes the **DepthRangers** system. This is a rules-light com
   - [Bestiary](#bestiary)
     - [Calculating Monster Stats](#calculating-monster-stats)
     - [Monsters](#monsters)
-      - [Bat](#bat)
-      - [Black Ooze](#black-ooze)
-      - [Dragon](#dragon)
-      - [Goblin](#goblin)
-      - [Mimic](#mimic)
-      - [Orc](#orc)
-      - [Skeleton](#skeleton)
-      - [Spider](#spider)
-      - [Snake](#snake)
+      - [Bat](#centerbatcenter)
+      - [Black Ooze](#centerblack-oozecenter)
+      - [Dragon](#centerdragoncenter)
+      - [Goblin](#centergoblincenter)
+      - [Mimic](#centermimiccenter)
+      - [Orc](#centerorccenter)
+      - [Skeleton](#centerskeletoncenter)
+      - [Spider](#centerspidercenter)
+      - [Snake](#centersnakecenter)
     - [Enemy Reactions](#enemy-reactions)
   - [Traps](#traps)
     - [Pit Trap](#pit-trap)
