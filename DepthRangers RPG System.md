@@ -1,4 +1,4 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Metamorphous&family=New+Rocker&family=Uncial+Antiqua&display=swap" rel="stylesheet">
 
@@ -68,7 +68,7 @@ strong {
 em, figcaption {
 	color:rgb(4, 17, 71);
 }
-</style>
+</style> -->
 
 DepthRangers RPG System Handbook
 ==============
