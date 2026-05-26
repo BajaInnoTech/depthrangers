@@ -83,150 +83,169 @@ DepthRangers RPG System Handbook
 ***<center>Illustrations</center>***
 <center>Ehira A. Lira</center>
 
-**<center>v 1.1.1</center>**
+***<center>Layout & Image Processing</center>***
+<center>Eduardo del Corral</center>
+
+**<center>v 1.2.0</center>**
+
+<div class="page"/>
 
 Welcome to the **DepthRangers** guild, where we handle all sorts of underground exploration requests. From a lost pet, to making contact with an unknown plane of existence. This job is its own reward, though the riches found along the way provide an extra motivation.
 
 This short book describes the **DepthRangers** system. This is a rules-light combat heavy system that focuses on fast paced gameplay. On this book you'll find the necessary resources to create your character, and some of the dangers you'll find along the way. You may excuse the succinctness of this manuscript but our staff seem to have most of their attention on the hunt of a much lauded treasure, the details of which they've kept to themselves...
 
+<div class="page"/>
+
 <b>TABLE OF CONTENTS</b>
 
-- [DepthRangers RPG System Handbook](#depthrangers-rpg-system-handbook)
-  - [Getting Started](#getting-started)
-  - [Character Creation](#character-creation)
-    - [Base Stats](#base-stats)
-      - [HP](#hp)
-      - [Armor Class](#armor-class)
-      - [Saves](#saves)
-      - [Money](#money)
-      - [Inventory](#inventory)
-      - [Starting Gear](#starting-gear)
-    - [Races](#races)
-      - [Human](#human)
-        - [Human Saves](#human-saves)
-        - [Human Classes](#human-classes)
-        - [Human Gear](#human-gear)
-        - [Human Special Feature - Manifestation Of Will Power](#human-special-feature---manifestation-of-will-power)
-          - [Re-Roll Dice](#re-roll-dice)
-        - [Human Special Feature - Mind Over Body](#human-special-feature---mind-over-body)
-        - [Human Special Feature - Human Perseverance](#human-special-feature---human-perseverance)
-        - [Human Special Feature - Human Intuition](#human-special-feature---human-intuition)
-        - [Human Special Feature - Inspiring Determination](#human-special-feature---inspiring-determination)
-      - [Elf](#elf)
-        - [Elf Saves](#elf-saves)
-        - [Elf Classes](#elf-classes)
-        - [Elf Gear](#elf-gear)
-        - [Elf Special Feature - Resist Mental Manipulation](#elf-special-feature---resist-mental-manipulation)
-        - [Elf Special Feature - Keen Senses](#elf-special-feature---keen-senses)
-        - [Elf Special Feature - Keen Marksmanship](#elf-special-feature---keen-marksmanship)
-      - [Dwarf](#dwarf)
-        - [Dwarf Saves](#dwarf-saves)
-        - [Dwarf Classes](#dwarf-classes)
-        - [Dwarf Gear](#dwarf-gear)
-        - [Dwarf Special Feature - Poison Immunity](#dwarf-special-feature---poison-immunity)
-        - [Dwarf Special Feature - Dwarven Resilience](#dwarf-special-feature---dwarven-resilience)
-        - [Dwarf Special Feature - See In The Dark](#dwarf-special-feature---see-in-the-dark)
-      - [Brownie](#brownie)
-        - [Brownie Saves](#brownie-saves)
-        - [Brownie Classes](#brownie-classes)
-        - [Brownie Gear](#brownie-gear)
-        - [Brownie Special Feature - Lock Picking](#brownie-special-feature---lock-picking)
-        - [Brownie Special Feature - Talk To Animals](#brownie-special-feature---talk-to-animals)
-        - [Brownie Special Feature - Frail Body](#brownie-special-feature---frail-body)
-        - [Brownie Special Feature - Hard To Hit](#brownie-special-feature---hard-to-hit)
-        - [Brownie Special Feature - Attack At A Distance](#brownie-special-feature---attack-at-a-distance)
-    - [Classes](#classes)
-      - [Fighter](#fighter)
-        - [Fighter Gear](#fighter-gear)
-        - [Fighter Boon - Enhanced Swordsmanship](#fighter-boon---enhanced-swordsmanship)
-        - [Fighter Boon - Deadlier Combat](#fighter-boon---deadlier-combat)
-        - [Fighter Boon - Attack Frenzy](#fighter-boon---attack-frenzy)
-        - [Fighter Boon - Battlefield Resilience](#fighter-boon---battlefield-resilience)
-        - [Fighter Boon - Overwhelming Tactics](#fighter-boon---overwhelming-tactics)
-      - [Mage](#mage)
-        - [Mage Gear](#mage-gear)
-        - [Mage Boon - Universal Scroll \& Wand Casting](#mage-boon---universal-scroll--wand-casting)
-        - [Mage Boon - Magic Scholar](#mage-boon---magic-scholar)
-        - [Mage Boon - Magical Attunement](#mage-boon---magical-attunement)
-        - [Mage Spell List](#mage-spell-list)
-      - [Healer](#healer)
-        - [Healer Gear](#healer-gear)
-        - [Healer Boon - Innate Use Of Magic](#healer-boon---innate-use-of-magic)
-        - [Healer Boon - Party Focused Scroll \& Wand Casting](#healer-boon---party-focused-scroll--wand-casting)
-        - [Healer Boon - Improved Mending](#healer-boon---improved-mending)
-        - [Healer Boon - Enhanced Antibodies](#healer-boon---enhanced-antibodies)
-        - [Healer Boon - Potion Mixer](#healer-boon---potion-mixer)
-        - [Healer Boon - Expert Field Medic](#healer-boon---expert-field-medic)
+- [Getting Started](#getting-started)
+- [Character Creation](#character-creation)
+  - [Base Stats](#base-stats)
+    - [HP](#hp)
+    - [Armor Class](#armor-class)
+    - [Saves](#saves)
+    - [Money](#money)
+    - [Inventory](#inventory)
+    - [Starting Gear](#starting-gear)
+  - [Races](#races)
+    - [Brownie](#brownie)
+      - [Brownie Saves](#brownie-saves)
+      - [Brownie Classes](#brownie-classes)
+      - [Brownie Gear](#brownie-gear)
+      - [Brownie Special Feature - Lock Picking](#brownie-special-feature---lock-picking)
+      - [Brownie Special Feature - Talk To Animals](#brownie-special-feature---talk-to-animals)
+      - [Brownie Special Feature - Frail Body](#brownie-special-feature---frail-body)
+      - [Brownie Special Feature - Hard To Hit](#brownie-special-feature---hard-to-hit)
+      - [Brownie Special Feature - Attack At A Distance](#brownie-special-feature---attack-at-a-distance)
+    - [Dwarf](#dwarf)
+      - [Dwarf Saves](#dwarf-saves)
+      - [Dwarf Classes](#dwarf-classes)
+      - [Dwarf Gear](#dwarf-gear)
+      - [Dwarf Special Feature - Poison Immunity](#dwarf-special-feature---poison-immunity)
+      - [Dwarf Special Feature - Dwarven Resilience](#dwarf-special-feature---dwarven-resilience)
+      - [Dwarf Special Feature - See In The Dark](#dwarf-special-feature---see-in-the-dark)
+    - [Elf](#elf)
+      - [Elf Saves](#elf-saves)
+      - [Elf Classes](#elf-classes)
+      - [Elf Gear](#elf-gear)
+      - [Elf Special Feature - Resist Mental Manipulation](#elf-special-feature---resist-mental-manipulation)
+      - [Elf Special Feature - Keen Senses](#elf-special-feature---keen-senses)
+      - [Elf Special Feature - Keen Marksmanship](#elf-special-feature---keen-marksmanship)
+    - [Human](#human)
+      - [Human Saves](#human-saves)
+      - [Human Classes](#human-classes)
+      - [Human Gear](#human-gear)
+      - [Human Special Feature - Manifestation Of Will Power](#human-special-feature---manifestation-of-will-power)
+        - [Re-Roll Dice](#re-roll-dice)
+      - [Human Special Feature - Mind Over Body](#human-special-feature---mind-over-body)
+      - [Human Special Feature - Human Perseverance](#human-special-feature---human-perseverance)
+      - [Human Special Feature - Human Intuition](#human-special-feature---human-intuition)
+      - [Human Special Feature - Inspiring Determination](#human-special-feature---inspiring-determination)
+  - [Classes](#classes)
+    - [Fighter](#fighter)
+      - [Fighter Gear](#fighter-gear)
+      - [Fighter Boon - Enhanced Swordsmanship](#fighter-boon---enhanced-swordsmanship)
+      - [Fighter Boon - Deadlier Combat](#fighter-boon---deadlier-combat)
+      - [Fighter Boon - Attack Frenzy](#fighter-boon---attack-frenzy)
+      - [Fighter Boon - Battlefield Resilience](#fighter-boon---battlefield-resilience)
+      - [Fighter Boon - Overwhelming Tactics](#fighter-boon---overwhelming-tactics)
+    - [Healer](#healer)
+      - [Healer Gear](#healer-gear)
+      - [Healer Boon - Innate Use Of Magic](#healer-boon---innate-use-of-magic)
+      - [Healer Boon - Party Focused Scroll \& Wand Casting](#healer-boon---party-focused-scroll--wand-casting)
+      - [Healer Boon - Improved Mending](#healer-boon---improved-mending)
+      - [Healer Boon - Enhanced Antibodies](#healer-boon---enhanced-antibodies)
+      - [Healer Boon - Potion Mixer](#healer-boon---potion-mixer)
+      - [Healer Boon - Expert Field Medic](#healer-boon---expert-field-medic)
       - [Healer Boon - Knowledge Of Anesthetics](#healer-boon---knowledge-of-anesthetics)
       - [Healer Spell List](#healer-spell-list)
-      - [Rogue](#rogue)
-        - [Rogue Gear](#rogue-gear)
-        - [Rogue Boon - Expert Explorer](#rogue-boon---expert-explorer)
-        - [Rogue Boon - Sneak Attack](#rogue-boon---sneak-attack)
-        - [Rogue Boon - Deadly Sniper](#rogue-boon---deadly-sniper)
-        - [Rogue Boon - Magical Item Use](#rogue-boon---magical-item-use)
-  - [Game Mechanics](#game-mechanics)
-    - [Marketplace Wares](#marketplace-wares)
-    - [Selling Gear \& Items](#selling-gear--items)
-    - [Exchanging Items Between Party Members](#exchanging-items-between-party-members)
-    - [Important Terminology](#important-terminology)
-      - [Dungeon Level](#dungeon-level)
-      - [Monster Level](#monster-level)
-      - [Character Level](#character-level)
-      - [Party Size](#party-size)
-    - [Combat](#combat)
-      - [Melee Weapons](#melee-weapons)
-      - [Ranged Weapons](#ranged-weapons)
-      - [Empty Handed Fighting](#empty-handed-fighting)
-      - [Attacking](#attacking)
-        - [Critical Attack](#critical-attack)
-          - [Critical Attack Table](#critical-attack-table)
-        - [Normal Attack](#normal-attack)
-        - [Attack Accuracy](#attack-accuracy)
-          - [Single Handed and Ranged Weapon Accuracy](#single-handed-and-ranged-weapon-accuracy)
-          - [Two Handed Weapons Accuracy](#two-handed-weapons-accuracy)
-      - [Retreating From An Encounter](#retreating-from-an-encounter)
-    - [Hazard Dice And Non Combat Events](#hazard-dice-and-non-combat-events)
-      - [Non Combat Event](#non-combat-event)
-      - [Hazard Die Roll](#hazard-die-roll)
-    - [Searching](#searching)
-    - [Lock-picking](#lock-picking)
-    - [Trap Deactivation](#trap-deactivation)
-    - [Lingering Status Effects](#lingering-status-effects)
-      - [Bleeding Status](#bleeding-status)
-      - [Diseased Status](#diseased-status)
-      - [Poisoned Status](#poisoned-status)
-      - [Sprained](#sprained)
-      - [Fatigue](#fatigue)
-    - [Resting](#resting)
-    - [Illumination](#illumination)
-    - [Leveling Up](#leveling-up)
-  - [Bestiary](#bestiary)
-    - [Calculating Monster Stats](#calculating-monster-stats)
-    - [Monsters](#monsters)
-      - [Bat](#bat)
-      - [Black Ooze](#black-ooze)
-      - [Dragon](#dragon)
-      - [Goblin](#goblin)
-      - [Mimic](#mimic)
-      - [Orc](#orc)
-      - [Skeleton](#skeleton)
-      - [Spider](#spider)
-      - [Snake](#snake)
-    - [Enemy Reactions](#enemy-reactions)
-  - [Traps](#traps)
-    - [Pit Trap](#pit-trap)
-    - [Poison Darts](#poison-darts)
-    - [Tongues of Flame](#tongues-of-flame)
-    - [Toxic Gas](#toxic-gas)
-  - [Treasure](#treasure)
-    - [Treasure Contents Table](#treasure-contents-table)
-      - [Weapons Table](#weapons-table)
-      - [Armor Table](#armor-table)
-      - [Scrolls Table](#scrolls-table)
-  - [Hazard Die Roll Outcome](#hazard-die-roll-outcome)
-    - [Hazard Dice Table](#hazard-dice-table)
-      - [Expiration Table](#expiration-table)
+    - [Mage](#mage)
+      - [Mage Gear](#mage-gear)
+      - [Mage Boon - Universal Scroll \& Wand Casting](#mage-boon---universal-scroll--wand-casting)
+      - [Mage Boon - Magic Scholar](#mage-boon---magic-scholar)
+      - [Mage Boon - Magical Attunement](#mage-boon---magical-attunement)
+      - [Mage Spell List](#mage-spell-list)
+    - [Paladin](#paladin)
+      - [Paladin Gear](#paladin-gear)
+      - [Paladin Boon - Resistant to Evil](#paladin-boon---resistant-to-evil)
+      - [Paladin Boon - Holy Aura](#paladin-boon---holy-aura)
+      - [Paladin Boon - Armor of Purity](#paladin-boon---armor-of-purity)
+      - [Paladin Boon - Channel Divine Favor](#paladin-boon---channel-divine-favor)
+      - [Paladin Boon - Purity Of Body](#paladin-boon---purity-of-body)
+      - [Paladin Boon - Radiant Health](#paladin-boon---radiant-health)
+      - [Paladin Boon - Call For Battle](#paladin-boon---call-for-battle)
+      - [Paladin Boon - Preserve Good](#paladin-boon---preserve-good)
+      - [Paladin Boon - Rigid Resilience](#paladin-boon---rigid-resilience)
+      - [Paladin Boon - Inflexible Diplomacy](#paladin-boon---inflexible-diplomacy)
+      - [Paladin Boon - Self Sacrifice](#paladin-boon---self-sacrifice)
+    - [Rogue](#rogue)
+      - [Rogue Gear](#rogue-gear)
+      - [Rogue Boon - Expert Explorer](#rogue-boon---expert-explorer)
+      - [Rogue Boon - Sneak Attack](#rogue-boon---sneak-attack)
+      - [Rogue Boon - Deadly Sniper](#rogue-boon---deadly-sniper)
+      - [Rogue Boon - Magical Item Use](#rogue-boon---magical-item-use)
+- [Game Mechanics](#game-mechanics)
+  - [Marketplace Wares](#marketplace-wares)
+  - [Selling Gear \& Items](#selling-gear--items)
+  - [Exchanging Items Between Party Members](#exchanging-items-between-party-members)
+  - [Important Terminology](#important-terminology)
+    - [Dungeon Level](#dungeon-level)
+    - [Monster Level](#monster-level)
+    - [Character Level](#character-level)
+    - [Party Size](#party-size)
+  - [Combat](#combat)
+    - [Melee Weapons](#melee-weapons)
+    - [Ranged Weapons](#ranged-weapons)
+    - [Empty Handed Fighting](#empty-handed-fighting)
+    - [Attacking](#attacking)
+      - [Critical Attack](#critical-attack)
+        - [Critical Attack Table](#critical-attack-table)
+      - [Normal Attack](#normal-attack)
+      - [Attack Accuracy](#attack-accuracy)
+        - [Single Handed and Ranged Weapon Accuracy](#single-handed-and-ranged-weapon-accuracy)
+        - [Two Handed Weapons Accuracy](#two-handed-weapons-accuracy)
+    - [Retreating From An Encounter](#retreating-from-an-encounter)
+  - [Hazard Dice And Non Combat Events](#hazard-dice-and-non-combat-events)
+    - [Non Combat Event](#non-combat-event)
+    - [Hazard Die Roll](#hazard-die-roll)
+  - [Searching](#searching)
+  - [Lock-picking](#lock-picking)
+  - [Trap Deactivation](#trap-deactivation)
+  - [Lingering Status Effects](#lingering-status-effects)
+    - [Bleeding Status](#bleeding-status)
+    - [Diseased Status](#diseased-status)
+    - [Poisoned Status](#poisoned-status)
+    - [Sprained](#sprained)
+    - [Fatigue](#fatigue)
+  - [Resting](#resting)
+  - [Illumination](#illumination)
+  - [Leveling Up](#leveling-up)
+- [Bestiary](#bestiary)
+  - [Calculating Monster Stats](#calculating-monster-stats)
+  - [Monsters](#monsters)
+    - [Bat](#centerbatcenter)
+    - [Black Ooze](#centerblack-oozecenter)
+    - [Dragon](#centerdragoncenter)
+    - [Goblin](#centergoblincenter)
+    - [Mimic](#centermimiccenter)
+    - [Orc](#centerorccenter)
+    - [Skeleton](#centerskeletoncenter)
+    - [Spider](#centerspidercenter)
+    - [Snake](#centersnakecenter)
+  - [Enemy Reactions](#enemy-reactions)
+- [Traps](#traps)
+  - [Pit Trap](#pit-trap)
+  - [Poison Darts](#poison-darts)
+  - [Tongues of Flame](#tongues-of-flame)
+  - [Toxic Gas](#toxic-gas)
+- [Treasure](#treasure)
+  - [Treasure Contents Table](#treasure-contents-table)
+    - [Weapons Table](#weapons-table)
+    - [Armor Table](#armor-table)
+    - [Scrolls Table](#scrolls-table)
+- [Hazard Die Roll Outcome](#hazard-die-roll-outcome)
+  - [Hazard Dice Table](#hazard-dice-table)
+    - [Expiration Table](#expiration-table)
 
 ## Getting Started
 
@@ -239,6 +258,8 @@ To play this game, you must create a series of characters using the mechanics de
 ## Character Creation
 
 This section provides an explanation on how to create your own characters. Following the wisdom of the late great sage *Mr. Gigax*, you will select your party by reviewing the many specialties of explorers and the particulars of the species who've decided to participate in this profession (in other words the [Races](#races) & [Classes](#classes)).
+
+<div class="page"/>
 
 As you can imagine, all of them provide a lot of value and have many chances to shine. The key is to balance your party so that they as a whole benefit from their combined strengths.
 
@@ -310,6 +331,125 @@ Each has its own strengths and weaknesses and all have something valuable to con
 
 <div class="page"/>
 
+#### Brownie
+
+<figure>
+  <center><img src="./images/brownie_fighter.png" height="400" alt="A fierce brownie fighter."></center>
+  <i><center><figcaption>Never underestimate a brownie combatant.</figcaption></center></i>
+</figure>
+
+Brownies are shorter than dwarfs and about as slender as elves.
+
+##### Brownie Saves
+
+Brownies are more fragile than the other races, they take *+1* penalty on *body saves* (meaning you must roll 5 or higher to succeed on a body save), but get a *-1* boon on *dex saves* (meaning rolling a 3 or higher is a successful dex save).
+
+<div class="page"/>
+
+##### Brownie Classes
+
+Brownies can't be healers, however they can be any other class.
+
+##### Brownie Gear
+
+Brownies can't use two handed weapons, but they can use single handed weapons or ranged weapons for attack.
+
+For armor, Fighters can use Chainmail, while other classes can only use a Brigandine; but no standard shields or helmets.
+
+##### Brownie Special Feature - Lock Picking
+
+Brownies are very nimble with their fingers and have a knack for locks, gaining a *+1* on [lock-picking](#lock-picking) throws.
+
+##### Brownie Special Feature - Talk To Animals
+
+Additionally they’re able to engage in conversation with animals. If you have a brownie on your party, whenever you meet an animal, it may react in a non-hostile manner. Note that any animal that is "[Persuadable](#enemy-reactions)" will accept rations as a bribe instead of money (though some might ask for both).
+
+<div class="page"/>
+
+##### Brownie Special Feature - Frail Body
+
+Their bodies are somewhat fragile starting with *+1 HP* instead of *+3HP*, and deduct a *-1 HP* from each level up.
+
+##### Brownie Special Feature - Hard To Hit
+
+Given their smaller stature they are very hard to actually hit by an opponent, starting with a *+1 AC* and gaining an additional *+1 AC* per level.
+
+##### Brownie Special Feature - Attack At A Distance
+
+Using a bow grants them an additional *1 AC* on top of ranged weapon bonuses.
+
+<div class="page"/>
+
+#### Dwarf
+
+<figure>
+  <center><img src="./images/dwarf.png" height="400" alt="A resolute dwarf."></center>
+  <i><center><figcaption>A dwarf peers into the entrance with steadfast determination.</figcaption></center></i>
+</figure>
+
+Dwarfs are hardier than their peers, but not as dexterous.
+
+##### Dwarf Saves
+
+Their resilient body grants them a *-2* boon to body saves (meaning that rolling a *2* or greater is considered a successful body save), but their stubby limbs impose on them a *+1* penalty to dex (meaning you must roll *5* or higher to succeed on a *dex save*).
+
+##### Dwarf Classes
+
+They can be any class.
+
+##### Dwarf Gear
+
+They are limited only by their class.
+
+##### Dwarf Special Feature - Poison Immunity
+
+They are almost entirely immune to poison, there are rumors of certain beings able to poison dwarfs but those rumors are generally dismissed.
+
+##### Dwarf Special Feature - Dwarven Resilience
+
+Dwarfs have *+1 HP* each level.
+
+##### Dwarf Special Feature - See In The Dark
+
+Dwarfs don't need to use torches to see (technically a purely dwarven party would not need torches). This can have some advantages in certain unconventional situations.
+
+<div class="page"/>
+
+#### Elf
+
+<figure>
+  <center><img src="./images/elf.png" height="400" alt="An inquisitive Elf waits eagerly."></center>
+  <i><center><figcaption>Elves have many innate advantages that could be beneficial to a party.</figcaption></center></i>
+</figure>
+
+Dexterous and magically inclined but not as resilient as humans.
+
+##### Elf Saves
+
+Elves have a fragile body, hence they start with *+2HP* instead of *+3HP* and gain a *+1* penalty to their *body saves* (meaning you must roll 5 or higher to succeed on a body save). However they have unusual dexterity and magical attunement, and gain a *-1* boon on *dex saves* and  also another *-1* boon on *magic saves* (meaning rolling a 3 or higher is a successful dex or magic save).
+
+##### Elf Classes
+
+They can be any class.
+
+##### Elf Gear
+
+They are limited only by their class.
+
+##### Elf Special Feature - Resist Mental Manipulation
+
+This magical affinity also makes them immune to magical compulsion and mental manipulation (such as being hypnotized).
+
+##### Elf Special Feature - Keen Senses
+
+Elven keen senses give them an edge when detecting secrets. Elves get a *+1* to search rolls.
+
+##### Elf Special Feature - Keen Marksmanship
+
+Elven keen senses give them an edge when wielding a ranged weapon gaining [an accuracy on par with two handed weapon wielders](#two-handed-weapons-accuracy).
+
+<div class="page"/>
+
 #### Human
 
 <figure>
@@ -372,107 +512,6 @@ When a human lands a [critical attack](#critical-attack), for the rest of round 
 
 <div class="page"/>
 
-#### Elf
-
-Dexterous and magically inclined but not as resilient as humans.
-
-##### Elf Saves
-
-Elves have a fragile body, hence they start with *+2HP* instead of *+3HP* and gain a *+1* penalty to their *body saves* (meaning you must roll 5 or higher to succeed on a body save). However they have unusual dexterity and magical attunement, and gain a *-1* boon on *dex saves* and  also another *-1* boon on *magic saves* (meaning rolling a 3 or higher is a successful dex or magic save).
-
-##### Elf Classes
-
-They can be any class.
-
-##### Elf Gear
-
-They are limited only by their class.
-
-##### Elf Special Feature - Resist Mental Manipulation
-
-This magical affinity also makes them immune to magical compulsion and mental manipulation (such as being hypnotized).
-
-##### Elf Special Feature - Keen Senses
-
-Elven keen senses give them an edge when detecting secrets. Elves get a *+1* to search rolls.
-
-##### Elf Special Feature - Keen Marksmanship
-
-Elven keen senses give them an edge when wielding a ranged weapon gaining [an accuracy on par with two handed weapon wielders](#two-handed-weapons-accuracy).
-
-#### Dwarf
-
-Dwarfs are hardier than their peers, but not as dexterous.
-
-##### Dwarf Saves
-
-Their resilient body grants them a *-2* boon to body saves (meaning that rolling a *2* or greater is considered a successful body save), but their stubby limbs impose on them a *+1* penalty to dex (meaning you must roll *5* or higher to succeed on a *dex save*).
-
-##### Dwarf Classes
-
-They can be any class.
-
-##### Dwarf Gear
-
-They are limited only by their class.
-
-##### Dwarf Special Feature - Poison Immunity
-
-They are almost entirely immune to poison, there are rumors of certain beings able to poison dwarfs but those rumors are generally dismissed.
-
-##### Dwarf Special Feature - Dwarven Resilience
-
-Dwarfs have *+1 HP* each level.
-
-##### Dwarf Special Feature - See In The Dark
-
-Dwarfs don't need to use torches to see (technically a purely dwarven party would not need torches). This can have some advantages in certain unconventional situations.
-
-#### Brownie
-
-<figure>
-  <center><img src="./images/brownie_fighter.png" height="400" alt="A fierce brownie fighter."></center>
-  <i><center><figcaption>Never underestimate a brownie combatant.</figcaption></center></i>
-</figure>
-
-Brownies are shorter than dwarfs and about as slender as elves.
-
-<div class="page"/>
-
-##### Brownie Saves
-
-Brownies are more fragile than the other races, they take *+1* penalty on *body saves* (meaning you must roll 5 or higher to succeed on a body save), but get a *-1* boon on *dex saves* (meaning rolling a 3 or higher is a successful dex save).
-
-##### Brownie Classes
-
-Brownies can't be healers, however they can be any other class.
-
-##### Brownie Gear
-
-Brownies can't use two handed weapons, but they can use single handed weapons or ranged weapons for attack.
-
-For armor, Fighters can use Chainmail, while other classes can only use a Brigandine; but no standard shields or helmets.
-
-##### Brownie Special Feature - Lock Picking
-
-Brownies are very nimble with their fingers and have a knack for locks, gaining a *+1* on [lock-picking](#lock-picking) throws.
-
-##### Brownie Special Feature - Talk To Animals
-
-Additionally they’re able to engage in conversation with animals. If you have a brownie on your party, whenever you meet an animal, it may react in a non-hostile manner. Note that any animal that is "[Persuadable](#enemy-reactions)" will accept rations as a bribe instead of money (though some might ask for both).
-
-##### Brownie Special Feature - Frail Body
-
-Their bodies are somewhat fragile starting with *+1 HP* instead of *+3HP*, and deduct a *-1 HP* from each level up.
-
-##### Brownie Special Feature - Hard To Hit
-
-Given their smaller stature they are very hard to actually hit by an opponent, starting with a *+1 AC* and gaining an additional *+1 AC* per level.
-
-##### Brownie Special Feature - Attack At A Distance
-
-Using a bow grants them an additional *1 AC* on top of ranged weapon bonuses.
-
 ### Classes
 
 These are the areas each character specializes in.
@@ -484,8 +523,6 @@ Fierce and resilient damage dealing combatants.
 ##### Fighter Gear
 
 Fighters are able to equip any weapons and armors they find.
-
-<div class="page"/>
 
 ##### Fighter Boon - Enhanced Swordsmanship
 
@@ -499,71 +536,17 @@ When landing a successful hit, they re-roll any damage die on *1*s.
 
 Upon defeating an enemy they can strike another target that same round (two attacks on that turn).
 
+<div class="page"/>
+
 ##### Fighter Boon - Battlefield Resilience
 
 Fighters gain an additional *+3 HP* on level 1, and an additional *+1 HP* every odd level (3, 5, etc).
 
-##### Fighter Boon - Overwhelming Tactics
+##### Fighter Boon - Overwhelming Blow
 
 When engaged in melee combat, and landing a critical attack. If the target is a "regular sized" & "non-undead" humanoid, Fighters will overwhelm their opponent knocking them violently to the ground. The target remains stunned and inactive for one round.
 
 <div class="page"/>
-
-#### Mage
-
-<figure>
-  <center><img src="./images/mage.png" height="400" alt="An experienced mage lost in thought."></center>
-  <i><center><figcaption>Mages can help turn the tide of a battle.</figcaption></center></i>
-</figure>
-
-Mages are versatile casters capable of offensive and defensive magic. They start with two spell slots and gain an additional spell per level. As mages level up, not only do they gain more spell slots, some of the spells in their possession also become more powerful. When casting, the slot used does not matter, what matters is the Mage’s level.
-
-While extremely versatile and powerful, Mages require preparing ahead of time. They must first assign a known spell to a slot before it can be cast. Upon resting, Mages recover all their spells and can reassign known spells to their slots.
-
-<div class="page"/>
-
-##### Mage Gear
-
-Mages are unable to use 2 handed weapons, and they can only equip Bringadines as armor.
-
-##### Mage Boon - Universal Scroll & Wand Casting
-
-Mages can use any scroll to cast a spell. However using a scroll consumes it.
-
-Similarly, a Mage is able to use a wand if found.
-
-##### Mage Boon - Magic Scholar
-
-Mages can learn new spells from scrolls found in their adventures (unfortunately, the ones sold in the market are only good enough for casting not studying). They learn new spells when they bring a scroll of an unknown spell to the surface.
-
-##### Mage Boon - Magical Attunement
-
-Due to their mastery of magic, mages can re-roll magic save die that land on one.
-
-##### Mage Spell List
-
-- **Invigorate**: Increases the party's melee & ranged combat output by +*character_level* for the rest of the battle.
-  - Both Mages & Healers can read a scroll with this spell.
-- **Protection**: Increases the party's Armor Class by +*character_level* for the rest of the battle.
-  - Both Mages & Healers can read a scroll with this spell.
-- **Restore Vitality**: Target recovers *(character_level)d6* HP.
-  - Both Mages & Healers can read a scroll with this spell.
-- **Revive**: Resurrects a fallen character to *(1d6+character_level+1)* HP.
-  - Unless the party is at a rest spot, it requires a magic save to succeed.
-  - Scrolls of this spell are rare, and can only be found in special chests and sold by magical/special item vendors.
-  - Both Mages & Healers can read a scroll with this spell.
-- **Fireball**: Launches an exploding ball of fire damaging all monsters in the room by *((1+character_level)d6)/2+character_level*.
-  - Half damage on monster save, which is a roll of *(2+character_level-monster_level)*.
-  - Only Mages can read a scroll with this spell.
-- **Illuminate**: Can be used instead of torches to illuminate your surroundings.
-  - Lasts for *2\*(character_level)* hours.
-  - Dispels upon resting.
-  - Only Mages can read a scroll with this spell.
-- **Invisibility**: Target is invisible for 3 rounds, meaning they get no damage from melee or ranged enemy attacks.
-  - Rogues automatically perform sneak attacks when their target is susceptible.
-  - Only Mages can read a scroll with this spell.
-- **Stop**: Target remains immobilized for *(character_level-monster_level+1)* turns.
-  - Only Mages can read a scroll with this spell.
 
 #### Healer
 
@@ -599,17 +582,187 @@ Healers can combine the positive attributes of two bottles into a single bottle,
 
 Healers are the only ones who can freely use curative items on others in the middle of battle.
 
-#### Healer Boon - Knowledge Of Anesthetics
+##### Healer Boon - Knowledge Of Anesthetics
 
 Upon reaching level 3, a Healer has mastered sleeping potions and can use them as a localized anesthetic, relieving some of the burden of fatigue. A healer can use a sleeping potion to restore a fatigued slot *(character_level)* times.
 
-#### Healer Spell List
+<div class="page"/>
+
+##### Healer Spell List
 
 - **Heal party**: Heals all party members in a room *(character_level+1)d6/2* HP.
 - **Aura of light**: Allows the party to see in the dark for *((character_level)/2+1)* floors, providing illumination, additionally it grants the party +*(character_level/2+1)* AC vs undead.
 - **Purify**: Neutralizes poison, heals sickness and reverses expiration to a character's items.
 - **See hidden**: Adds a *+2* to a search and trap disablement rolls.
 - **Enhanced Alacrity**: Provides the party a *+1* to dex rolls and reduces miss die roll by one for one encounter (can be used for trap saves or other similar events).
+
+<div class="page"/>
+
+#### Mage
+
+<figure>
+  <center><img src="./images/mage.png" height="400" alt="An experienced mage lost in thought."></center>
+  <i><center><figcaption>Mages can help turn the tide of a battle.</figcaption></center></i>
+</figure>
+
+Mages are versatile casters capable of offensive and defensive magic. They start with two spell slots and gain an additional spell per level. As mages level up, not only do they gain more spell slots, some of the spells in their possession also become more powerful. When casting, the slot used does not matter, what matters is the Mage’s level.
+
+While extremely versatile and powerful, Mages require preparing ahead of time. They must first assign a known spell to a slot before it can be cast. Upon resting, Mages recover all their spells and can reassign known spells to their slots.
+
+<div class="page"/>
+
+##### Mage Gear
+
+Mages are unable to use 2 handed weapons, and they can only equip Bringadines as armor.
+
+##### Mage Boon - Universal Scroll & Wand Casting
+
+Mages can use any scroll to cast a spell. However using a scroll consumes it.
+
+Similarly, a Mage is able to use a wand if found.
+
+##### Mage Boon - Magic Scholar
+
+Mages can learn new spells from scrolls found in their adventures (unfortunately, the ones sold in the market are only good enough for casting not studying). They learn new spells when they bring a scroll of an unknown spell to the surface.
+
+##### Mage Boon - Magical Attunement
+
+Due to their mastery of magic, mages can re-roll magic save die that land on one.
+
+<div class="page"/>
+
+##### Mage Spell List
+
+- **Invigorate**: Increases the party's melee & ranged combat output by +*character_level* for the rest of the battle.
+  - Both Mages & Healers can read a scroll with this spell.
+- **Protection**: Increases the party's Armor Class by +*character_level* for the rest of the battle.
+  - Both Mages & Healers can read a scroll with this spell.
+- **Restore Vitality**: Target recovers *(character_level)d6* HP.
+  - Both Mages & Healers can read a scroll with this spell.
+- **Revive**: Resurrects a fallen character to *(1d6+character_level+1)* HP.
+  - Unless the party is at a rest spot, it requires a magic save to succeed.
+  - Scrolls of this spell are rare, and can only be found in special chests and sold by magical/special item vendors.
+  - Both Mages & Healers can read a scroll with this spell.
+
+<div class="page"/>
+
+- **Fireball**: Launches an exploding ball of fire damaging all monsters in the room by *((1+character_level)d6)/2+character_level*.
+  - Half damage on monster save, which is a roll of *(2+character_level-monster_level)*.
+  - Only Mages can read a scroll with this spell.
+- **Illuminate**: Can be used instead of torches to illuminate your surroundings.
+  - Lasts for *2\*(character_level)* hours.
+  - Dispels upon resting.
+  - Only Mages can read a scroll with this spell.
+- **Invisibility**: Target is invisible for 3 rounds, meaning they get no damage from melee or ranged enemy attacks.
+  - Rogues automatically perform sneak attacks when their target is susceptible.
+  - Only Mages can read a scroll with this spell.
+- **Stop**: Target remains immobilized for *(character_level-monster_level+1)* turns.
+  - Only Mages can read a scroll with this spell.
+
+<div class="page"/>
+
+#### Paladin
+
+<figure>
+  <center><img src="./images/paladin.png" height="300" alt="A fully armored paladin stands alert."></center>
+  <i><center><figcaption>Paladins bring the might of their faith to the service of the party.</figcaption></center></i>
+</figure>
+
+*Paladins* are warriors whose might is directly related to their faith and piety. They are at their best when properly equipped and engaged in hand to hand combat. While they lack the tactical expertise of other combatants such as *Fighters*, they make up for this with strength gained through the might of their faith.
+
+##### Paladin Gear
+
+*Paladins* are capable combatants trained to use all sorts of armor and weapons they find. However, not all abilities will be available to them unless they are equipped with a helmet, plate armor and wield either a single or two handed weapon.
+
+<div class="page"/>
+
+Because of this, *Brownies* are discouraged from taking this Class given their limitations that make permanently unable from benefiting from some of this class's boons.
+
+##### Paladin Boon - Resistant to Evil
+
+*Paladins* are shielded from undead and any purely evil compulsion. Any attempt to manipulate a *Paladin*'s mind by them will be piously yet severely punished.
+
+##### Paladin Boon - Holy Aura
+
+*Paladins* boost morale and defenses due to the influence of their holy aura, gaining and providing everyone in the party with a *+1* on any rolls against mental compulsion and resisting disease regardless of the type of adversary.
+
+##### Paladin Boon - Armor of Purity
+
+*Paladins* who are properly equipped with a melee weapon, full plate and helmet get and provide additional defensive bonuses.
+
+*Paladins* gain:
+
+- A +*character_level* AC bonus, regardless of the nature of the opponent.
+- +*(1+character_level/2)* bonus to save rolls when fighting *undead* or inherently *evil* monsters.
+
+<div class="page"/>
+
+Additionally, they provide the party:
+
+- A +*(1+character_level/3)* AC bonus against purely evil and undead opponents.
+
+To clarify, all their equipment requirements must be met for this boon to apply. If the *Paladin* lacks a weapon, or is using a ranged weapon, or **any** part of their armor is lacking then they loose all benefits in this boon.
+
+##### Paladin Boon - Channel Divine Favor
+
+A *Paladin* equipped with a single or two handed weapon can channel divine favor by means of prayer. *Paladins* can make use of this boon *character_level* times, recovering one per rest and all upon leaving the Dungeon.
+
+These boons are:
+
+- *Blessing*: Provides a *+1* to a fellow party member's saving throw. This boon can be applied during someone else's turn, but it MUST be applied before rolling dice, otherwise it's too late and it has no effect.
+- *Center Mind*: This boon can free a teammate from the effects of compulsion leaving no secondary/after effects, effectively neutralizing that compulsion attack.
+- *Purify*: A *Paladin* rolls one *d6*, on a roll of *(4+dungeon_level-character_level)* a character is cleared of poison or disease (just one). *poisoned_level* has no effect on these calculations.
+- *Sacred Healing*: A *Paladin* can pray for recovery, restoring +*(character_level)* HP to a party member. However if this party member consumes a healing potion instead it recovers *(character_level/2+1)d6* HP as the contents of the bottle are now blessed. To do this, the boon must be applied during that character's turn and the character must choose to drink a potion as its action.
+- *Armor Of Faith*: One of your party members is afforded sacred protection for *character_level* rounds of +*(1+character_level/2)* AC and +*(1+character_level/2)* to saves. This can only be used during battle, and only on the *Paladin*'s turn, causing the *Paladins* to lose that round, and spend the next one in prayer.
+- *Cleansing Light*: The *Paladin* unleashes a purifying wave of light that inflicts *(character_level)d6* Damage to any evil or hostile undead nearby (no save). However, this attack comes at a steep cost as the *Paladin* endures a tremendous sacrifice to purify its surroundings causing *(1+character_level/2)* damage.
+
+If a *Paladin* activates one of these boons during battle then it must spend its next turn in prayer - the *Paladin* will not be able to perform any action. The benefits remain even if the *Paladin* is slain.
+
+In Order To Channel Divine Favor A *Paladin* MUST be equipped with a single or two handed melee weapon, as they use their weapon as a means to channel divine energy.
+
+<div class="page"/>
+
+##### Paladin Boon - Purity Of Body
+
+*Paladins* are immune to disease.
+
+##### Paladin Boon - Radiant Health
+
+*Healers* gain *(character_level+1)/2* healing with any item or spell they use. This benefit does not extend to any other class.
+
+##### Paladin Boon - Call For Battle
+
+Melee combatants gain *(character_level+1)/2* to damage.
+
+##### Paladin Boon - Preserve Good
+
+They are extremely vulnerable to attack by anything holy or divine as they are close to forbidden to raise arms against them. All their collective boons against undead and evil gain a negative value. And roll against *2* instead of *1* for miss die calculation purposes.
+
+If their boons make their total AC negative, they will incur AC damage each round.
+
+##### Paladin Boon - Rigid Resilience
+
+*Paladins* training grants them extraordinary resilience, however this comes at the cost of a modicum of dexterity. They have a *+1* penalty to *dex Saves*, and gain a *-1* boon to *Body Saves*.
+
+<div class="page"/>
+
+##### Paladin Boon - Inflexible Diplomacy
+
+*Paladins* are very strict when it comes to social interactions. They are unwilling to have any kind of diplomatic relations with certain classes of monsters:
+
+- *Undead*: *Paladins* are irritated by their aura and will attack undead on the spot. Any friendly undead will steer clear of your party.
+- *Fiends*: A *Paladin* will never talk to or capture a fiend, but attempt to slay them instead. Even when a fiend is helpless, to a Paladin they are abominations and their existence is a menace in itself.
+
+Additionally, *Paladins* shun bribery choosing to intimidate instead. This uncharitable righteousness makes it hard for them to relate with certain monsters:
+
+- *Orcs*: Orcs will only be willing to ignore a party on a roll of *6* regardless of who does the talking. However Orcs being fearless means that as long as a *Paladin* does the talking, they will neither provide clues nor assistance.
+- *Goblins*: Goblins are easily frightened and will only be friendly on a roll of *6* regardless of who does the talking. However they are cowardly enough to be subdued into revealing clues.
+
+<div class="page"/>
+
+##### Paladin Boon - Self Sacrifice
+
+A *Paladin* can absorb half of the damage inflicted to a party member from a trap or event, and once per battle from an enemy.
 
 #### Rogue
 
@@ -726,6 +879,8 @@ This is a list of all the items you can find across the market's many shops. Thi
 ### Selling Gear & Items
 
 Though most of what you buy is already second hand, it doesn't mean you are not affected by depreciation. When you sell items, you only get half the item's price. You can always sell gear at the surface, but there are actually a good deal of places to sell gear in your travels.
+
+<div class="page"/>
 
 ### Exchanging Items Between Party Members
 
@@ -859,11 +1014,13 @@ A two handed sword allows you to ignore one of these rolls, when you roll *(char
 | <center> 5 </center> | *4*, if the character rolls four ones, it misses.                    |
 | <center> 6 </center> | *4*, if the character rolls four ones, it misses.                    |
 
+<div class="page"/>
+
 #### Retreating From An Encounter
 
 What are you a humanoid or a rat person? No retreating, you succeed or die trying!
 
-*We actively discourage retreat*, however if you wish to include this, then all characters in the party must roll a successful dex save to run away. Upon failure, you spend a turn inactive.
+*We actively discourage retreat*, however if you wish to include this, then all characters in the party must roll a successful dex save to run away. Upon failure, you spend a turn inactive - in the process of escape you lose tactical advantage while the enemy attacks freely for that round.
 
 ### Hazard Dice And Non Combat Events
 
@@ -881,11 +1038,11 @@ Whenever a trap is sprung, a combat initiated or a hazard die is thrown, the non
 
 The point is that spending idle time is a luxury and comes at a cost. Besides, the existence of hazard die is a reminder of why you can't just rest anywhere.
 
+<div class="page"/>
+
 #### Hazard Die Roll
 
 Hazard Die Rolls depict events that take you by surprise when things seemed otherwise peaceful during your adventures. The players get to roll hazard die, however the resulting outcome is up to the GM to determine.
-
-<div class="page"/>
 
 ### Searching
 
@@ -923,6 +1080,8 @@ An attempt at trap deactivation will consume a set of thieves tools regardless o
 - [sprained](#sprained)
 - [fatigue](#fatigue)
 
+<div class="page"/>
+
 #### Bleeding Status
 
 A character has an open wound that causes it to lose *(monster_level)* HP every time a *hazard die* is thrown. Bleeding can be cured upon resting or application of a bandage.
@@ -956,6 +1115,8 @@ Thankfully, this injury is not serious: You can either...
 - use bandages for support and recover instantly, or
 - you can "walk it off" and heal it after having traveled a leg of your journey (decided by GM fiat).
 
+<div class="page"/>
+
 #### Fatigue
 
 A round of fatigue forces you to lose one inventory slot. Fatigue is cumulative, meaning each round of fatigue makes you lose an additional slot, and can only be fully restored upon rest, and partially restored (a single slot) by consuming a tonic. Players are free to choose which slot is afflicted by fatigue (so I suggest starting with the free slots).
@@ -965,6 +1126,8 @@ A round of fatigue forces you to lose one inventory slot. Fatigue is cumulative,
 Nothing like taking the armor off and resting those sore limbs. Whenever you reach the surface, your characters rest by default (in story). Resting eases fatigue (all fatigued slots are recovered), fully heals HP, recovers Healer & Mage spells. Also a rest resets non combat event count to 0.
 
 However, resting during your travels depends on finding a safe place to rest (which is not too common). Note that even if you find a place to rest, you need provisions for each member of your team. There are few places that actually offer food but generally you need your own food to benefit from resting. Anyone who does not eat, will not recover, and if they go 2 days (rest twice) without eating they fatigue 3 spaces, which doubles each day there after (we consider resting to take a day) until fed and rested (and this can't be cured by a spell).
+
+<div class="page"/>
 
 Each character consumes a ration, but it doesn't matter who's carrying the rations. Just keep in mind that when you have a brownie in your party sharing a meal may help you make friends out of the less aggressive monsters.
 
@@ -978,6 +1141,8 @@ Dwarfs don't need a source of light, however Brownies, Elves and Humans do. Torc
 
 Characters level up after successfully completing a quest. This way, there's no XP tracking all that matters is that the quests have enough substance to merit the level increase reward.
 
+<div class="page"/>
+
 That said, as an alternative for those who enjoy the complex process of tracking XP, you can level up after defeating 10*(character_level-1) monsters, that is monsters that are one level level lower than your (character_level). Key being, that you dismiss monsters weaker than you. Then it's up to the GM to decide how hard it is to find appropriately leveled monsters for you to defeat.
 
 Additionally, you could consider finding a treasure equivalent to defeating a monster.
@@ -989,6 +1154,8 @@ These are the official **DepthRangers** guild monster records. This tome describ
 ### Calculating Monster Stats
 
 Unlike players who start at level 1, Monsters start at level 0. However for most intents and purposes they are effectively one more level than that. Meaning their HP / damage can be calculated as one level higher.
+
+<div class="page"/>
 
 As a general principle, their HP is related to their level:
 
@@ -1017,6 +1184,8 @@ As mentioned before, there are many denizens in the depths however record keepin
 You find *(party_size+monster_level)* large blood sucking bats, each has *(1+monster_level)* HP. Bats perform a *(monster_level)+d6* damage, on any roll of *1* they use screech instead of missing. On critical hits they cause a *hemorrhaging byte*. They have an accuracy equivalent to a character using single-handed weapon [see single-handed weapon accuracy (remember to add +1 to the monster level when calculating accuracy)](#single-handed-and-ranged-weapon-accuracy).
 
 **Hemorrhaging Byte:** The bat falls on top of the player and sinks its fangs, causing additional *monster_level* HP damage leaving an open wound behind. The character is afflicted by [bleeding](#bleeding-status).
+
+<div class="page"/>
 
 **Screech:** Each party member must save vs body or receive *(monster_level+2)* HP damage.
 
@@ -1059,11 +1228,15 @@ Goblins have *1d6* HP, but they attack in packs of *(monster_level+party_size)*.
 
 **Strength In Numbers:** Goblins inflict *1d6* damage when on their own. However when within the proximity of an another Goblin (there's more than one Goblin left) they instead inflict *(monster_level+number_of_goblins+1)+1d6* HP damage.
 
+<div class="page"/>
+
 **Underhanded Tactics:** When there's than more than one Goblin adversary, upon landing a critical hit, another Goblin in its party is incentivized to take advantage of the distraction and attack the character with the least HP. This attack can potentially trigger an indefinite number of additional *Underhanded Tactics* attacks on consecutive critical attacks.
 
 **Rejection Of Fairness:** When the number of goblins left is lower than your party size, a Goblin will escape on a missed attack.
 
 Roll a reaction dice when encountering goblins, when uncertain pay *(monster_level+1)\*100*g to bribe them.
+
+<div class="page"/>
 
 #### <center>Mimic</center>
 
@@ -1080,8 +1253,6 @@ When a mimic has already latched, the player must now roll a body save (raw stre
 
 **Self Preservation**: When a mimic's life is reduced to *(dungeon_level+1)* HP it will immediately escape.
 
-<div class="page"/>
-
 #### <center>Orc</center>
 
 <figure>
@@ -1091,6 +1262,8 @@ When a mimic has already latched, the player must now roll a body save (raw stre
 
 Orcs attack in small hunting parties of size *(party_size)/2+1*, and have *(monster_level+1)d6* HP inflicting the same amount of damage. They have an accuracy equivalent to a character using a two handed weapon [see two handed weapon accuracy (remember to add +1 to the monster level)](#two-handed-weapons-accuracy).
 
+<div class="page"/>
+
 **Bloodlust:** Upon performing a critical attack, the target must perform a body save or suffer from [bleeding](#bleeding-status). Additionally, the thrill will propel an Orc to perform a second attack against the same or another target. Each attack has a chance at activating an indefinitely long chain of bloodlust attacks.
 
 **Payback:** Upon receiving a critical attack, the enraged Orc will strike the opponent back, potentially triggering bloodlust when landing a critical attack to the attacker.
@@ -1098,6 +1271,8 @@ Orcs attack in small hunting parties of size *(party_size)/2+1*, and have *(mons
 **Last Stand:** When an Orc only has *(monster_level+1)* HP left or is the last Orc left alive, it can crit on attacks that use 4s as well as 5s and 6s.
 
 Roll a reaction dice when encountering orcs, when persuadable pay *(monster_level+1)* rations plus *(monster_level+1)\*100g*.
+
+<div class="page"/>
 
 #### <center>Skeleton</center>
 
@@ -1110,6 +1285,8 @@ Skeletons are undead monsters that come in *(party_size)* quantities, and have *
 
 **Reanimate:** When a skeleton is defeated, it must be attacked again the next round or it will recover half its HP total. If not completely destroyed, they can reanimate an indefinite amount of times.
 
+<div class="page"/>
+
 #### <center>Spider</center>
 
 <figure>
@@ -1120,6 +1297,8 @@ Skeletons are undead monsters that come in *(party_size)* quantities, and have *
 You are attacked by *(party_size+monster_level+2)* spiders, they have *(monster_level+1)* HP and inflict the same damage. Spiders are venomous, when attacked make a successful Body save or you will be poisoned, [see poisoned status](#poisoned-status). They have an accuracy equivalent to a character using single weapon [see single handed weapon accuracy (remember to add +1 to the monster level)](#single-handed-and-ranged-weapon-accuracy).
 
 Brownies can talk to spiders, when persuadable pay a single ration for all spiders.
+
+<div class="page"/>
 
 #### <center>Snake</center>
 
@@ -1133,6 +1312,8 @@ You are attacked by a large snake. It has *(party_size+monster_level+1)d6* HP, a
 When a snake performs a [critical attack](#critical-attack), the target must make a successful magic save or it will become *hypnotized* for *(monster_level+1)* rounds. If the attack is not critical but is any combination of *5s* and *6s* it will perform a *whiplash attack* instead.
 
 Snakes have an accuracy equivalent to a character using single-handed weapon [see single handed weapon accuracy (remember to add +1 to the monster level)](#single-handed-and-ranged-weapon-accuracy).
+
+<div class="page"/>
 
 **Hypnotized:** When a target is hypnotized by a snake, the target will become motionless (unable to attack, defend or assist in any way). A successful Magic save ends this condition early. If the target successfully saves vs hypnotism the angered snake still delivers [critical attack](#critical-attack) damage. Otherwise, the target is unharmed that round.
 
@@ -1156,6 +1337,11 @@ Monsters  may react in a non-hostile manner (or not); some monsters will only re
 
 You'll find many perilous traps underground:
 
+<figure>
+  <center><img src="./images/traps.png" height="300" alt="Various traps super impossed, from poison spikes to deadly gas to a pit opening."></center>
+  <i><center><figcaption>Traps can be sprung at any time for every reason. One can't lower their guard within the dungeon.</figcaption></center></i>
+</figure>
+
 ### Pit Trap
 
 A pit opens below you, roll a dex save to avoid the trap or receive (dungeon_level)+d6 damage also your character is [sprained](#sprained).
@@ -1163,6 +1349,8 @@ A pit opens below you, roll a dex save to avoid the trap or receive (dungeon_lev
 ### Poison Darts
 
 Poison darts shoot out of the walls, roll a dex save or be [poisoned](#poisoned-status).
+
+<div class="page"/>
 
 ### Tongues of Flame
 
