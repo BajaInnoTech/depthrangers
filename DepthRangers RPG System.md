@@ -668,11 +668,11 @@ Due to their mastery of magic, mages can re-roll magic save die that land on one
   <i><center><figcaption>Paladins bring the might of their faith to the service of the party.</figcaption></center></i>
 </figure>
 
-Paladins are warriors whose might is directly related to their faith and piety. They are at their best when properly equipped and engaged in hand to hand combat. While they lack the tactical expertise of other combatants such as *Fighters*, they make up for this with strength gained through the might of their faith.
+*Paladins* are warriors whose might is directly related to their faith and piety. They are at their best when properly equipped and engaged in hand to hand combat. While they lack the tactical expertise of other combatants such as *Fighters*, they make up for this with strength gained through the might of their faith.
 
 ##### Paladin Gear
 
-Paladins are capable combatants trained to use all sorts of armor and weapons they find. However, not all abilities will be available to them unless they are equipped with a helmet, plate armor and wield either a single or two handed weapon.
+*Paladins* are capable combatants trained to use all sorts of armor and weapons they find. However, not all abilities will be available to them unless they are equipped with a helmet, plate armor and wield either a single or two handed weapon.
 
 <div class="page"/>
 
@@ -680,17 +680,17 @@ Because of this, *Brownies* are discouraged from taking this Class given their l
 
 ##### Paladin Boon - Resistant to Evil
 
-Paladins are shielded from undead and any purely evil compulsion. Any attempt to manipulate a Paladin's mind by them will be piously yet severely punished.
+*Paladins* are shielded from undead and any purely evil compulsion. Any attempt to manipulate a *Paladin*'s mind by them will be piously yet severely punished.
 
 ##### Paladin Boon - Holy Aura
 
-Paladins boost morale and defenses due to the influence of their holy aura, gaining and providing everyone in the party with a *+1* on any rolls against mental compulsion and resisting disease regardless of the type of adversary.
+*Paladins* boost morale and defenses due to the influence of their holy aura, gaining and providing everyone in the party with a *+1* on any rolls against mental compulsion and resisting disease regardless of the type of adversary.
 
 ##### Paladin Boon - Armor of Purity
 
-Paladins who are properly equipped with a melee weapon, full plate and helmet get and provide additional defensive bonuses.
+*Paladins* who are properly equipped with a melee weapon, full plate and helmet get and provide additional defensive bonuses.
 
-Paladins gain:
+*Paladins* gain:
 
 - A +*character_level* AC bonus, regardless of the nature of the opponent.
 - +*(1+character_level/2)* bonus to save rolls when fighting *undead* or inherently *evil* monsters.
@@ -705,26 +705,26 @@ To clarify, all their equipment requirements must be met for this boon to apply.
 
 ##### Paladin Boon - Channel Divine Favor
 
-A *Paladin* equipped with a single or two handed weapon can channel divine favor by means of prayer. Paladins can make use of this boon *character_level* times, recovering one per rest and all upon leaving the Dungeon.
+A *Paladin* equipped with a single or two handed weapon can channel divine favor by means of prayer. *Paladins* can make use of this boon *character_level* times, recovering one per rest and all upon leaving the Dungeon.
 
 These boons are:
 
 - *Blessing*: Provides a *+1* to a fellow party member's saving throw. This boon can be applied during someone else's turn, but it MUST be applied before rolling dice, otherwise it's too late and it has no effect.
 - *Center Mind*: This boon can free a teammate from the effects of compulsion leaving no secondary/after effects, effectively neutralizing that compulsion attack.
-- *Purify*: A Paladin rolls one *d6*, on a roll of *(4+dungeon_level-character_level)* a character is cleared of poison or disease (just one). *poisoned_level* has no effect on these calculations.
-- *Sacred Healing*: A Paladin can pray for recovery, restoring +*(character_level)* HP to a party member. However if this party member consumes a healing potion instead it recovers *(character_level/2+1)d6* HP as the contents of the bottle are now blessed. To do this, the boon must be applied during that character's turn and the character must choose to drink a potion as its action.
-- *Armor Of Faith*: One of your party members is afforded sacred protection for *character_level* rounds of +*(1+character_level/2)* AC and +*(1+character_level/2)* to saves. This can only be used during battle, and only on the Paladin's turn, causing the Paladins to lose that round, and spend the next one in prayer.
-- *Cleansing Light*: The Paladin unleashes a purifying wave of light that inflicts *(character_level)d6* Damage to any evil or hostile undead nearby (no save). However, this attack comes at a steep cost as the Paladin endures a tremendous sacrifice to purify its surroundings causing *(1+character_level/2)* damage.
+- *Purify*: A *Paladin* rolls one *d6*, on a roll of *(4+dungeon_level-character_level)* a character is cleared of poison or disease (just one). *poisoned_level* has no effect on these calculations.
+- *Sacred Healing*: A *Paladin* can pray for recovery, restoring +*(character_level)* HP to a party member. However if this party member consumes a healing potion instead it recovers *(character_level/2+1)d6* HP as the contents of the bottle are now blessed. To do this, the boon must be applied during that character's turn and the character must choose to drink a potion as its action.
+- *Armor Of Faith*: One of your party members is afforded sacred protection for *character_level* rounds of +*(1+character_level/2)* AC and +*(1+character_level/2)* to saves. This can only be used during battle, and only on the *Paladin*'s turn, causing the *Paladins* to lose that round, and spend the next one in prayer.
+- *Cleansing Light*: The *Paladin* unleashes a purifying wave of light that inflicts *(character_level)d6* Damage to any evil or hostile undead nearby (no save). However, this attack comes at a steep cost as the *Paladin* endures a tremendous sacrifice to purify its surroundings causing *(1+character_level/2)* damage.
 
-If a Paladin activates one of these boons during battle then it must spend its next turn in prayer - the Paladin will not be able to perform any action. The benefits remain even if the Paladin is slain.
+If a *Paladin* activates one of these boons during battle then it must spend its next turn in prayer - the *Paladin* will not be able to perform any action. The benefits remain even if the *Paladin* is slain.
 
-To Perform A Paladin MUST be equipped with a single or two handed weapon, as they use their weapon as a means to channel divine energy.
+In Order To Channel Divine Favor A *Paladin* MUST be equipped with a single or two handed melee weapon, as they use their weapon as a means to channel divine energy.
 
 <div class="page"/>
 
 ##### Paladin Boon - Purity Of Body
 
-Paladins are immune to disease.
+*Paladins* are immune to disease.
 
 ##### Paladin Boon - Radiant Health
 
@@ -742,27 +742,27 @@ If their boons make their total AC negative, they will incur AC damage each roun
 
 ##### Paladin Boon - Rigid Resilience
 
-Paladins training grants them extraordinary resilience, however this comes at the cost of a modicum of dexterity. They have a *+1* penalty to *dex saves*.
+*Paladins* training grants them extraordinary resilience, however this comes at the cost of a modicum of dexterity. They have a *+1* penalty to *dex Saves*, and gain a *-1* boon to *Body Saves*.
 
 <div class="page"/>
 
 ##### Paladin Boon - Inflexible Diplomacy
 
-Paladins are very strict when it comes to social interactions. They are unwilling to have any kind of diplomatic relations with certain classes of monsters:
+*Paladins* are very strict when it comes to social interactions. They are unwilling to have any kind of diplomatic relations with certain classes of monsters:
 
-- *Undead*: Paladins are irritated by their aura and will attack undead on the spot. Any friendly undead will steer clear of your party.
-- *Fiends*: A Paladin will never talk to or capture a fiend, but attempt to slay them instead. Even when a fiend is helpless, to a Paladin they are abominations and their existence is a menace in itself.
+- *Undead*: *Paladins* are irritated by their aura and will attack undead on the spot. Any friendly undead will steer clear of your party.
+- *Fiends*: A *Paladin* will never talk to or capture a fiend, but attempt to slay them instead. Even when a fiend is helpless, to a Paladin they are abominations and their existence is a menace in itself.
 
-Additionally, Paladins shun bribery choosing to intimidate instead. This uncharitable righteousness makes it hard for them to relate with certain monsters:
+Additionally, *Paladins* shun bribery choosing to intimidate instead. This uncharitable righteousness makes it hard for them to relate with certain monsters:
 
-- *Orcs*: Orcs will only be willing to ignore a party on a roll of *6* regardless of who does the talking. However Orcs being fearless means that as long as a Paladin does the talking, they will neither provide clues nor assistance.
+- *Orcs*: Orcs will only be willing to ignore a party on a roll of *6* regardless of who does the talking. However Orcs being fearless means that as long as a *Paladin* does the talking, they will neither provide clues nor assistance.
 - *Goblins*: Goblins are easily frightened and will only be friendly on a roll of *6* regardless of who does the talking. However they are cowardly enough to be subdued into revealing clues.
 
 <div class="page"/>
 
 ##### Paladin Boon - Self Sacrifice
 
-A Paladin can absorb half of the damage inflicted to a party member from a trap or event, and once per battle from an enemy.
+A *Paladin* can absorb half of the damage inflicted to a party member from a trap or event, and once per battle from an enemy.
 
 #### Rogue
 
