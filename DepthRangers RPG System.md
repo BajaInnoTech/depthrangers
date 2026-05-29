@@ -86,7 +86,7 @@ DepthRangers RPG System Handbook
 ***<center>Layout & Image Processing</center>***
 <center>Eduardo del Corral</center>
 
-**<center>v 1.2.0</center>**
+**<center>v 1.2.1</center>**
 
 <div class="page"/>
 
@@ -148,7 +148,7 @@ This short book describes the **DepthRangers** system. This is a rules-light com
       - [Fighter Boon - Deadlier Combat](#fighter-boon---deadlier-combat)
       - [Fighter Boon - Attack Frenzy](#fighter-boon---attack-frenzy)
       - [Fighter Boon - Battlefield Resilience](#fighter-boon---battlefield-resilience)
-      - [Fighter Boon - Overwhelming Tactics](#fighter-boon---overwhelming-tactics)
+      - [Fighter Boon - Overwhelming Blow](#fighter-boon---overwhelming-blow)
     - [Healer](#healer)
       - [Healer Gear](#healer-gear)
       - [Healer Boon - Innate Use Of Magic](#healer-boon---innate-use-of-magic)
@@ -742,7 +742,7 @@ If their boons make their total AC negative, they will incur AC damage each roun
 
 ##### Paladin Boon - Rigid Resilience
 
-*Paladins* training grants them extraordinary resilience, however this comes at the cost of a modicum of dexterity. They have a *+1* penalty to *dex Saves*, and gain a *-1* boon to *Body Saves*.
+*Paladins* training grants them extraordinary resilience, however this comes at the cost of a modicum of dexterity. They have a *+1* penalty to *dex Saves*, and gain a *-1* boon to *Body Saves*. However to their unique phisiology and upbringing, Dwarves are unaffected by this boon their saves are untouched.
 
 <div class="page"/>
 
