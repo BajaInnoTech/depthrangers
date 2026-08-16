@@ -37,7 +37,7 @@ We're glad to have completed this system, and wish to share it with as many as p
 
 ## Release Version of This System
 
-**DepthRangers** current version is **v1.2.1**.
+**DepthRangers** current version is **v1.3.0**.
 
 ## License and legal
 
